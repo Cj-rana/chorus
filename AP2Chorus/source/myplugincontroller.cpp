@@ -26,7 +26,15 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 
 	// Here you could register some parameters
 
-	return result;
+	parameters.addParameter(STR16("Rate"), STR16("Speed"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamRateId, 0);
+
+	parameters.addParameter(STR16("Depth"), STR16("Range"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamDepthId, 0); 
+
+	//Title, Units,Dont know what Value, Default Value 
+
+	//VST3 Parameters are always floating values between 0.0 and 1.0
+
+	return kResultTrue;
 }
 
 //------------------------------------------------------------------------

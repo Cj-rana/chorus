@@ -16,3 +16,9 @@ static const Steinberg::FUID kAP2ChorusControllerUID (0xF74D0DDA, 0x7C9E542F, 0x
 
 //------------------------------------------------------------------------
 } // namespace MyCompanyName
+
+enum ChorusParams : Steinberg::Vst::ParamID
+{
+    kParamRateId = 102, // should be a unique id...
+    kParamDepthId = 103,
+};
