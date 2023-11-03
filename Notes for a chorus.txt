@@ -1,0 +1,14 @@
+﻿Notes for a chorus
+
+Modulation is used in music by periodically changing the pitch or amplitude of the voice or instrument
+Modulation rates are typically around 5Hz
+effects can be introduced in a synthesis process using an LFO
+Vibrato: modulate a delay line
+Chorus is blend of dry and wet, wet being vibrato.
+Pitch and duration changes are obtained when playing samples at different speeds
+A similar effect is obtained by dynamically changing the delay time in a delay effect
+y[n] = x[n − M[n]]
+If M[n] increases, the resulting pitch (or frequencies) decreases, and vice-versa
+For vibrato simulation, a low frequency oscillator (LFO) is used to modulate the delay time around a central value.
+M[n] = M0 + Acos(2πfnTs)
+The amplitude of the LFO controls the depth (maximum pitch deviation) and the frequency the speed of modulation
