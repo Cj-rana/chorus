@@ -11,4 +11,7 @@ y[n] = x[n − M[n]]
 If M[n] increases, the resulting pitch (or frequencies) decreases, and vice-versa
 For vibrato simulation, a low frequency oscillator (LFO) is used to modulate the delay time around a central value.
 M[n] = M0 + Acos(2πfnTs)
-The amplitude of the LFO controls the depth (maximum pitch deviation) and the frequency the speed of modulation
+The amplitude of the LFO controls the depth (maximum pitch deviation) and the frequency the speed of modulation.
+Delay time ranges are larger (e.g. 30ms)
+Minimum delay time does not get as close to 0
+Bipolar LFO

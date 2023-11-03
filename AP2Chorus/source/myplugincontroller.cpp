@@ -26,9 +26,9 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 
 	// Here you could register some parameters
 
-	parameters.addParameter(STR16("Rate"), STR16("Speed"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamRateId, 0);
+	parameters.addParameter(STR16("Rate"), STR16("Hz"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamRateId, 0);
 
-	parameters.addParameter(STR16("Depth"), STR16("Range"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamDepthId, 0); 
+	parameters.addParameter(STR16("Depth"), STR16("LFO"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamDepthId, 0); 
 
 	//Title, Units,Dont know what Value, Default Value 
 
