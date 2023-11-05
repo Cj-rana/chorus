@@ -13,18 +13,18 @@ public:
         mPos = pos;//current position, also write pos
     }
     double read() {
-       int delay = std::min(mDelayPos, (int)(mBuffer.size() - 1));//ensure delay not greater than buffer size
-        int index = mPos - delay;//calculates index based off current -delay
-        if (index < 0)index += mBuffer.size();//if less than zero ensures it wraps correctly
-       
-        return mBuffer[index];
+       int delay = std::min(mDelayPos, (int)(mBuffer.size()-1));//ensure delay not greater than buffer size
+ 
+        mDelayPos = (mDelayPos + 1);
+        if (mDelayPos >= mBuffer.size()) mDelayPos = 0;
 
+        return mBuffer[delay];
     }
 
     void write(double val,int pos) {
         mBuffer[mPos]=val;
         mPos = (mPos + 1)% mBuffer.size();
-        if (mPos > mBuffer.size()) mPos = pos;
+        if (mPos >= mBuffer.size()) mPos = 0;
      
     }
 
@@ -48,18 +48,18 @@ private:
 
 int main()
 {
-    RingBuffer buffer(10, 5, 0);
+    RingBuffer buffer(10, 4, 5);
 
     for(int i=0;i<=10;i++){
 
 
         buffer.write(i,0);
-        std::cout << i << " My position" << buffer.read() << std::endl;
+        std::cout << i << " My position " << buffer.read() << std::endl;
 
 
     }
 
-    buffer.reset(5,0);
+   
 
 
    
