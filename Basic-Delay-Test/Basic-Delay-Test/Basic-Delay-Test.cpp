@@ -7,52 +7,63 @@
 
 class RingBuffer {
 public:
-    RingBuffer(int size, int read, int write) {
-        mBuffer = std::vector<double>(size, 0);
-        mReadPos = read;
-        mWritePos = write;
+    RingBuffer(int size, int delay, int pos) {
+        mBuffer = std::vector<double>(size, 0);//stores elements of vector, initialises all elements of vector to 0
+        mDelayPos = delay;//delay position
+        mPos = pos;//current position, also write pos
     }
     double read() {
-        double val = mBuffer[mReadPos];
-        mReadPos = (mReadPos + 1) % mBuffer.size();
-        return val;
+       int delay = std::min(mDelayPos, (int)(mBuffer.size() - 1));//ensure delay not greater than buffer size
+        int index = mPos - delay;//calculates index based off current -delay
+        if (index < 0)index += mBuffer.size();//if less than zero ensures it wraps correctly
+       
+        return mBuffer[index];
+
     }
-    void write(double val) {
-        mBuffer[mWritePos] = val;
-        mWritePos = (mWritePos + 1) % mBuffer.size();
+
+    void write(double val,int pos) {
+        mBuffer[mPos]=val;
+        mPos = (mPos + 1)% mBuffer.size();
+        if (mPos > mBuffer.size()) mPos = pos;
+     
     }
-    void reset(int read, int write) {
-        std::fill(mBuffer.begin(), mBuffer.end(), 0);
-        mReadPos = read;
-        mWritePos = write;
+
+    void reset(int delay, int pos) {
+        mDelayPos = delay;
+        mPos = pos;
+       
+    }
+    void clear(int size, int delay, int pos) {
+        mBuffer = std::vector<double>(size, 0);
+        mDelayPos = delay;
+        mPos = pos;
+
     }
 private:
     std::vector<double> mBuffer;
-    int mReadPos;
-    int mWritePos;
+    int mDelayPos;
+    int mPos;
 };
+
 
 int main()
 {
-    RingBuffer buffer(10, 0, 5);
-    //creates an array of 10 spaces, pointer for read at 0, write at 5
+    RingBuffer buffer(10, 5, 0);
 
-    for (int i = 0; i < 8; i++) {
-        std::cout << buffer.read() << " ";
-        buffer.write((double)i);
+    for(int i=0;i<=10;i++){
+
+
+        buffer.write(i,0);
+        std::cout << i << " My position" << buffer.read() << std::endl;
+
+
     }
 
-    std::cout << std::endl;
-    buffer.reset(9, 0);
-    // use as "delay"
+    buffer.reset(5,0);
 
-    for (int i = 0; i < 5; i++) {
-        double current = (double)i;
-        double out = current + buffer.read();
-        buffer.write((double)i); //use i as input
-        std::cout << out << " ";
-    }
-    std::cout << std::endl;
 
+   
 }
+
+
 
