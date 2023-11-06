@@ -5,6 +5,12 @@
 #include <vector>
 
 
+const int sampleRate = 44100;
+double delayTimeMs = 50;
+
+int samplesInDuration = (delayTimeMs / 1000.0) * sampleRate;
+
+
 class RingBuffer {
 public:
     RingBuffer(int size, int delay, int pos) {
@@ -27,12 +33,7 @@ public:
         if (mPos >= mBuffer.size()) mPos = 0;
      
     }
-
-    void reset(int delay, int pos) {
-        mDelayPos = delay;
-        mPos = pos;
-       
-    }
+    
     void clear(int size, int delay, int pos) {
         mBuffer = std::vector<double>(size, 0);
         mDelayPos = delay;
@@ -48,7 +49,7 @@ private:
 
 int main()
 {
-    RingBuffer buffer(10, 4, 5);
+    /*RingBuffer buffer(10, 4, 5);
 
     for(int i=0;i<=10;i++){
 
@@ -57,10 +58,14 @@ int main()
         std::cout << i << " My position " << buffer.read() << std::endl;
 
 
-    }
+    }*/
 
    
+    for (double T = Ts; T <= sampleRate; T += Ts) {
 
+
+        std::cout << T << std::endl;
+    }
 
    
 }

@@ -1,0 +1,11 @@
+: mono output
+no vibrato mode (Only 50/50 mix)
+
+Before and after the BBD delay action, there are some stages needed to avoid signal degradation:
+Pre/De-Emphasis and Anti-Aliasing/Reconstruction filters.
+
+delay times are around 5 to 50ms
+
+LFO oscillating frequencies are up to 20Hz.
+
+Triangle LFO waveform
