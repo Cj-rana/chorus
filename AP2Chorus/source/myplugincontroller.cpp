@@ -26,11 +26,16 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 
 	// Here you could register some parameters
 
-	parameters.addParameter(STR16("Rate"), STR16("Hz"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamRateId, 0);
 
-	parameters.addParameter(STR16("Depth"), STR16("LFO"), 0, .5, Vst::ParameterInfo::kCanAutomate, ChorusParams::kParamDepthId, 0); 
+	Vst::Parameter* rateParam = new Vst::RangeParameter(
+		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.3, 3.5, 2 //Freq of LFO
+	);
+	parameters.addParameter(rateParam);
 
-	//Title, Units,Dont know what Value, Default Value 
+	Vst::Parameter* depthParam = new Vst::RangeParameter(
+		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 0, 1, 0.5 //min,max,default
+	);//Amplitude of LFO
+	parameters.addParameter(depthParam);
 
 	//VST3 Parameters are always floating values between 0.0 and 1.0
 

@@ -70,7 +70,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 {
 	//--- First : Read inputs parameter changes-----------
 
-    /*if (data.inputParameterChanges)
+    if (data.inputParameterChanges)
     {
         int32 numParamsChanged = data.inputParameterChanges->getParameterCount ();
         for (int32 index = 0; index < numParamsChanged; index++)
@@ -82,12 +82,55 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
                 int32 numPoints = paramQueue->getPointCount ();
                 switch (paramQueue->getParameterId ())
                 {
+				case ChorusParams::kParamRateId:
+					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+						mRate = value;
+					break;
+
+				case ChorusParams::kParamDepthId:
+					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+						mDepth = value;
+					break;
 				}
 			}
 		}
-	}*/
+	}
 	
-	//--- Here you have to implement your processing
+	//-- Flush case: we only need to update parameter, noprocessing possible
+	if (data.numInputs == 0 || data.numSamples == 0)
+		return kResultOk;
+
+	//--- Here, you have to implement your processing
+	int32 numChannels = data.inputs[0].numChannels;
+
+	//---get audio buffers using helper-functions(vstaudioprocessoralgo.h)-------------
+	uint32 sampleFramesSize = getSampleFramesSizeInBytes(processSetup, data.numSamples);
+	void** in = getChannelBuffersPointer(processSetup, data.inputs[0]);
+	void** out = getChannelBuffersPointer(processSetup, data.outputs[0]);
+
+	// Here could check the silent flags
+	// now we will produce the output
+	// mark our outputs has not silent
+	data.outputs[0].silenceFlags = 0;
+
+	float rate = mRate;
+	float depth = mDepth;
+
+	// for each channel (left and right)
+	for (int32 i = 0; i < numChannels; i++)
+	{
+		int32 samples = data.numSamples;
+		Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
+		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
+		Vst::Sample32 tmp;
+		// for each sample in this channel
+		while (--samples >= 0)
+		{
+			// apply modulation
+			tmp = (*ptrIn++) * gain;
+			(*ptrOut++) = tmp;
+		}
+	}
 
 	return kResultOk;
 }

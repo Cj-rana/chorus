@@ -15,3 +15,6 @@ The amplitude of the LFO controls the depth (maximum pitch deviation) and the fr
 Delay time ranges are larger (e.g. 30ms)
 Minimum delay time does not get as close to 0
 Bipolar LFO
+
+
+Use range param for the plugin, min,max,default

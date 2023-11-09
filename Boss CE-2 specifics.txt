@@ -9,3 +9,5 @@ delay times are around 5 to 50ms
 LFO oscillating frequencies are up to 20Hz.
 
 Triangle LFO waveform
+
+With Rate control at maximum position, the oscillation frequency is 3.5Hz
