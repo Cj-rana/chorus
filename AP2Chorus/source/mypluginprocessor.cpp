@@ -11,6 +11,7 @@
 
 
 using namespace Steinberg;
+float gain = 1.0f;
 
 namespace MyCompanyName {
 //------------------------------------------------------------------------
