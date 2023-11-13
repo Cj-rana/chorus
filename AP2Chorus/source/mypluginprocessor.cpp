@@ -127,7 +127,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		while (--samples >= 0)
 		{
 			// apply modulation
-			tmp = (*ptrIn++) * gain;
+			tmp = (*ptrIn++);
 			(*ptrOut++) = tmp;
 		}
 	}
