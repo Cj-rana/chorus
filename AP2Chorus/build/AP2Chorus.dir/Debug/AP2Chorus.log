@@ -1,0 +1,10 @@
+﻿  Generating VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot.png
+  [SMTG] Copied C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/resource/67823860B68B59EF867DD6958141E70A_snapshot.png to C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot.png
+  Generating VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png
+  [SMTG] Copied C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/resource/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png to C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png
+  Building Custom Rule C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/CMakeLists.txt
+  mypluginprocessor.cpp
+  myplugincontroller.cpp
+  mypluginentry.cpp
+  dllmain.cpp
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(130,23): error C2065: 'gain': undeclared identifier

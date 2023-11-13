@@ -1,0 +1,10 @@
+^C:\USERS\ETIENNE QUARTEY-PAPA\DESKTOP\LECTURES\AP2\CHORUS\AP2CHORUS\BUILD\CMAKEFILES\FE2977E6143865B73F54A2ADFBB930B3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/AP2Chorus.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
