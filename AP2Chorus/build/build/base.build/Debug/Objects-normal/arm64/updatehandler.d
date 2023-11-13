@@ -1,0 +1,16 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/updatehandler.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/updatehandler.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/fobject.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/fdebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/thread/include/flock.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/base/source/fstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h

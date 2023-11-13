@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/cj/Documents/vstplugins/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/prefetchablesupport
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/vstplugins/AP2Chorus/build/VST3/Debug/prefetchable.vst3/Contents/Resources
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/cj/Documents/vstplugins/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/prefetchablesupport
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/vstplugins/AP2Chorus/build/VST3/Release/prefetchable.vst3/Contents/Resources
+fi
+

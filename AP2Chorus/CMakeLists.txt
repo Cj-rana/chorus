@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14.0)
 set(CMAKE_OSX_DEPLOYMENT_TARGET 10.13 CACHE STRING "")
 
-set(vst3sdk_SOURCE_DIR "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk")
+set(vst3sdk_SOURCE_DIR "/Users/cj/Documents/VST_SDK/vst3sdk")
 if(NOT vst3sdk_SOURCE_DIR)
     message(FATAL_ERROR "Path to VST3 SDK is empty!")
 endif()
@@ -21,19 +21,19 @@ smtg_enable_vst3_sdk()
 
 smtg_add_vst3plugin(AP2Chorus
     source/version.h
-    source/myplugincids.h
-    source/mypluginprocessor.h
-    source/mypluginprocessor.cpp
-    source/myplugincontroller.h
-    source/myplugincontroller.cpp
-    source/mypluginentry.cpp
+    source/cids.h
+    source/processor.h
+    source/processor.cpp
+    source/controller.h
+    source/controller.cpp
+    source/entry.cpp
 )
 
 #- VSTGUI Wanted ----
 if(SMTG_ENABLE_VSTGUI_SUPPORT)
     target_sources(AP2Chorus
         PRIVATE
-            resource/myplugineditor.uidesc
+            resource/editor.uidesc
     )
     target_link_libraries(AP2Chorus
         PRIVATE
@@ -41,15 +41,15 @@ if(SMTG_ENABLE_VSTGUI_SUPPORT)
     )
     smtg_target_add_plugin_resources(AP2Chorus
         RESOURCES
-            "resource/myplugineditor.uidesc"
+            "resource/editor.uidesc"
     )
 endif(SMTG_ENABLE_VSTGUI_SUPPORT)
 # -------------------
 
 smtg_target_add_plugin_snapshots (AP2Chorus
     RESOURCES
-        resource/67823860B68B59EF867DD6958141E70A_snapshot.png
-        resource/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png
+        resource/CAEF7E4A3B4B59E59A24F993F76D1923_snapshot.png
+        resource/CAEF7E4A3B4B59E59A24F993F76D1923_snapshot_2.0x.png
 )
 
 target_link_libraries(AP2Chorus
@@ -61,8 +61,8 @@ smtg_target_configure_version_file(AP2Chorus)
 
 if(SMTG_MAC)
     smtg_target_set_bundle(AP2Chorus
-        BUNDLE_IDENTIFIER com.ap2.chorus
-        COMPANY_NAME "My Plug-in Company"
+        BUNDLE_IDENTIFIER ap2chorus
+        COMPANY_NAME ""
     )
     smtg_target_set_debug_executable(AP2Chorus
         "/Applications/VST3PluginTestHost.app"
