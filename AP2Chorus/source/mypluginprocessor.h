@@ -50,8 +50,8 @@ public:
 
 //------------------------------------------------------------------------
 protected:
-	Steinberg::Vst::ParamValue mRate = 0.5;
-	Steinberg::Vst::ParamValue mDepth = 2.;
+	Steinberg::Vst::ParamValue mRate = 2.;
+	Steinberg::Vst::ParamValue mDepth = 0.5;
 
 };
 

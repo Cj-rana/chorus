@@ -1,13 +1,1 @@
-﻿  Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/base/CMakeLists.txt
-  baseiids.cpp
-  fbuffer.cpp
-  fdebug.cpp
-  fdynlib.cpp
-  fobject.cpp
-  fstreamer.cpp
-  fstring.cpp
-  timer.cpp
-  updatehandler.cpp
-  fcondition.cpp
-  flock.cpp
-  base.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\lib\Debug\base.lib
+﻿  base.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\lib\Debug\base.lib

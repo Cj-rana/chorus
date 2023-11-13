@@ -4,6 +4,8 @@
 
 #include "myplugincontroller.h"
 #include "myplugincids.h"
+#include "base/source/fstreamer.h"
+
 
 
 using namespace Steinberg;
@@ -64,9 +66,31 @@ tresult PLUGIN_API AP2ChorusController::setComponentState (IBStream* state)
 //------------------------------------------------------------------------
 tresult PLUGIN_API AP2ChorusController::setState (IBStream* state)
 {
-	// Here you get the state of the controller
+	// Here, you get the state of the component (Processor part)
 
-	return kResultTrue;
+	if (!state)
+		return kResultFalse;
+
+	IBStreamer streamer(state, kLittleEndian);
+	float savedParam1 = 0.f;
+	if (streamer.readFloat(savedParam1) == false)
+		return kResultFalse;
+
+	float savedParam2 = 0.f;
+	if (streamer.readFloat(savedParam2) == false)
+		return kResultFalse;
+
+	// sync with our parameter
+	if (auto param = parameters.getParameter(ChorusParams::kParamRateId))
+		param->setNormalized(savedParam1);
+
+	if (auto param = parameters.getParameter(ChorusParams::kParamDepthId))
+		param->setNormalized(savedParam2);
+
+	return kResultOk;
+
+	
+
 }
 
 //------------------------------------------------------------------------

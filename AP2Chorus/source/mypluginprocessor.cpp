@@ -10,6 +10,8 @@
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
 
 
+
+
 using namespace Steinberg;
 
 namespace MyCompanyName {
@@ -109,8 +111,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 	void** out = getChannelBuffersPointer(processSetup, data.outputs[0]);
 
 	// Here could check the silent flags
-	// now we will produce the output
-	// mark our outputs has not silent
+	// 
 	data.outputs[0].silenceFlags = 0;
 
 	float rate = mRate;
@@ -130,6 +131,27 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 			tmp = (*ptrIn++);
 			(*ptrOut++) = tmp;
 		}
+	}
+
+	// 
+	// // normally we have to check each channel (simplification)
+	if (data.inputs[0].silenceFlags != 0)
+	{
+		// mark output silence too
+		data.outputs[0].silenceFlags = data.inputs[0].silenceFlags;
+
+		// the plug-in has to be sure that if it sets the flags silence that the output buffer are clear
+		for (int32 i = 0; i < numChannels; i++)
+		{
+			// do not need to be cleared if the buffers are the same (in this case input buffer are
+			 // already cleared by the host)
+			if (in[i] != out[i])
+			{
+				memset(out[i], 0, sampleFramesSize);
+			}
+		}
+		// nothing to do at this point
+		
 	}
 
 	return kResultOk;
@@ -160,7 +182,21 @@ tresult PLUGIN_API AP2ChorusProcessor::canProcessSampleSize (int32 symbolicSampl
 tresult PLUGIN_API AP2ChorusProcessor::setState (IBStream* state)
 {
 	// called when we load a preset, the model has to be reloaded
-	IBStreamer streamer (state, kLittleEndian);
+	if (!state)
+		return kResultFalse;
+
+	// called when we load a preset or project, the model has to be reloaded
+	IBStreamer streamer(state, kLittleEndian);
+	float savedParam1 = 0.f;
+	float savedParam2 = 0.f;
+
+	if (streamer.readFloat(savedParam1) == false)
+		return kResultFalse;
+	mRate = savedParam1;
+
+	if (streamer.readFloat(savedParam2) == false)
+		return kResultFalse;
+	mDepth = savedParam2;
 	
 	return kResultOk;
 }
@@ -169,7 +205,11 @@ tresult PLUGIN_API AP2ChorusProcessor::setState (IBStream* state)
 tresult PLUGIN_API AP2ChorusProcessor::getState (IBStream* state)
 {
 	// here we need to save the model
+	float toSaveParam1 = mRate;
+	float toSaveParam2 = mDepth;
 	IBStreamer streamer (state, kLittleEndian);
+	streamer.writeFloat(toSaveParam1);
+	streamer.writeFloat(toSaveParam2);
 
 	return kResultOk;
 }

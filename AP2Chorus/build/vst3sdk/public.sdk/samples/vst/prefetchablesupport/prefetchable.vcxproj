@@ -100,7 +100,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.			</Message>
+      <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/prefetchable.vst3/PlugIn.ico"
 if %errorlevel% neq 0 goto :cmEnd
@@ -141,23 +141,6 @@ if %errorlevel% neq 0 goto :cmEnd
 "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\validator.exe" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/prefetchable.vst3/Contents/x86_64-win/prefetchable.vst3"
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator finished.
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Delete previous link...
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -rf "C:/Users/Etienne Quartey-Papa/AppData/Local/Programs/Common/VST3/prefetchable.vst3"
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Creation of the new link...
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E create_symlink "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/prefetchable.vst3"  "C:/Users/Etienne Quartey-Papa/AppData/Local/Programs/Common/VST3/prefetchable.vst3"
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Finished.
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -230,7 +213,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.			</Message>
+      <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/prefetchable.vst3/PlugIn.ico"
 if %errorlevel% neq 0 goto :cmEnd
@@ -271,23 +254,6 @@ if %errorlevel% neq 0 goto :cmEnd
 "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Release\validator.exe" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/prefetchable.vst3/Contents/x86_64-win/prefetchable.vst3"
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator finished.
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Delete previous link...
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -rf "C:/Users/Etienne Quartey-Papa/AppData/Local/Programs/Common/VST3/prefetchable.vst3"
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Creation of the new link...
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E create_symlink  "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/prefetchable.vst3" "C:/Users/Etienne Quartey-Papa/AppData/Local/Programs/Common/VST3/prefetchable.vst3"
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Finished.
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

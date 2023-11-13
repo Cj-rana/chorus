@@ -1,6 +1,2 @@
-﻿  Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/CMakeLists.txt
-  main.cpp
-  moduleinfocreator.cpp
-  moduleinfoparser.cpp
-  module_win32.cpp
+﻿  LINK : C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\moduleinfotool.exe not found or not built by the last incremental link; performing full link
   moduleinfotool.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\moduleinfotool.exe
