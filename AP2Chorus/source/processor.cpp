@@ -1,16 +1,20 @@
 //------------------------------------------------------------------------
-// Copyright(c) 2023 .
+// Copyright(c) 2023 My Plug-in Company.
 //------------------------------------------------------------------------
 
-#include "processor.h"
-#include "cids.h"
+#include "mypluginprocessor.h"
+#include "myplugincids.h"
 
 #include "base/source/fstreamer.h"
 #include "pluginterfaces/vst/ivstparameterchanges.h"
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
 
+
+
+
+
+
 using namespace Steinberg;
-float gain = 1.0f; // or whatever value you want to use
 
 
 namespace MyCompanyName {
@@ -34,20 +38,21 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 	
 	//---always initialize the parent-------
 	tresult result = AudioEffect::initialize (context);
-	// if everything Ok, continue
+
 	if (result != kResultOk)
 	{
 		return result;
 	}
 
-	//--- create Audio IO ------
-	addAudioInput (STR16 ("Stereo In"), Steinberg::Vst::SpeakerArr::kStereo);
-	addAudioOutput (STR16 ("Stereo Out"), Steinberg::Vst::SpeakerArr::kStereo);
+	// if everything Ok, continue
+	
+		addAudioInput(STR16("Audio In"), Steinberg::Vst::SpeakerArr::kStereo);
+		addAudioOutput(STR16("Audio Out"), Steinberg::Vst::SpeakerArr::kStereo);
+		
+		return kResultOk;
+		
+	
 
-	/* If you don't need an event bus, you can remove the next line */
-	addEventInput (STR16 ("Event In"), 1);
-
-	return kResultOk;
 }
 
 //------------------------------------------------------------------------
@@ -63,6 +68,7 @@ tresult PLUGIN_API AP2ChorusProcessor::terminate ()
 tresult PLUGIN_API AP2ChorusProcessor::setActive (TBool state)
 {
 	//--- called when the Plug-in is enable/disable (On/Off) -----
+	
 	return AudioEffect::setActive (state);
 }
 
@@ -71,7 +77,6 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 {
 	//--- First : Read inputs parameter changes-----------
 
-    
     if (data.inputParameterChanges)
     {
         int32 numParamsChanged = data.inputParameterChanges->getParameterCount ();
@@ -84,56 +89,79 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
                 int32 numPoints = paramQueue->getPointCount ();
                 switch (paramQueue->getParameterId ())
                 {
-                    case ChorusParams::kParamRateId:
-                                        if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
-                                            mRate = value;
-                                        break;
+				case ChorusParams::kParamRateId:
+					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+						mRate = value;
+					break;
 
-                                    case ChorusParams::kParamDepthId:
-                                        if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
-                                            mDepth = value;
-                                        break;
+				case ChorusParams::kParamDepthId:
+					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+						mDepth = value;
+					break;
 				}
 			}
 		}
 	}
 	
-	//--- Here you have to implement your processing
-    if (data.numInputs == 0 || data.numSamples == 0)
-        return kResultOk;
-    int32 numChannels = data.inputs[0].numChannels;
+	//-- Flush case: we only need to update parameter, noprocessing possible
+	if (data.numInputs == 0 || data.numSamples == 0)
+		return kResultOk;
 
-        //---get audio buffers using helper-functions(vstaudioprocessoralgo.h)-------------
-        uint32 sampleFramesSize = getSampleFramesSizeInBytes(processSetup, data.numSamples);
-        void** in = getChannelBuffersPointer(processSetup, data.inputs[0]);
-        void** out = getChannelBuffersPointer(processSetup, data.outputs[0]);
+	//--- Here, you have to implement your processing
+	int32 numChannels = data.inputs[0].numChannels;
 
-        // Here could check the silent flags
-        // now we will produce the output
-        // mark our outputs has not silent
-        data.outputs[0].silenceFlags = 0;
+	//---get audio buffers using helper-functions(vstaudioprocessoralgo.h)-------------
+	uint32 sampleFramesSize = getSampleFramesSizeInBytes(processSetup, data.numSamples);
+	void** in = getChannelBuffersPointer(processSetup, data.inputs[0]);
+	void** out = getChannelBuffersPointer(processSetup, data.outputs[0]);
 
-        float rate = mRate;
-        float depth = mDepth;
+	// Here could check the silent flags
+	// 
 
-        // for each channel (left and right)
-        for (int32 i = 0; i < numChannels; i++)
-        {
-            int32 samples = data.numSamples;
-            Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
-            Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
-            Vst::Sample32 tmp;
-            // for each sample in this channel
-            while (--samples >= 0)
-            {
-                // apply modulation
-                tmp = (*ptrIn++) * gain;
-                (*ptrOut++) = tmp;
-            }
-        }
 
-        return kResultOk;
-    
+	data.outputs[0].silenceFlags = 0;
+
+	float rate = mRate;
+	float depth = mDepth;
+
+	// for each channel (left and right)
+	for (int32 i = 0; i < numChannels; i++)
+	{
+		int32 samples = data.numSamples;
+		Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
+		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
+		Vst::Sample32 tmp;
+		// for each sample in this channel
+		while (--samples >= 0)
+		{
+			// apply modulation
+			tmp = (*ptrIn++);
+			(*ptrOut++) = tmp;
+		}
+	}
+
+	// 
+	// // normally we have to check each channel (simplification)
+	if (data.inputs[0].silenceFlags != 0)
+	{
+		// mark output silence too
+		data.outputs[0].silenceFlags = data.inputs[0].silenceFlags;
+
+		// the plug-in has to be sure that if it sets the flags silence that the output buffer are clear
+		for (int32 i = 0; i < numChannels; i++)
+		{
+			// do not need to be cleared if the buffers are the same (in this case input buffer are
+			 // already cleared by the host)
+			if (in[i] != out[i])
+			{
+				memset(out[i], 0, sampleFramesSize);
+			}
+		}
+		// nothing to do at this point
+		
+	}
+
+	return kResultOk;
 }
 
 //------------------------------------------------------------------------
@@ -161,7 +189,21 @@ tresult PLUGIN_API AP2ChorusProcessor::canProcessSampleSize (int32 symbolicSampl
 tresult PLUGIN_API AP2ChorusProcessor::setState (IBStream* state)
 {
 	// called when we load a preset, the model has to be reloaded
-	IBStreamer streamer (state, kLittleEndian);
+	if (!state)
+		return kResultFalse;
+
+	// called when we load a preset or project, the model has to be reloaded
+	IBStreamer streamer(state, kLittleEndian);
+	float savedParam1 = 0.f;
+	float savedParam2 = 0.f;
+
+	if (streamer.readFloat(savedParam1) == false)
+		return kResultFalse;
+	mRate = savedParam1;
+
+	if (streamer.readFloat(savedParam2) == false)
+		return kResultFalse;
+	mDepth = savedParam2;
 	
 	return kResultOk;
 }
@@ -170,7 +212,11 @@ tresult PLUGIN_API AP2ChorusProcessor::setState (IBStream* state)
 tresult PLUGIN_API AP2ChorusProcessor::getState (IBStream* state)
 {
 	// here we need to save the model
+	float toSaveParam1 = mRate;
+	float toSaveParam2 = mDepth;
 	IBStreamer streamer (state, kLittleEndian);
+	streamer.writeFloat(toSaveParam1);
+	streamer.writeFloat(toSaveParam2);
 
 	return kResultOk;
 }

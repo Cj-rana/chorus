@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------
-// Copyright(c) 2023 .
+// Copyright(c) 2023 My Plug-in Company.
 //------------------------------------------------------------------------
 
 #pragma once
@@ -50,8 +50,9 @@ public:
 
 //------------------------------------------------------------------------
 protected:
-    Steinberg::Vst::ParamValue mRate = 0.5;
-        Steinberg::Vst::ParamValue mDepth = 2.;
+	Steinberg::Vst::ParamValue mRate = 0.357;
+	Steinberg::Vst::ParamValue mDepth = 22.5;
+	
 
 };
 

@@ -18,3 +18,33 @@ Bipolar LFO
 
 
 Use range param for the plugin, min,max,default
+
+To convert Seconds to samples:
+
+Fs=44100
+
+timeSec=1.5
+
+timeSamples=Fs*timeSec 
+
+
+To convert milliSeconds to samples:
+
+timeMs=300
+
+Then convert to seconds
+
+timeSec=timeMs/1000
+
+timeSamples=Fs*timeSec
+
+As an example, consider a sine-wave LFO based on the following function:
+3 ·sin(2 · π ·f ·t) +5
+Here, the amplitude of the sine wave is offset, such that it is oscillating with an amplitude
+range centered around a value of 5. Therefore, this LFO could be used to create a delay time
+centered around 5 samples (or could be converted to other time units, 5 milliseconds or
+5 seconds). The amplitude of the sine wave increases to a maximum of 8 and decreases to a
+minimum of 2. As the amplitude changes, this can be used to change the delay time between
+8 samples and 2 samples. Typically, the frequency, f , of the LFO for musical effects can range
+from 0.1–10 Hz.
+
