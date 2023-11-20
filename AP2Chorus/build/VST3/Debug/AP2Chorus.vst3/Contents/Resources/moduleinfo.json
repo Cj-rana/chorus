@@ -13,7 +13,7 @@
   },
   "Classes": [
     {
-      "CID": "CAEF7E4A3B4B59E59A24F993F76D1923",
+      "CID": "67823860B68B59EF867DD6958141E70A",
       "Category": "Audio Module Class",
       "Name": "AP2Chorus",
       "Vendor": "My Plug-in Company",
@@ -26,17 +26,17 @@
       "Cardinality": 2147483647,
       "Snapshots": [
         {
-          "Scale Factor": 2,
-          "Path": "Contents/Resources/Snapshots/CAEF7E4A3B4B59E59A24F993F76D1923_snapshot_2.0x.png",
+          "Scale Factor": 1,
+          "Path": "Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot.png",
         },
         {
-          "Scale Factor": 1,
-          "Path": "Contents/Resources/Snapshots/CAEF7E4A3B4B59E59A24F993F76D1923_snapshot.png",
+          "Scale Factor": 2,
+          "Path": "Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png",
         },
       ],
     },
     {
-      "CID": "CA5C47DAE7F452888065C5B6506BE3A2",
+      "CID": "F74D0DDA7C9E542FB96F51E9482A082B",
       "Category": "Component Controller Class",
       "Name": "AP2ChorusController",
       "Vendor": "My Plug-in Company",

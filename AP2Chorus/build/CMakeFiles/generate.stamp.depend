@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/CMakeLists.txt
+C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake
+C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake
+C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/CMakeFiles/3.28.0-rc2/CMakeRCCompiler.cmake
+C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/CMakeFiles/3.28.0-rc2/CMakeSystem.cmake
+C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/templates/projectversion.h.in

@@ -263,7 +263,7 @@ SMTG_CREATE_MODULE_INFO:BOOL=ON
 //Create symbolic link for each Plug-in (you need to have the Administrator
 // right on Windows! or change the Local Group Policy to allow
 // create symbolic links)
-SMTG_CREATE_PLUGIN_LINK:BOOL=ON
+SMTG_CREATE_PLUGIN_LINK:BOOL=0
 
 //Customize output location for binaries
 SMTG_CUSTOM_BINARY_LOCATION:PATH=

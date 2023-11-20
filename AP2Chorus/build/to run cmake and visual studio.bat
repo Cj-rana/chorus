@@ -1,0 +1,1 @@
+cmake -G"Visual Studio 17 2022" -DSMTG_CREATE_PLUGIN_LINK=0 ..
