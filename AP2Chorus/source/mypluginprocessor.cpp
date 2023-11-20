@@ -173,6 +173,9 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSetup)
 {
 	//--- called before any processing ----
+
+	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50/1000), 0, 0);
+
 	return AudioEffect::setupProcessing (newSetup);
 }
 
