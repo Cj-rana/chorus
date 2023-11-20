@@ -58,6 +58,9 @@
     <LocalDebuggerCommand Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProgramW6432)/Steinberg/VST3PluginTestHost/VST3PluginTestHost.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'">--pluginfolder "$(OutDir)/"</LocalDebuggerCommandArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -92,7 +95,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/AP2Chorus.vst3/Contents/Resources"
 if %errorlevel% neq 0 goto :cmEnd
@@ -205,7 +209,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/AP2Chorus.vst3/Contents/Resources"
 if %errorlevel% neq 0 goto :cmEnd

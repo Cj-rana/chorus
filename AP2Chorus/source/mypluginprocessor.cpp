@@ -12,7 +12,10 @@
 
 
 
+
+
 using namespace Steinberg;
+
 
 namespace MyCompanyName {
 //------------------------------------------------------------------------
@@ -35,20 +38,21 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 	
 	//---always initialize the parent-------
 	tresult result = AudioEffect::initialize (context);
-	// if everything Ok, continue
+
 	if (result != kResultOk)
 	{
 		return result;
 	}
 
-	//--- create Audio IO ------
-	addAudioInput (STR16 ("Stereo In"), Steinberg::Vst::SpeakerArr::kStereo);
-	addAudioOutput (STR16 ("Stereo Out"), Steinberg::Vst::SpeakerArr::kStereo);
+	// if everything Ok, continue
+	
+		addAudioInput(STR16("Audio In"), Steinberg::Vst::SpeakerArr::kStereo);
+		addAudioOutput(STR16("Audio Out"), Steinberg::Vst::SpeakerArr::kStereo);
+		
+		return kResultOk;
+		
+	
 
-	/* If you don't need an event bus, you can remove the next line */
-	addEventInput (STR16 ("Event In"), 1);
-
-	return kResultOk;
 }
 
 //------------------------------------------------------------------------
@@ -64,6 +68,7 @@ tresult PLUGIN_API AP2ChorusProcessor::terminate ()
 tresult PLUGIN_API AP2ChorusProcessor::setActive (TBool state)
 {
 	//--- called when the Plug-in is enable/disable (On/Off) -----
+	
 	return AudioEffect::setActive (state);
 }
 
@@ -112,6 +117,8 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 
 	// Here could check the silent flags
 	// 
+
+
 	data.outputs[0].silenceFlags = 0;
 
 	float rate = mRate;

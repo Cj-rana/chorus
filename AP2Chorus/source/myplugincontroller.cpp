@@ -30,12 +30,12 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 
 
 	Vst::Parameter* rateParam = new Vst::RangeParameter(
-		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.3, 3.5, 2 //Freq of LFO
+		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.357, 3.57, 0.357 //Freq of LFO
 	);
 	parameters.addParameter(rateParam);
 
 	Vst::Parameter* depthParam = new Vst::RangeParameter(
-		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 0, 1, 0.5 //min,max,default
+		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 5.5, 22.5, 5.5 //min,max,default
 	);//Amplitude of LFO
 	parameters.addParameter(depthParam);
 
