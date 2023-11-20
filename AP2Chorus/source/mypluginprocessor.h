@@ -5,6 +5,8 @@
 #pragma once
 
 #include "public.sdk/source/vst/vstaudioeffect.h"
+#include "Buffer.h"
+
 
 namespace MyCompanyName {
 
@@ -53,7 +55,7 @@ protected:
 	Steinberg::Vst::ParamValue mRate = 0.357;
 	Steinberg::Vst::ParamValue mDepth = 22.5;
 	Steinberg::Vst::ParamValue mDelay = 1;
-	
+	ap2::RingBuffer mBuffer;
 
 };
 
