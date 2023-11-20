@@ -29,6 +29,7 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 	// Here you could register some parameters
 
 
+
 	Vst::Parameter* rateParam = new Vst::RangeParameter(
 		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.357, 3.57, 0.357 //Freq of LFO
 	);
