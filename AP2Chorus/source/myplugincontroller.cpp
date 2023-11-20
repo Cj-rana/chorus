@@ -36,7 +36,7 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 	parameters.addParameter(rateParam);
 
 	Vst::Parameter* depthParam = new Vst::RangeParameter(
-		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 5.5, 22.5, 5.5 //min,max,default
+		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 1.04, 23.04, 1.04 //min,max,default
 	);//Amplitude of LFO
 	parameters.addParameter(depthParam);
 

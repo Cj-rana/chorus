@@ -1,8 +1,5 @@
 ﻿  mypluginentry.cpp
   mypluginprocessor.cpp
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(141,11): error C2660: 'ap2::RingBuffer::write': function does not take 1 arguments
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\Buffer.h(33,10): message : see declaration of 'ap2::RingBuffer::write' (compiling source file C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp)
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(141,11): message : while trying to match the argument list '(Steinberg::Vst::Sample32)'
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(142,27): error C2660: 'ap2::RingBuffer::read': function does not take 1 arguments
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\Buffer.h(24,12): message : see declaration of 'ap2::RingBuffer::read' (compiling source file C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp)
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(142,27): message : while trying to match the argument list '(int)'
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(125,8): warning C4189: 'depth': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(124,8): warning C4189: 'rate': local variable is initialized but not referenced
+  AP2Chorus.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\AP2Chorus.vst3\Contents\x86_64-win\AP2Chorus.vst3

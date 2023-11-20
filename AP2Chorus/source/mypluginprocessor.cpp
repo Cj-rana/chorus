@@ -124,6 +124,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 	float rate = mRate;
 	float depth = mDepth;
 
+
 	// for each channel (left and right)
 	for (int32 i = 0; i < numChannels; i++)
 	{
