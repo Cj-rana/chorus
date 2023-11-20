@@ -9,6 +9,7 @@
 #include "pluginterfaces/vst/ivstparameterchanges.h"
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
 
+#include "Buffer.h"
 
 
 
@@ -140,7 +141,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 			// apply modulation
 			tmp = (*ptrIn++);
 			mBuffer.write(tmp);
-			float delayed = mBuffer.read(delaySamples);
+			double delayed = mBuffer.read(delaySamples);
 
 			(*ptrOut++) = tmp+delayed;
 		}

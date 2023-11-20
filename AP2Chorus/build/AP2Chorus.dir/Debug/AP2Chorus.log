@@ -1,5 +1,4 @@
-﻿  mypluginentry.cpp
-  mypluginprocessor.cpp
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(125,8): warning C4189: 'depth': local variable is initialized but not referenced
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(124,8): warning C4189: 'rate': local variable is initialized but not referenced
+﻿  mypluginprocessor.cpp
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(126,8): warning C4189: 'depth': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(125,8): warning C4189: 'rate': local variable is initialized but not referenced
   AP2Chorus.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\AP2Chorus.vst3\Contents\x86_64-win\AP2Chorus.vst3

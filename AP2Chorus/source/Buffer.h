@@ -24,7 +24,7 @@ public:
 
     void write(double write) {
         mBuffer[mWritePos] = write;
-        mWritePos = (mWritePos + 1 % mBuffer.size());
+        mWritePos = mWritePos + 1;
         if (mWritePos >= mBuffer.size()) mWritePos = 0;
 
     }
