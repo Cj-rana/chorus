@@ -52,6 +52,7 @@ public:
 protected:
 	Steinberg::Vst::ParamValue mRate = 0.357;
 	Steinberg::Vst::ParamValue mDepth = 22.5;
+	Steinberg::Vst::ParamValue mDelay = 1;
 	
 
 };
