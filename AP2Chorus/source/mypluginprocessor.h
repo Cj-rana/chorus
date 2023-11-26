@@ -54,7 +54,7 @@ public:
 protected:
 	Steinberg::Vst::ParamValue mRate = 0.357;
 	Steinberg::Vst::ParamValue mDepth = 1.04;
-	Steinberg::Vst::ParamValue mDelay = 1;
+	Steinberg::Vst::ParamValue mDelay = 25;
 	ap2::RingBuffer mBuffer;
 
 };

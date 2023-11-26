@@ -22,7 +22,7 @@ namespace MyCompanyName {
 //------------------------------------------------------------------------
 // AP2ChorusProcessor
 //------------------------------------------------------------------------
-AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100, 0,0)
+AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0),0)
 {
 	//--- set the wanted controller for our processor
 	setControllerClass (kAP2ChorusControllerUID);
@@ -134,16 +134,17 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 tmp;
 		// for each sample in this channel
-		int delaySamples = mDelay * processSetup.sampleRate;
+		float delaySamples =(5000/1000) * processSetup.sampleRate;
 
 		while (--samples >= 0)
 		{
 			// apply modulation
 			tmp = (*ptrIn++);
 			mBuffer.write(tmp);
-			double delayed = mBuffer.read(delaySamples);
+			float delayed = mBuffer.read(delaySamples);
 
-			(*ptrOut++) = tmp+delayed;
+			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
+			//(*ptrOut++) = delayed;
 		}
 	}
 
@@ -176,7 +177,7 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 {
 	//--- called before any processing ----
 
-	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50/1000), 0, 0);
+	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50.0/1000.0), 0);
 
 	return AudioEffect::setupProcessing (newSetup);
 }

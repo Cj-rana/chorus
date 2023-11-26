@@ -6,38 +6,37 @@
 #include <iostream>
 #include <vector>
 
-namespace ap2{
+namespace ap2 {
 
-class RingBuffer {
-public:
-    RingBuffer(double size, double read, double write) {
-        mBuffer = std::vector<double>(size, 0);//stores elements of vector, initialises all elements of vector to 0
-        mReadPos = read;//delay position
-        mWritePos = write;//current position, also write pos
-    }
-    double read(double read) {
-        double delay = std::min(mReadPos, (double)(mBuffer.size() - 1));//ensure delay not greater than buffer size
-        mReadPos = (mReadPos + 1);
-        if (mReadPos >= mBuffer.size()) mReadPos = 0;
-        return mBuffer[delay];
-    }
+    class RingBuffer {
+    public:
+        RingBuffer(int size, int pos) {
+            mBuffer = std::vector<float>(size, 0.0f);//stores elements of vector, initialises all elements of vector to 0
+            mPos = pos;//current position, also write pos
+        }
+        float read(float delay) {
+            delay = std::min(delay,(float)(mBuffer.size()-1));//ensure delay not greater than buffer size
+            int index = mPos - delay;
+            if (index < 0) { index += mBuffer.size();}
+            return mBuffer[index];
+        }
+        void write(float val) {
+            mBuffer[mPos] = val;
+            mPos = (mPos + 1) % mBuffer.size();
+        }
 
-    void write(double write) {
-        mBuffer[mWritePos] = write;
-        mWritePos = mWritePos + 1;
-        if (mWritePos >= mBuffer.size()) mWritePos = 0;
+        void clear() {
+            std::fill(mBuffer.begin(), mBuffer.end(), 0.0f);
+            
 
-    }
+        }
 
-    void clear(double size, double read, double write) {
-        mBuffer = std::vector<double>(size, 0);
-        mReadPos = read;
-        mWritePos = write;
-
-    }
-private:
-    std::vector<double> mBuffer;
-    double mReadPos;
-    double mWritePos;
-};
+        void reset(int size, int pos){
+            mBuffer = std::vector<float>(size, 0.0f);
+            mPos = pos;
+        }
+    private:
+        std::vector<float> mBuffer;
+        int mPos;
+    };
 }

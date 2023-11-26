@@ -41,7 +41,7 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 	parameters.addParameter(depthParam);
 
 	Vst::Parameter* delayParam = new Vst::RangeParameter(
-		STR16("Delay"), ChorusParams::kParamDelayId, STR16("Time"), 0, 2, 1 //min,max,default
+		STR16("Delay"), ChorusParams::kParamDelayId, STR16("Time"), 5, 50, 25 //min,max,default
 	);
 	parameters.addParameter(delayParam);
 
