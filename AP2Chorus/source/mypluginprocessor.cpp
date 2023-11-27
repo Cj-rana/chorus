@@ -125,7 +125,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 
 	float rate = mRate;
 	float depth = mDepth;
-	const float centre= 28.16;
+	const float centre= 28.16/1000.0f;
 	
 
 
@@ -144,7 +144,9 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 			// apply modulation
 			tmp = (*ptrIn++);
 			mBuffer[i].write(tmp);
-			float delaySamples = (Osc[i].process(mRate, mDepth) / 1000.0f) * processSetup.sampleRate+ centre;
+			float delaySeconds= (Osc[i].process(mRate, mDepth) / 1000.0f)+centre;
+
+			float delaySamples = delaySeconds * processSetup.sampleRate;
 			Vst::Sample32 delayed = mBuffer[i].read(delaySamples);
 
 			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
