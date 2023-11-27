@@ -8,27 +8,28 @@
 
 namespace ap2 {
 
-	class SineOsc {
+	class SawOsc {
 	public:
-		SineOsc(double sampleRate)
+		SawOsc(double sampleRate)
 		{
 			mTs = 1 / sampleRate;
 			
 		}
 
-		SineOsc() {
+		SawOsc() {
 		}
 
 		float process(float rate,float depth) {
 			
-	
+			double newPhase = (mPhase + rate * 2 * M_PI * mTs);
+		
+			mPhase = fmod(newPhase, 2 * M_PI);
+
 			double saw = (2.0*(mPhase / (2 * M_PI))) - 1.0;
 
 			return 2.0 * (abs(saw) - 0.5)*depth;
 
-			//double newPhase = (mPhase + rate * 2 * M_PI * mTs);
-			//mPhase = fmod(newPhase, 2 * M_PI);
-			//return mAmp * cos(mPhase) + 28.16;
+			
 		}
 	private:
 		double mTs;
