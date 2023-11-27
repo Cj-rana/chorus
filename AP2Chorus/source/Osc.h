@@ -21,9 +21,13 @@ namespace ap2 {
 
 		float process(float rate,float depth) {
 			float mAmp = depth;
-			double newPhase = (mPhase + rate * 2 * M_PI * mTs);
-			mPhase = fmod(newPhase, 2 * M_PI);
-			return mAmp * cos(mPhase) + 28.16;
+			double saw = (2.0*(mPhase / (2 * M_PI))) - 1.0;
+
+			return 2.0 * (abs(saw) - 0.5);
+
+			//double newPhase = (mPhase + rate * 2 * M_PI * mTs);
+			//mPhase = fmod(newPhase, 2 * M_PI);
+			//return mAmp * cos(mPhase) + 28.16;
 		}
 	private:
 		double mTs;
