@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoaopenglview.mm \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoaopenglview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformopenglview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewframe.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../platform_macos.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformframe.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../dragging.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cresourcedescription.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../pixelbuffer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../events.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../idatapackage.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformframecallback.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cinvalidrectlist.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../coregraphicsdevicecontext.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformgraphicsdevice.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewdraggingsession.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/objcclassbuilder.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/autoreleasepool.h

@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../ifocusdrawing.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/icontrollistener.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../algorithm.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../events.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cframe.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cviewcontainer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawdefs.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformframecallback.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cgraphicspath.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../cvstguitimer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformtimer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../dispatchlist.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../iviewlistener.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../private/disabledeprecatedmessage.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/controls/../private/enabledeprecatedmessage.h

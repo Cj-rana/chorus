@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animator.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animator.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/itimingfunction.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cvstguitimer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/iplatformtimer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../dispatchlist.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/platformfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/platformfwd.h

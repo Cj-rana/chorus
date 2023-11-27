@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cframe.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cviewcontainer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cdrawdefs.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformframecallback.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformframe.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../dragging.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cresourcedescription.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../pixelbuffer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../events.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../idatapackage.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformframecallback.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/fileresourceinputstream.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../iplatformresourceinputstream.h

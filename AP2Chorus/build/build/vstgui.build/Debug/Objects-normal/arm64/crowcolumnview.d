@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/crowcolumnview.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/crowcolumnview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cviewcontainer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/cdrawdefs.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animations.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/timingfunctions.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animator.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/itimingfunction.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cpoint.h

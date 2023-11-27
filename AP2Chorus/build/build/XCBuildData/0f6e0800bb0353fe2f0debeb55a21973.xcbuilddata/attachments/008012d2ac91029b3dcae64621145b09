@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/legacymidiccout
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/legacymidiccout.vst3/Contents/Resources
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/legacymidiccout
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/legacymidiccout.vst3/Contents/Resources
+fi
+

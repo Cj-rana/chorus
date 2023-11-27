@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/note_expression_synth
+  codesign --force --verbose --sign - /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3 -output /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  codesign -f -s - -v /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Debug/validator /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3 
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/note_expression_synth
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/noteexpressionsynth.vst3 /Users/cj/Library/Audio/Plug-Ins/VST3
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/note_expression_synth
+  codesign --force --verbose --sign - /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3 -output /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  codesign -f -s - -v /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Release/validator  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/note_expression_synth
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/noteexpressionsynth.vst3 /Users/cj/Library/Audio/Plug-Ins/VST3
+fi
+

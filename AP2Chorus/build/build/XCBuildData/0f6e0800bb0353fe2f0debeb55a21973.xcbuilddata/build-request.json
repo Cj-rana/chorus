@@ -1,0 +1,174 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf2326547cb7f98471feeee24c933b28f2"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf8c15a1253d43c6d622e3d5d020b2c0b5"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf3cd8db3178bd3f57e547c1d96f4ae07c"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf86b35a740f66ea7d0f05aa8b7473b2ae"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf55cb51bef72996994b9317465ba89e41"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bff86a4cf8d337ab5f45f9c793d8accd05"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf752fefc6928324e03e78694c28fe12ac"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf9b8ecd6b4a9609176fa13483ee6bff40"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfcdc35371ca7214176e3b0fef735ad7a2"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf7d09f0b9b2dc18741a2ea96420363a83"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bffa624404980d36333bf7ecf87a2462a5"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfec10b2bef9c73402c0951bff157e85da"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bff631d8a908d6ea2530a560c4391d42ff"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf709f7cf91eaa3c8ca42e664cf044782b"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfd85c6a5e4e442d0b91c202ea66e99944"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf96166ceb2ea4fe0c3fbbc724da4781fc"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfb055d2923b825b6073773d50423f077a"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfe635f4e96fc7ef929b25e2703ad473ff"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf043ff35c06b8443ad795425c767443ac"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf39f65bf47f6396484e6a84b98d075b9d"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bff535c9a6dfca33ea24e8e0a215899a1b"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf2d0dbc5958b17064538b6777b9613ce1"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfee3ee28cf4b3aff8964322b7123699a4"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfa2f000a18e276bd27f24e67ffde257ff"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfae2ef0714f34a81bbbf61dda1f92e26b"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf050f26c481d44ff0d5db9dd73b220510"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf9751c86b52101e77068dfdca5af11cad"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfeb7d1ee4adcc19126c2c2fafe182fa5c"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf08b432d8e227b0e66261ec43ef55b356"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfc4d0eff92d6252333764d4938e82d6cb"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf561ab30652b6dd9eb30c9d9d628cafb1"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf2bde3128df102834ab2db9b39b40dc82"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf4e3fe4b475c1cf6205a60fdc247f3013"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf72cb2cd3b9290ff2e1bd76c0d981cff7"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf18194d3bb20afcaf1e9559ee4fc38643"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf12b9e066eb3c713987b235f04d639015"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf8ce506fd8f4ea1e3f7a74889d106c862"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfdb0500c907da74a560a8ccc9ebf2bcb4"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bfd30c83e8b5f70de51dfef512359d61de"
+    },
+    {
+      "guid" : "1ca6e96d3558b7266864a86c43f055bf11bf5901e6344178b12adabd32092635"
+    }
+  ],
+  "containerPath" : "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/AP2Chorus.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/cj/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/cj/Library/Developer/Xcode/DerivedData/AP2Chorus-fpbroomcibuqlzeddatpyubnoqtx/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/cj/Library/Developer/Xcode/DerivedData/AP2Chorus-fpbroomcibuqlzeddatpyubnoqtx/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

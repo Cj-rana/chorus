@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C8FB4695EAEA424E8C3CF377 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B3E552C32F748F5F7B98F028 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				43997A8231C14093A99CD60B /* PBXTargetDependency */,
+				851F1CD1B0B04B45B732396E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45DD8595628045AEA4438807 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ABED02CE0FA3CFD7F0AD0BAD /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17AAD4F241D44D8295CF3A77 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = 45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
+		276DF5DC47454AE882A1E8CD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
+		30498EA195F345F392260B7F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
+		4ABBA7C56FC54268B7ECB5EF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = 939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
+		4BA0802A8BA84E9CBC356820 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
+		5B0B79C482424F85A3EE8391 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = 9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
+		5FCB4B08B5B04B908E1ECE90 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		63B8C6B218AC4578BFD02CBC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
+		65FDB89D49DC4FF5BFEE9DFF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = 82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
+		74D8D5E2AD0442B296A1469C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = 66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
+		77175D8F52314DDBBA4CDAC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
+		7D3721C06306474FAFA54FC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
+		9351486ED4EA4843BA1E37F6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
+		96912952E66040B692D2C53B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
+		A30F7C2D8749481E894A9B81 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = 8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
+		A625F251E0914BB18C7ABBD4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = 3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
+		A780FEE221F44A31A4EF16A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
+		AB51F9318B014CCA90FBB638 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = 36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
+		B1254EF97EF34CB5819D6A73 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
+		B2340AA6903F4F7AA309A4A3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = 9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
+		B81366FE3EFD41229F264EBE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
+		BBC77DE2A2E8499CA8E9DDD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = 5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
+		C322494FE3204C8B925189BD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = 2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
+		C4B8B5BFA9BE41789AAF33A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
+		D819F493FF774623BEAB5147 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = 3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
+		D924AA331FC7439EADD19F50 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = 73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
+		E539755494A7463B94C1F06E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = 03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
+		EB6EFF2584DD4C2B8D965EE2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
+		F9F1AB2EE6674EBA9DCBB8A6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		554F80BD421C44EDB8B122F9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FB8E1A23F03049B291B1A489 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		03B98FA6A25D4F23A659EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteInfo = ZERO_CHECK;
+		};
+		1C5EEF9DE92644F2B2E9DA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B7C945C19446A88C32A7C4;
+			remoteInfo = hostchecker;
+		};
+		305C7A5DDE834A17BD4A4792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
+		0EF51956538B477387F7BF3C /* hostchecker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = hostchecker.bundle/Contents/MacOS/hostchecker; sourceTree = BUILT_PRODUCTS_DIR; };
+		2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
+		27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		2C71C67B305942C89FC9C456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
+		3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
+		45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
+		5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
+		66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
+		6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
+		73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
+		7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
+		89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
+		939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
+		9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
+		9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
+		A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
+		B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
+		B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
+		BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
+		DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
+		DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
+		E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BF22B68C594E7F95E4ECE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8246E63B0349EBB23C6F51 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1EF50E4B2DBE4FAF86757E34 = {
+			isa = PBXGroup;
+			children = (
+				F79F1C7121914D0B946E436E /* PlugInExamples */,
+				5BC5C37244C24A6BA8CE70D4 /* ALL_BUILD */,
+				773D61E972854CB7B71CA7F3 /* Products */,
+				8C3F0CEFB8334BEAAD3A49F0 /* Frameworks */,
+				4609AB5F9C63405FA785BF32 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		3250139DFBB6427784DADB49 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
+				2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
+				A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
+				BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
+				6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
+				DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
+				939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
+				BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
+				E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
+				36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
+				DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
+				9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
+				3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4609AB5F9C63405FA785BF32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F6869EE04A647898369B7CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5BC5C37244C24A6BA8CE70D4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A6C48060A27B4754863BD9F1 /* CMake Rules */,
+				2C71C67B305942C89FC9C456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		773D61E972854CB7B71CA7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF51956538B477387F7BF3C /* hostchecker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3F0CEFB8334BEAAD3A49F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE4D763F59C4E64855D1958 /* hostchecker */ = {
+			isa = PBXGroup;
+			children = (
+				3250139DFBB6427784DADB49 /* Header Files */,
+				0E8246E63B0349EBB23C6F51 /* Source Files */,
+				4F6869EE04A647898369B7CA /* Resources */,
+				8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+				66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+			);
+			name = hostchecker;
+			sourceTree = "<group>";
+		};
+		A6C48060A27B4754863BD9F1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F79F1C7121914D0B946E436E /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				8CE4D763F59C4E64855D1958 /* hostchecker */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B7C945C19446A88C32A7C4 /* hostchecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB96BE291BFB43A49BC1D619 /* Build configuration list for PBXNativeTarget "hostchecker" */;
+			buildPhases = (
+				0B69E1469EB8733A56DAF5F7 /* CMake PreBuild Rules */,
+				A2A514B048BA4E01A585490E /* Resources */,
+				9BF27F204F084D45BE4C319A /* Sources */,
+				39BF22B68C594E7F95E4ECE9 /* Frameworks */,
+				D8CD230E88CE76550C37CBAC /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591F5380DAFC4DAF87EBB32B /* PBXTargetDependency */,
+			);
+			name = hostchecker;
+			productName = hostchecker;
+			productReference = 0EF51956538B477387F7BF3C /* hostchecker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D6F311797F49CD94CE9A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 40FED7455AD9425D9438343E /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				554F80BD421C44EDB8B122F9 /* Debug */,
+				FB8E1A23F03049B291B1A489 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1EF50E4B2DBE4FAF86757E34;
+			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker;
+			projectRoot = "";
+			targets = (
+				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
+				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
+				84B7C945C19446A88C32A7C4 /* hostchecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B69E1469EB8733A56DAF5F7 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ABED02CE0FA3CFD7F0AD0BAD /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  make -f /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  make -f /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B3E552C32F748F5F7B98F028 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D8CD230E88CE76550C37CBAC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Debug/moduleinfotool -create -version 3.7.9.0 -path /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3 -output /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  codesign -f -s - -v /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Debug/validator /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3 
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/hostchecker.vst3 /Users/cj/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Release/moduleinfotool -create -version 3.7.9.0 -path /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3 -output /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  codesign -f -s - -v /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin
+  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/bin/Release/validator  /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3
+  cd /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/cj/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/hostchecker.vst3 /Users/cj/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A514B048BA4E01A585490E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC77DE2A2E8499CA8E9DDD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				74D8D5E2AD0442B296A1469C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+				A625F251E0914BB18C7ABBD4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF27F204F084D45BE4C319A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6EFF2584DD4C2B8D965EE2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				9351486ED4EA4843BA1E37F6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				4BA0802A8BA84E9CBC356820 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				E539755494A7463B94C1F06E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				276DF5DC47454AE882A1E8CD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				5B0B79C482424F85A3EE8391 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				17AAD4F241D44D8295CF3A77 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				A780FEE221F44A31A4EF16A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				65FDB89D49DC4FF5BFEE9DFF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				A30F7C2D8749481E894A9B81 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				30498EA195F345F392260B7F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				5FCB4B08B5B04B908E1ECE90 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43997A8231C14093A99CD60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B7C945C19446A88C32A7C4 /* hostchecker */;
+			targetProxy = 1C5EEF9DE92644F2B2E9DA50 /* PBXContainerItemProxy */;
+		};
+		591F5380DAFC4DAF87EBB32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
+			targetProxy = 03B98FA6A25D4F23A659EB97 /* PBXContainerItemProxy */;
+		};
+		851F1CD1B0B04B45B732396E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
+			targetProxy = 305C7A5DDE834A17BD4A4792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B67BCA57724E91BA6C5AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
+		11EC555B95D44E7A947EF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3654BAA58C2746BF89FDDE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",hostchecker_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/hostchecker.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.hostchecker;
+				PRODUCT_NAME = hostchecker;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/hostchecker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		8C079F4F9B3945809FA67E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A37AEDEC90434480A07A8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",hostchecker_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeFiles/hostchecker.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.hostchecker;
+				PRODUCT_NAME = hostchecker;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/hostchecker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		DDB9497B797B4797B93EE80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Debug;
+		};
+		EF8A3015C3094A759DAB79FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FBAA882A714145A0A242F944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FED7455AD9425D9438343E /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB9497B797B4797B93EE80F /* Debug */,
+				05B67BCA57724E91BA6C5AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45DD8595628045AEA4438807 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C079F4F9B3945809FA67E07 /* Debug */,
+				11EC555B95D44E7A947EF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8FB4695EAEA424E8C3CF377 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAA882A714145A0A242F944 /* Debug */,
+				EF8A3015C3094A759DAB79FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB96BE291BFB43A49BC1D619 /* Build configuration list for PBXNativeTarget "hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3654BAA58C2746BF89FDDE76 /* Debug */,
+				A37AEDEC90434480A07A8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D6F311797F49CD94CE9A9F /* Project object */;
+}
