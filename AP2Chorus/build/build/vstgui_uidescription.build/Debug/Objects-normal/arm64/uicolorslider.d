@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorslider.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorslider.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/dispatchlist.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/controls/cslider.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/controls/../ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/controls/ccontrol.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/controls/../cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/controls/../ifocusdrawing.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/coffscreencontext.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cdrawcontext.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cfont.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/platform/iplatformstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/platform/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/clinestyle.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/editing/../../lib/cdrawdefs.h

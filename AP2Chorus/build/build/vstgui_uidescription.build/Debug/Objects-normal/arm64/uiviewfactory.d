@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uiviewfactory.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uiviewfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/iuidescription.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cfont.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/iplatformstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/iviewfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/iviewcreator.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uiattributes.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/std_unorderedmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cview.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstkeycode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cbuttonstate.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cgraphicstransform.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/uiviewcreatorattributes.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../iuidescription.h

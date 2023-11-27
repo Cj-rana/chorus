@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.cpp \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguidebug.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cpoint.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/crect.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cresourcedescription.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/pixelbuffer.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/iplatformbitmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/../vstguifwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cfont.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/optional.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/iplatformstring.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/../vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cgradient.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/ccolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/platformfactory.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/platformfwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../base64codec.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/malloc.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/../lib/vstguibase.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../cstream.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../uiattributes.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/std_unorderedmap.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../uiviewcreator.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/locale.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/parsecolor.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/scalefactorutils.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/../uidescriptionfwd.h \
+  /Users/cj/Documents/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/detail/uidesclist.h
