@@ -10,9 +10,9 @@ namespace ap2 {
 
     class RingBuffer {
     public:
-        RingBuffer(int size, int pos) {
+        RingBuffer(int size) {
             mBuffer = std::vector<float>(size, 0.0f);//stores elements of vector, initialises all elements of vector to 0
-            mPos = pos;//current position, also write pos
+            mPos = size-1;//current position, also write pos
         }
         float read(float delay) {
             delay = std::min(delay,(float)(mBuffer.size()-1));//ensure delay not greater than buffer size
@@ -31,9 +31,9 @@ namespace ap2 {
 
         }
 
-        void reset(int size, int pos){
+        void reset(int size){
             mBuffer = std::vector<float>(size, 0.0f);
-            mPos = pos;
+            mPos = size-1;
         }
     private:
         std::vector<float> mBuffer;

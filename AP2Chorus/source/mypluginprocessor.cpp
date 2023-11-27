@@ -22,7 +22,7 @@ namespace MyCompanyName {
 //------------------------------------------------------------------------
 // AP2ChorusProcessor
 //------------------------------------------------------------------------
-AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0),0),Osc(44100)
+AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0)),Osc(44100)
 {
 	//--- set the wanted controller for our processor
 	setControllerClass (kAP2ChorusControllerUID);
@@ -181,7 +181,7 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 {
 	//--- called before any processing ----
 
-	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50.0/1000.0), 0);
+	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50.0/1000.0));
 
 	return AudioEffect::setupProcessing (newSetup);
 }
