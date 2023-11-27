@@ -22,18 +22,36 @@ namespace ap2 {
 
 
         }
+     
 
-        float read(float delay) {
+
+       float read(float delay) {
             delay = std::min(delay,(float)(mBuffer.size()-1));//ensure delay not greater than buffer size
-            int index = mPos - delay;
+            int index = mPos - static_cast<int>(delay);
             if (index < 0) { index += mBuffer.size();}
             return mBuffer[index];
         }
+        float readInterp(float delay) {
+                    int samples = static_cast<int>(delay);
+                    float v1 = read(samples);
+                    float v2 = read(samples + 1);
+                    float frac = delay - samples;
+                    return v1 + frac * (v2 - v1);
+                }
         void write(float val) {
             mBuffer[mPos] = val;
             mPos = (mPos + 1) % mBuffer.size();
         }
+        void writeWithEmphasis(float val, float emphasis) {
+                    // Apply emphasis filter
+                    float filteredValue = val - mEmphasisState * emphasis;
+                    
+                    // Update emphasis filter state
+                    mEmphasisState = filteredValue * emphasis;
 
+                    // Write the filtered value to the buffer
+                    write(filteredValue);
+                }
         void clear() {
             std::fill(mBuffer.begin(), mBuffer.end(), 0.0f);
             
@@ -47,5 +65,8 @@ namespace ap2 {
     private:
         std::vector<float> mBuffer;
         int mPos;
+        float mEmphasisState;
     };
 }
+
+
