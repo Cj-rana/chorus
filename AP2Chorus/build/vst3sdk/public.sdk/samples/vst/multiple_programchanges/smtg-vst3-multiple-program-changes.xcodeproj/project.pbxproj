@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+		0A5E7076A61147B787503A1D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A9C78B0EF7F541F882B7BA28 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = EB7513E861C44F6CB69823EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				8DE66706461C26C0398775B7 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				95ADCCFCB0BE42DDA6DB0993 /* PBXTargetDependency */,
-				7EFC04103AD1484F80796B09 /* PBXTargetDependency */,
+				3C52395F91A44A9EB43D8009 /* PBXTargetDependency */,
+				AA43294330FD469A9FE0F4AE /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+		29795D65426E4303BAC101BA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 062C9DDD27834A559E528D4A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = E43EA24E62FC4DC1B1113884 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				6E4AB4440EC723577826F096 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,27 +34,27 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		013E5F52FC8F45E18A7B572D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */ = {isa = PBXBuildFile; fileRef = DB791650954044C580A77E27 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */; };
-		26653E9931B744C99DD7838C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */ = {isa = PBXBuildFile; fileRef = 704C00C48104479E8D64B12D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */; };
-		3D2A67A8FB994C64AE30DF83 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */ = {isa = PBXBuildFile; fileRef = F6543C43AD9D44528ACCB238 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */; };
-		46BE5CF86BFA45D6BB2A5682 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 68105108148B43CB8FB9A053 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		85F73C34298D4713812FCAFA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */ = {isa = PBXBuildFile; fileRef = 17F5AA6070844F8182DD2018 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */; };
-		BF52D422C97A47DA8CC2664C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 60119B7996F94D49AFAE466B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */; };
-		CFAE0269791242EC8374897D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */ = {isa = PBXBuildFile; fileRef = A93CE22F340F46678F74040C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */; };
-		E8861747D19C4A1386D31C9C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */ = {isa = PBXBuildFile; fileRef = 35681F017C5F4CEF820D87FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */; };
-		F09002FAEF474A039D0FEF32 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */ = {isa = PBXBuildFile; fileRef = 441DC44CC6DF4BC48EB40A5A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */; };
-		F6A84E64333F4B69A874E680 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */ = {isa = PBXBuildFile; fileRef = 9956F7CCDFAA4A2AA185317E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */; };
+		1B13161F3CAF4E89BB5DBF3F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */ = {isa = PBXBuildFile; fileRef = E2C59FB63B0C4F8686AEE4F3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */; };
+		2A6A7F23BF1F4802BCEBC855 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */ = {isa = PBXBuildFile; fileRef = 6BB7A04427DC425C813A6AA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */; };
+		32093C22A97341FB8C0A5E5A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */ = {isa = PBXBuildFile; fileRef = 1EEF44A413224C768A39BFC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */; };
+		69CBA17FA9A34538B1C0E84C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = C1DFE557CBB24F35822F2CFA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		82301D7DD44E4C249E6BA225 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */ = {isa = PBXBuildFile; fileRef = D08DCDF67BCA4CCDB37E10FC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */; };
+		829DA7B65C09456EA6D25613 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */ = {isa = PBXBuildFile; fileRef = 896B4E9E4B434EF6BC055A82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */; };
+		9E7A981BDA0A4326988E5072 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 1CAD7018750A415DA8989B76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */; };
+		9F50BC7868664FC4A893DC86 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */ = {isa = PBXBuildFile; fileRef = 99CE954C3084464BB822BC50 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */; };
+		EC55AFA20761433C80302F6D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 14E87F82CE7F474BB20F9693 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */; };
+		F7B5F945CA3A4755B7D891E7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */ = {isa = PBXBuildFile; fileRef = EB3D0315FED14A53B5AB7A47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3BB94EE6773C4F9B81B7D587 /* Debug */ = {
+		BF3C1B2D744E467589B2D500 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		E280B2853CAE4AD3853D3339 /* Release */ = {
+		FF1132E78BCA489BBF4C9C5D /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -64,46 +64,46 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		943F55FF490345D182F67CBF /* PBXContainerItemProxy */ = {
+		250BD7DFDF394D88877AACAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 25816446782C4A318AC3884C /* Project object */;
+			containerPortal = C5362DDA15C242E7B87B2455 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
-		};
-		A93636F6172944F2B1258A4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25816446782C4A318AC3884C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
-		};
-		CC0E4DC06CDC4A578B599326 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25816446782C4A318AC3884C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 861623C570744B49905181D9;
+			remoteGlobalIDString = 3878C4D3694E428CB6E8B679;
 			remoteInfo = "multiple-program-changes";
+		};
+		3E1FC2F08A0949078A433D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5362DDA15C242E7B87B2455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
+		};
+		F0BCC1129AA84D2B95BBB307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5362DDA15C242E7B87B2455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17F5AA6070844F8182DD2018 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plug.cpp; path = source/plug.cpp; sourceTree = SOURCE_ROOT; };
-		1F75F2BF2D5742A8A1F4C242 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		35681F017C5F4CEF820D87FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		441DC44CC6DF4BC48EB40A5A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugparamids.h; path = source/plugparamids.h; sourceTree = SOURCE_ROOT; };
-		60119B7996F94D49AFAE466B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		68105108148B43CB8FB9A053 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		704C00C48104479E8D64B12D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcontroller.h; path = source/plugcontroller.h; sourceTree = SOURCE_ROOT; };
-		9956F7CCDFAA4A2AA185317E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugentry.cpp; path = source/plugentry.cpp; sourceTree = SOURCE_ROOT; };
-		A3CE5B0ED2844FC5A018CCAF /* multiple-program-changes */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "multiple-program-changes.bundle/Contents/MacOS/multiple-program-changes"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A93CE22F340F46678F74040C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugcontroller.cpp; path = source/plugcontroller.cpp; sourceTree = SOURCE_ROOT; };
-		DB791650954044C580A77E27 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plug.h; path = source/plug.h; sourceTree = SOURCE_ROOT; };
-		F6543C43AD9D44528ACCB238 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcids.h; path = source/plugcids.h; sourceTree = SOURCE_ROOT; };
+		14E87F82CE7F474BB20F9693 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1CAD7018750A415DA8989B76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugcontroller.cpp; path = source/plugcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		1EEF44A413224C768A39BFC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcids.h; path = source/plugcids.h; sourceTree = SOURCE_ROOT; };
+		5AFB264A6CA84A8B92D4AF50 /* multiple-program-changes */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "multiple-program-changes.bundle/Contents/MacOS/multiple-program-changes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB7A04427DC425C813A6AA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plug.cpp; path = source/plug.cpp; sourceTree = SOURCE_ROOT; };
+		88A7200D42C04698B276EDA6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		896B4E9E4B434EF6BC055A82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plug.h; path = source/plug.h; sourceTree = SOURCE_ROOT; };
+		99CE954C3084464BB822BC50 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugentry.cpp; path = source/plugentry.cpp; sourceTree = SOURCE_ROOT; };
+		C1DFE557CBB24F35822F2CFA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		D08DCDF67BCA4CCDB37E10FC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		E2C59FB63B0C4F8686AEE4F3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcontroller.h; path = source/plugcontroller.h; sourceTree = SOURCE_ROOT; };
+		EB3D0315FED14A53B5AB7A47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugparamids.h; path = source/plugparamids.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D72C75597094EB9B9F604E7 /* Frameworks */ = {
+		7F977B79A9C941CDB5B3CF86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -113,92 +113,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DD0C27730C84578A2E824F8 /* multiple-program-changes */ = {
+		0F14D05F3E2544DD9BE0C78B /* multiple-program-changes */ = {
 			isa = PBXGroup;
 			children = (
-				B6428B6947A74386AEFB9EE2 /* Source Files */,
-				F31A1027791E4DE8BA376D88 /* Header Files */,
-				60119B7996F94D49AFAE466B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */,
+				A32E3F5454E54237A3E62F76 /* Source Files */,
+				F05265291EB340C6A845893A /* Header Files */,
+				14E87F82CE7F474BB20F9693 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */,
 			);
 			name = "multiple-program-changes";
 			sourceTree = "<group>";
 		};
-		3E5C2FB6D7E64D4199E25F8D /* Resources */ = {
+		1681B3DFBAA745F591118B4D = {
 			isa = PBXGroup;
 			children = (
+				73D0AADA77D643589B134A5D /* PlugInExamples */,
+				773706088BEE4CC5B3876926 /* ALL_BUILD */,
+				8513588052F2446896C9F982 /* Products */,
+				2131B16120AE4E9E9D6B6EBE /* Frameworks */,
+				DE6EE60DCAC84455888C010F /* Resources */,
 			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
-		41391DC51F614F499342E440 /* Frameworks */ = {
+		2131B16120AE4E9E9D6B6EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49E7DEC8EEC04092BD170C50 = {
-			isa = PBXGroup;
-			children = (
-				A966B29F5F60478F92FB5EC0 /* PlugInExamples */,
-				D520C56887E64EB0B743422E /* ALL_BUILD */,
-				E6E5142AFB5245C6A6B43DAC /* Products */,
-				41391DC51F614F499342E440 /* Frameworks */,
-				3E5C2FB6D7E64D4199E25F8D /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		61C19153AC534EA895C72D38 /* CMake Rules */ = {
+		40BE9ED20AF84078A2FA042B /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		A966B29F5F60478F92FB5EC0 /* PlugInExamples */ = {
+		73D0AADA77D643589B134A5D /* PlugInExamples */ = {
 			isa = PBXGroup;
 			children = (
-				3DD0C27730C84578A2E824F8 /* multiple-program-changes */,
+				0F14D05F3E2544DD9BE0C78B /* multiple-program-changes */,
 			);
 			name = PlugInExamples;
 			sourceTree = "<group>";
 		};
-		B6428B6947A74386AEFB9EE2 /* Source Files */ = {
+		773706088BEE4CC5B3876926 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				17F5AA6070844F8182DD2018 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */,
-				A93CE22F340F46678F74040C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */,
-				9956F7CCDFAA4A2AA185317E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */,
-				68105108148B43CB8FB9A053 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		D520C56887E64EB0B743422E /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				61C19153AC534EA895C72D38 /* CMake Rules */,
-				1F75F2BF2D5742A8A1F4C242 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */,
+				40BE9ED20AF84078A2FA042B /* CMake Rules */,
+				88A7200D42C04698B276EDA6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		E6E5142AFB5245C6A6B43DAC /* Products */ = {
+		8513588052F2446896C9F982 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3CE5B0ED2844FC5A018CCAF /* multiple-program-changes */,
+				5AFB264A6CA84A8B92D4AF50 /* multiple-program-changes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F31A1027791E4DE8BA376D88 /* Header Files */ = {
+		A32E3F5454E54237A3E62F76 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB791650954044C580A77E27 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */,
-				F6543C43AD9D44528ACCB238 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */,
-				704C00C48104479E8D64B12D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */,
-				441DC44CC6DF4BC48EB40A5A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */,
-				35681F017C5F4CEF820D87FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */,
+				6BB7A04427DC425C813A6AA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */,
+				1CAD7018750A415DA8989B76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */,
+				99CE954C3084464BB822BC50 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */,
+				C1DFE557CBB24F35822F2CFA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DE6EE60DCAC84455888C010F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F05265291EB340C6A845893A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				896B4E9E4B434EF6BC055A82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h */,
+				1EEF44A413224C768A39BFC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h */,
+				E2C59FB63B0C4F8686AEE4F3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h */,
+				EB3D0315FED14A53B5AB7A47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h */,
+				D08DCDF67BCA4CCDB37E10FC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -206,50 +206,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		861623C570744B49905181D9 /* multiple-program-changes */ = {
+		3878C4D3694E428CB6E8B679 /* multiple-program-changes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D940AF1E00E4103A9EA4F68 /* Build configuration list for PBXNativeTarget "multiple-program-changes" */;
+			buildConfigurationList = FBE0D5FBBA654138A1504CAA /* Build configuration list for PBXNativeTarget "multiple-program-changes" */;
 			buildPhases = (
 				5486CD30ACAF240F5DBAAD0A /* CMake PreBuild Rules */,
-				16D07BF91758416EA9208D74 /* Sources */,
-				9D72C75597094EB9B9F604E7 /* Frameworks */,
+				7DB61664D0EE41CCA036405D /* Sources */,
+				7F977B79A9C941CDB5B3CF86 /* Frameworks */,
 				F919BC7AB0908586E4B8F6E3 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B429CA30E40E4F67AC867C09 /* PBXTargetDependency */,
+				546C41F17140488BA3098810 /* PBXTargetDependency */,
 			);
 			name = "multiple-program-changes";
 			productName = "multiple-program-changes";
-			productReference = A3CE5B0ED2844FC5A018CCAF /* multiple-program-changes */;
+			productReference = 5AFB264A6CA84A8B92D4AF50 /* multiple-program-changes */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		25816446782C4A318AC3884C /* Project object */ = {
+		C5362DDA15C242E7B87B2455 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 2129E94A4FE1418493BFF2DA /* Build configuration list for PBXProject "smtg-vst3-multiple-program-changes" */;
+			buildConfigurationList = 27E9D26C77B94B41ADEF6B2C /* Build configuration list for PBXProject "smtg-vst3-multiple-program-changes" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3BB94EE6773C4F9B81B7D587 /* Debug */,
-				E280B2853CAE4AD3853D3339 /* Release */,
+				BF3C1B2D744E467589B2D500 /* Debug */,
+				FF1132E78BCA489BBF4C9C5D /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 49E7DEC8EEC04092BD170C50;
+			mainGroup = 1681B3DFBAA745F591118B4D;
 			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges;
 			projectRoot = "";
 			targets = (
-				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
-				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
-				861623C570744B49905181D9 /* multiple-program-changes */,
+				0A5E7076A61147B787503A1D /* ALL_BUILD */,
+				29795D65426E4303BAC101BA /* ZERO_CHECK */,
+				3878C4D3694E428CB6E8B679 /* multiple-program-changes */,
 			);
 		};
 /* End PBXProject section */
@@ -402,39 +402,39 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16D07BF91758416EA9208D74 /* Sources */ = {
+		7DB61664D0EE41CCA036405D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F73C34298D4713812FCAFA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */,
-				CFAE0269791242EC8374897D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */,
-				F6A84E64333F4B69A874E680 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */,
-				46BE5CF86BFA45D6BB2A5682 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				2A6A7F23BF1F4802BCEBC855 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp */,
+				9E7A981BDA0A4326988E5072 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp */,
+				9F50BC7868664FC4A893DC86 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp */,
+				69CBA17FA9A34538B1C0E84C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7EFC04103AD1484F80796B09 /* PBXTargetDependency */ = {
+		3C52395F91A44A9EB43D8009 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 943F55FF490345D182F67CBF /* PBXContainerItemProxy */;
+			target = 3878C4D3694E428CB6E8B679 /* multiple-program-changes */;
+			targetProxy = 250BD7DFDF394D88877AACAE /* PBXContainerItemProxy */;
 		};
-		95ADCCFCB0BE42DDA6DB0993 /* PBXTargetDependency */ = {
+		546C41F17140488BA3098810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 861623C570744B49905181D9 /* multiple-program-changes */;
-			targetProxy = CC0E4DC06CDC4A578B599326 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 3E1FC2F08A0949078A433D93 /* PBXContainerItemProxy */;
 		};
-		B429CA30E40E4F67AC867C09 /* PBXTargetDependency */ = {
+		AA43294330FD469A9FE0F4AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = A93636F6172944F2B1258A4B /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = F0BCC1129AA84D2B95BBB307 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16F4C5C404F74A86BF9F3CD3 /* Debug */ = {
+		0DA11045B6B647C1B326F4CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,90 +456,7 @@ fi
 			};
 			name = Debug;
 		};
-		1A3BAB7874D64342A81EC44E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Debug;
-		};
-		3C7CD36A9F0D43F9B3ED1438 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Release;
-		};
-		75338BD91C794505B76F87C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		91B065714C0A4085B2D2DFF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEPLOYMENT_POSTPROCESSING = NO;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",multiple_program_changes_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/multiple_programchanges,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
-				INFOPLIST_FILE = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeFiles/multiple-program-changes.dir/Info.plist";
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = BUNDLE;
-				ONLY_ACTIVE_ARCH = YES;
-				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
-				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.multiple-program-changes";
-				PRODUCT_NAME = "multiple-program-changes";
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/multiple-program-changes.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-				WRAPPER_EXTENSION = vst3;
-			};
-			name = Debug;
-		};
-		A10BB8A81B5142029BA51910 /* Release */ = {
+		12E9FCC72AA14F6E9AC3E62B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -577,7 +494,29 @@ fi
 			};
 			name = Release;
 		};
-		E5481E20FCB84471870EEE58 /* Release */ = {
+		2F02C167C8F74136BC7FDD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		57BFE91EF7034963AC4C51CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -599,7 +538,7 @@ fi
 			};
 			name = Release;
 		};
-		FE99B6FE2D02490C8152AF59 /* Debug */ = {
+		8527ABE951724A359DECF7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,46 +560,107 @@ fi
 			};
 			name = Debug;
 		};
+		B6C6EDFF9D1A438D9F491B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Debug;
+		};
+		BA20070B519E4654A2C6EB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",multiple_program_changes_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/multiple_programchanges,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeFiles/multiple-program-changes.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.multiple-program-changes";
+				PRODUCT_NAME = "multiple-program-changes";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/multiple-program-changes.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		ED031E8A38444E4CBBC83B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		062C9DDD27834A559E528D4A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		27E9D26C77B94B41ADEF6B2C /* Build configuration list for PBXProject "smtg-vst3-multiple-program-changes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16F4C5C404F74A86BF9F3CD3 /* Debug */,
-				E5481E20FCB84471870EEE58 /* Release */,
+				B6C6EDFF9D1A438D9F491B8F /* Debug */,
+				ED031E8A38444E4CBBC83B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2129E94A4FE1418493BFF2DA /* Build configuration list for PBXProject "smtg-vst3-multiple-program-changes" */ = {
+		E43EA24E62FC4DC1B1113884 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A3BAB7874D64342A81EC44E /* Debug */,
-				3C7CD36A9F0D43F9B3ED1438 /* Release */,
+				0DA11045B6B647C1B326F4CB /* Debug */,
+				57BFE91EF7034963AC4C51CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4D940AF1E00E4103A9EA4F68 /* Build configuration list for PBXNativeTarget "multiple-program-changes" */ = {
+		EB7513E861C44F6CB69823EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91B065714C0A4085B2D2DFF6 /* Debug */,
-				A10BB8A81B5142029BA51910 /* Release */,
+				8527ABE951724A359DECF7EA /* Debug */,
+				2F02C167C8F74136BC7FDD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A9C78B0EF7F541F882B7BA28 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		FBE0D5FBBA654138A1504CAA /* Build configuration list for PBXNativeTarget "multiple-program-changes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE99B6FE2D02490C8152AF59 /* Debug */,
-				75338BD91C794505B76F87C5 /* Release */,
+				BA20070B519E4654A2C6EB89 /* Debug */,
+				12E9FCC72AA14F6E9AC3E62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 25816446782C4A318AC3884C /* Project object */;
+	rootObject = C5362DDA15C242E7B87B2455 /* Project object */;
 }

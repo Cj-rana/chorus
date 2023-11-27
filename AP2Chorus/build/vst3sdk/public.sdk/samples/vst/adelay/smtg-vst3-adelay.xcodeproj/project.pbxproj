@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+		0A5E7076A61147B787503A1D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = EAAB81359EE5480BAA58C5BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 1C09DE16DE6B4C3AA1AA6796 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				629FBE3FAE6D6307533020C2 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				5D7EA3CEACF24FB28EC12520 /* PBXTargetDependency */,
-				AD7EE9706D2B46E5953AA30D /* PBXTargetDependency */,
+				84A9A1A30FDA4DA3AB951E47 /* PBXTargetDependency */,
+				5685FF87835B42DDB6123E86 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+		29795D65426E4303BAC101BA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C2BB4B7BF202446EA83CC2A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 24AB74065A724A969C034CFE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				A56E2B148821318538508D5C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,29 +34,29 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		14C6ABE09D9D478AAA162456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXBuildFile; fileRef = 519161A979A44A49AE48E5AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */; };
-		305FACBF7E2A41E9B6D9B40A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7ABA5249C2BF4DDC96740FCE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		48BE343228AE436FBAB5E6F0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 3B21CBD572364F51A11C663F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */; };
-		650294B73A94431CA4BC9D5F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 88EEE00FB3E04D9086275983 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */; };
-		78954381BCF64F539CEC4C67 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXBuildFile; fileRef = 9E7C9EC520DB40FEB8D1D4CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */; };
-		A411B64AB22B448B8E53517D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXBuildFile; fileRef = B0ED55E9154F4330B73E3272 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */; };
-		A5519065739C4E389263FF56 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXBuildFile; fileRef = 93584F6A603548F8B7514E07 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */; };
-		ADBD674C9D5243A6BE12AE6D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 079401602D344623A4B9BCC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */; };
-		D4E3A2CF6662475EB3BA3354 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXBuildFile; fileRef = A4A031A860D74B52AA711A76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */; };
-		DE2F3D5C9CE146CD9DB71F1A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXBuildFile; fileRef = 4D7259B0FC0B409EB6F7A63C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */; };
-		E44DB9146446468B91F435F3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXBuildFile; fileRef = 327CA421BB764858A354AA1E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */; };
-		ECCB7792FA6F44A7A82EFDE0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXBuildFile; fileRef = DF8B81AC062848C3BAB15FAD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */; };
+		0BF18A5309CE475D8F345837 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXBuildFile; fileRef = F7C455781C9E4D699E22CE52 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */; };
+		2DE68497FDE343D3AC4FE041 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXBuildFile; fileRef = A220BC17372146DB9AAAED78 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */; };
+		6F1BAE226E354B73B548707B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8160EE84745141D9B1B3835E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */; };
+		80817B8C02174F139A1B2AED /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXBuildFile; fileRef = 3078425040AF4AE498707E5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */; };
+		A305EFF87B444CD9A8DBE94F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXBuildFile; fileRef = 31C6D8656F9F48DCA65093C3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */; };
+		B61264C4D9EB40679DE20A79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXBuildFile; fileRef = 6F0C0B18BFB54DA8841F30BE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */; };
+		B7018EA3FD4149998B099746 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 4655DD13EF664873BE1BFE85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		BC840E6031E6418089244BD7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 7957DE261C9643418095F4C6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */; };
+		CC9FD562A27049F4949DEF65 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXBuildFile; fileRef = 1F2E8EC75C334979ADB75A4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */; };
+		D965178CEEF84248A31BF27E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXBuildFile; fileRef = 45ACFA7E9BFC4393B82CFAE9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */; };
+		EE7583460A594B3A80A6EA4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 6322AE88E47E434E9B80F9A8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */; };
+		FD132B345CD248A68FB6AE51 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXBuildFile; fileRef = 1E39ADBB50D44353A60FD561 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3875A44C27B94F67AA5F3297 /* Debug */ = {
+		27442CE32EA045C69C67A596 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		6810A1BFD30E4463882E40C3 /* Release */ = {
+		6B73142585FA42C881F7C9E7 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -66,48 +66,48 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		0DA9160383914F5DA3E0C0D7 /* PBXContainerItemProxy */ = {
+		3662E04A36F34871B17E8D51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CD938F07A6B4F7293D0BEFC /* Project object */;
+			containerPortal = E0E5EBE5FC7441E396A48536 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
 			remoteInfo = ZERO_CHECK;
 		};
-		33707D3650F24AB38D97BF52 /* PBXContainerItemProxy */ = {
+		54E3886D18714CC7A80438E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CD938F07A6B4F7293D0BEFC /* Project object */;
+			containerPortal = E0E5EBE5FC7441E396A48536 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAF63D0F33F04BEF814344CC;
+			remoteGlobalIDString = FD087C3F2B52425DB9B4ED9B;
 			remoteInfo = adelay;
 		};
-		8C324B85F41241AA8A8AE0F4 /* PBXContainerItemProxy */ = {
+		D67221ACA15D4CDAB47B911F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CD938F07A6B4F7293D0BEFC /* Project object */;
+			containerPortal = E0E5EBE5FC7441E396A48536 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079401602D344623A4B9BCC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		327CA421BB764858A354AA1E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		3B21CBD572364F51A11C663F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
-		4D7259B0FC0B409EB6F7A63C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exampletest.cpp; path = source/exampletest.cpp; sourceTree = SOURCE_ROOT; };
-		519161A979A44A49AE48E5AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = versionparsertest.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp; sourceTree = "<absolute>"; };
-		7ABA5249C2BF4DDC96740FCE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		88EEE00FB3E04D9086275983 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelayprocessor.cpp; path = source/adelayprocessor.cpp; sourceTree = SOURCE_ROOT; };
-		93584F6A603548F8B7514E07 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ringbuffertest.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp; sourceTree = "<absolute>"; };
-		9E7C9EC520DB40FEB8D1D4CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelaycontroller.h; path = source/adelaycontroller.h; sourceTree = SOURCE_ROOT; };
-		A4A031A860D74B52AA711A76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelaycontroller.cpp; path = source/adelaycontroller.cpp; sourceTree = SOURCE_ROOT; };
-		B0ED55E9154F4330B73E3272 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayprocessor.h; path = source/adelayprocessor.h; sourceTree = SOURCE_ROOT; };
-		C5D70F0F756F45439E8E3C87 /* adelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = adelay.bundle/Contents/MacOS/adelay; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8B81AC062848C3BAB15FAD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayids.h; path = source/adelayids.h; sourceTree = SOURCE_ROOT; };
-		FB88112FC3024F58A6829662 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E39ADBB50D44353A60FD561 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		1F2E8EC75C334979ADB75A4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelaycontroller.h; path = source/adelaycontroller.h; sourceTree = SOURCE_ROOT; };
+		276A940D70C24F759D5541CB /* adelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = adelay.bundle/Contents/MacOS/adelay; sourceTree = BUILT_PRODUCTS_DIR; };
+		3078425040AF4AE498707E5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayids.h; path = source/adelayids.h; sourceTree = SOURCE_ROOT; };
+		31C6D8656F9F48DCA65093C3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelaycontroller.cpp; path = source/adelaycontroller.cpp; sourceTree = SOURCE_ROOT; };
+		45ACFA7E9BFC4393B82CFAE9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = versionparsertest.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp; sourceTree = "<absolute>"; };
+		4655DD13EF664873BE1BFE85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		6322AE88E47E434E9B80F9A8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adelayprocessor.cpp; path = source/adelayprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		6F0C0B18BFB54DA8841F30BE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = adelayprocessor.h; path = source/adelayprocessor.h; sourceTree = SOURCE_ROOT; };
+		7957DE261C9643418095F4C6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		8160EE84745141D9B1B3835E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A220BC17372146DB9AAAED78 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ringbuffertest.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp; sourceTree = "<absolute>"; };
+		F7C455781C9E4D699E22CE52 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exampletest.cpp; path = source/exampletest.cpp; sourceTree = SOURCE_ROOT; };
+		FB3AAFCC2F97439EA6435A96 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21487B30804C4B36A89CC8EC /* Frameworks */ = {
+		BB64CF437633459D94A645CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,94 +117,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F7FAD65B76D40729F2F185B /* Resources */ = {
+		1236810A060F477786CACA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276A940D70C24F759D5541CB /* adelay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6443BD0BB36C4BE98C93AE11 = {
+			isa = PBXGroup;
+			children = (
+				BFD2A4A4C93A436BB5BCD986 /* PlugInExamples */,
+				6DF603B3685D4A929075B3B4 /* ALL_BUILD */,
+				1236810A060F477786CACA92 /* Products */,
+				D3D66639166443E18A6149BA /* Frameworks */,
+				65083C535575495BB8914BDA /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		65083C535575495BB8914BDA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		14CFE00C269C46F5A12FDD37 /* PlugInExamples */ = {
-			isa = PBXGroup;
-			children = (
-				C7E49914C8784B6CA529871E /* adelay */,
-			);
-			name = PlugInExamples;
-			sourceTree = "<group>";
-		};
-		2427DB3F1E8541D9B1956750 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				A4A031A860D74B52AA711A76 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
-				88EEE00FB3E04D9086275983 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
-				4D7259B0FC0B409EB6F7A63C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
-				3B21CBD572364F51A11C663F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
-				7ABA5249C2BF4DDC96740FCE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-				93584F6A603548F8B7514E07 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
-				519161A979A44A49AE48E5AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		3CC10F22F81A45A0B4CB7985 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				B683545D4FFA4D1EB127E2E6 /* CMake Rules */,
-				FB88112FC3024F58A6829662 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		775925E2201248A288E844CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C5D70F0F756F45439E8E3C87 /* adelay */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8719A03577EA49999E655721 = {
-			isa = PBXGroup;
-			children = (
-				14CFE00C269C46F5A12FDD37 /* PlugInExamples */,
-				3CC10F22F81A45A0B4CB7985 /* ALL_BUILD */,
-				775925E2201248A288E844CA /* Products */,
-				928A71903BC24CC782BB256E /* Frameworks */,
-				0F7FAD65B76D40729F2F185B /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		928A71903BC24CC782BB256E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B683545D4FFA4D1EB127E2E6 /* CMake Rules */ = {
+		6568F98C289D4C91BABE0F0C /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		C7E49914C8784B6CA529871E /* adelay */ = {
+		6DF603B3685D4A929075B3B4 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				2427DB3F1E8541D9B1956750 /* Source Files */,
-				F2B0D23A02FA4C22A69B0528 /* Header Files */,
-				079401602D344623A4B9BCC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+				6568F98C289D4C91BABE0F0C /* CMake Rules */,
+				FB3AAFCC2F97439EA6435A96 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		991653BD150242978540470E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C6D8656F9F48DCA65093C3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				6322AE88E47E434E9B80F9A8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				F7C455781C9E4D699E22CE52 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				7957DE261C9643418095F4C6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				4655DD13EF664873BE1BFE85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				A220BC17372146DB9AAAED78 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				45ACFA7E9BFC4393B82CFAE9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BFD2A4A4C93A436BB5BCD986 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C9724035B8FD4B3E96A59B23 /* adelay */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		C9724035B8FD4B3E96A59B23 /* adelay */ = {
+			isa = PBXGroup;
+			children = (
+				991653BD150242978540470E /* Source Files */,
+				DC41F80BFC3E4A34A622CBB0 /* Header Files */,
+				8160EE84745141D9B1B3835E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt */,
 			);
 			name = adelay;
 			sourceTree = "<group>";
 		};
-		F2B0D23A02FA4C22A69B0528 /* Header Files */ = {
+		D3D66639166443E18A6149BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E7C9EC520DB40FEB8D1D4CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */,
-				DF8B81AC062848C3BAB15FAD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */,
-				B0ED55E9154F4330B73E3272 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */,
-				327CA421BB764858A354AA1E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC41F80BFC3E4A34A622CBB0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2E8EC75C334979ADB75A4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.h */,
+				3078425040AF4AE498707E5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayids.h */,
+				6F0C0B18BFB54DA8841F30BE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.h */,
+				1E39ADBB50D44353A60FD561 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/version.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -212,50 +212,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAF63D0F33F04BEF814344CC /* adelay */ = {
+		FD087C3F2B52425DB9B4ED9B /* adelay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36D43BA68C014913BCA6B57D /* Build configuration list for PBXNativeTarget "adelay" */;
+			buildConfigurationList = D3E04D22E89C40D3940ED704 /* Build configuration list for PBXNativeTarget "adelay" */;
 			buildPhases = (
 				C62D6B6EAC44162FE7C44A5E /* CMake PreBuild Rules */,
-				08C84ABD1E3646F59990232F /* Sources */,
-				21487B30804C4B36A89CC8EC /* Frameworks */,
+				7219708F21BA48D2B7217355 /* Sources */,
+				BB64CF437633459D94A645CA /* Frameworks */,
 				8DB583FD6997E39C0613AEBA /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C064881A84F347758BE2FC04 /* PBXTargetDependency */,
+				57E9FA27D7484B23A968F8EF /* PBXTargetDependency */,
 			);
 			name = adelay;
 			productName = adelay;
-			productReference = C5D70F0F756F45439E8E3C87 /* adelay */;
+			productReference = 276A940D70C24F759D5541CB /* adelay */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9CD938F07A6B4F7293D0BEFC /* Project object */ = {
+		E0E5EBE5FC7441E396A48536 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 07125997CC3049C6933347DD /* Build configuration list for PBXProject "smtg-vst3-adelay" */;
+			buildConfigurationList = AE1AF30CBF7A417BAB6E6707 /* Build configuration list for PBXProject "smtg-vst3-adelay" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3875A44C27B94F67AA5F3297 /* Debug */,
-				6810A1BFD30E4463882E40C3 /* Release */,
+				27442CE32EA045C69C67A596 /* Debug */,
+				6B73142585FA42C881F7C9E7 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 8719A03577EA49999E655721;
+			mainGroup = 6443BD0BB36C4BE98C93AE11;
 			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay;
 			projectRoot = "";
 			targets = (
-				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
-				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
-				AAF63D0F33F04BEF814344CC /* adelay */,
+				0A5E7076A61147B787503A1D /* ALL_BUILD */,
+				29795D65426E4303BAC101BA /* ZERO_CHECK */,
+				FD087C3F2B52425DB9B4ED9B /* adelay */,
 			);
 		};
 /* End PBXProject section */
@@ -408,98 +408,42 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08C84ABD1E3646F59990232F /* Sources */ = {
+		7219708F21BA48D2B7217355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3A2CF6662475EB3BA3354 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
-				650294B73A94431CA4BC9D5F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
-				DE2F3D5C9CE146CD9DB71F1A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
-				48BE343228AE436FBAB5E6F0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
-				305FACBF7E2A41E9B6D9B40A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-				A5519065739C4E389263FF56 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
-				14C6ABE09D9D478AAA162456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
+				A305EFF87B444CD9A8DBE94F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelaycontroller.cpp */,
+				EE7583460A594B3A80A6EA4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/adelayprocessor.cpp */,
+				0BF18A5309CE475D8F345837 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/exampletest.cpp */,
+				BC840E6031E6418089244BD7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/source/factory.cpp */,
+				B7018EA3FD4149998B099746 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				2DE68497FDE343D3AC4FE041 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/ringbuffertest.cpp */,
+				D965178CEEF84248A31BF27E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/utility/test/versionparsertest.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D7EA3CEACF24FB28EC12520 /* PBXTargetDependency */ = {
+		5685FF87835B42DDB6123E86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAF63D0F33F04BEF814344CC /* adelay */;
-			targetProxy = 33707D3650F24AB38D97BF52 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 3662E04A36F34871B17E8D51 /* PBXContainerItemProxy */;
 		};
-		AD7EE9706D2B46E5953AA30D /* PBXTargetDependency */ = {
+		57E9FA27D7484B23A968F8EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 8C324B85F41241AA8A8AE0F4 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = D67221ACA15D4CDAB47B911F /* PBXContainerItemProxy */;
 		};
-		C064881A84F347758BE2FC04 /* PBXTargetDependency */ = {
+		84A9A1A30FDA4DA3AB951E47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 0DA9160383914F5DA3E0C0D7 /* PBXContainerItemProxy */;
+			target = FD087C3F2B52425DB9B4ED9B /* adelay */;
+			targetProxy = 54E3886D18714CC7A80438E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CE464FF3F9A417797A2DAD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Release;
-		};
-		22E1ACE4946A4479A2EDD3A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		41BB2DC747B043E380D586FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7F4EF66BAA894D00A2597852 /* Release */ = {
+		1AC70E09402644C6859127FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -519,47 +463,43 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		AF31F1B8CEC1486C848318D3 /* Debug */ = {
+		1C2B0507B4A740B092FAB4C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "-";
+				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEPLOYMENT_POSTPROCESSING = NO;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
-				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = BUNDLE;
-				ONLY_ACTIVE_ARCH = YES;
-				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
-				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
-				PRODUCT_NAME = adelay;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
-				WRAPPER_EXTENSION = vst3;
 			};
-			name = Debug;
+			name = Release;
 		};
-		B2194AA9B679487ABFF26FE7 /* Release */ = {
+		28B52ED803BE436EB39B0FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
+		2D9A5794CEFD485DB03DDF02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -597,7 +537,7 @@ fi
 			};
 			name = Release;
 		};
-		D89690A93E0D4185988D8FB0 /* Debug */ = {
+		399A0763AEB142658FCC0498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -608,7 +548,45 @@ fi
 			};
 			name = Debug;
 		};
-		FAC8F1AA481542F6A46405A5 /* Debug */ = {
+		3F7AE78A112045DEA89D56A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",adelay_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/adelay,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/adelay/CMakeFiles/adelay.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.adelay;
+				PRODUCT_NAME = adelay;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/adelay.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		3FAA47363B044861B2293337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -628,48 +606,70 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		8B189843BF0A48F1B0B1BBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07125997CC3049C6933347DD /* Build configuration list for PBXProject "smtg-vst3-adelay" */ = {
+		1C09DE16DE6B4C3AA1AA6796 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D89690A93E0D4185988D8FB0 /* Debug */,
-				1CE464FF3F9A417797A2DAD5 /* Release */,
+				8B189843BF0A48F1B0B1BBA3 /* Debug */,
+				1C2B0507B4A740B092FAB4C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		36D43BA68C014913BCA6B57D /* Build configuration list for PBXNativeTarget "adelay" */ = {
+		24AB74065A724A969C034CFE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF31F1B8CEC1486C848318D3 /* Debug */,
-				B2194AA9B679487ABFF26FE7 /* Release */,
+				1AC70E09402644C6859127FF /* Debug */,
+				3FAA47363B044861B2293337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C2BB4B7BF202446EA83CC2A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		AE1AF30CBF7A417BAB6E6707 /* Build configuration list for PBXProject "smtg-vst3-adelay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAC8F1AA481542F6A46405A5 /* Debug */,
-				7F4EF66BAA894D00A2597852 /* Release */,
+				399A0763AEB142658FCC0498 /* Debug */,
+				28B52ED803BE436EB39B0FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		EAAB81359EE5480BAA58C5BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		D3E04D22E89C40D3940ED704 /* Build configuration list for PBXNativeTarget "adelay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22E1ACE4946A4479A2EDD3A5 /* Debug */,
-				41BB2DC747B043E380D586FF /* Release */,
+				3F7AE78A112045DEA89D56A2 /* Debug */,
+				2D9A5794CEFD485DB03DDF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9CD938F07A6B4F7293D0BEFC /* Project object */;
+	rootObject = E0E5EBE5FC7441E396A48536 /* Project object */;
 }

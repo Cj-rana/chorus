@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D98DCEDFA7FC4CD8BA2B4EE5"
+               BlueprintIdentifier = "0772271091D74FA7B6301E2A"
                BuildableName = "AP2Chorus.vst3"
                BlueprintName = "AP2Chorus"
                ReferencedContainer = "container:build/AP2Chorus.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D98DCEDFA7FC4CD8BA2B4EE5"
+            BlueprintIdentifier = "0772271091D74FA7B6301E2A"
             BuildableName = "AP2Chorus.vst3"
             BlueprintName = "AP2Chorus"
             ReferencedContainer = "container:build/AP2Chorus.xcodeproj">

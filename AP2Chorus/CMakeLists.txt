@@ -20,13 +20,13 @@ add_subdirectory(${vst3sdk_SOURCE_DIR} ${PROJECT_BINARY_DIR}/vst3sdk)
 smtg_enable_vst3_sdk()
 
 smtg_add_vst3plugin(AP2Chorus
-    source/version.h
-    source/cids.h
-    source/processor.h
-    source/processor.cpp
-    source/controller.h
-    source/controller.cpp
-    source/entry.cpp
+   source/version.h
+    source/myplugincids.h
+    source/mypluginprocessor.h
+    source/mypluginprocessor.cpp
+    source/myplugincontroller.h
+    source/myplugincontroller.cpp
+    source/mypluginentry.cpp
 )
 
 #- VSTGUI Wanted ----

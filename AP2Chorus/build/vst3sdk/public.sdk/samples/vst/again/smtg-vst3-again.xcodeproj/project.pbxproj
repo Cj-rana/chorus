@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+		0A5E7076A61147B787503A1D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9B02DCFC68934CE99563E0EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = B505A777A3D44B2C8087D585 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				3A5614DB55232A2D6A07926A /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				FDF5A1D74B254857898FF725 /* PBXTargetDependency */,
-				B1ACBA1741AD4CA290BC10BF /* PBXTargetDependency */,
-				47735035937C44BD91EAB34C /* PBXTargetDependency */,
+				08CA7004EF3F48AC80C6E66B /* PBXTargetDependency */,
+				C3C138D8C2FB46B1AE21B9EE /* PBXTargetDependency */,
+				5C740B7C178545CDA91AE26F /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+		29795D65426E4303BAC101BA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D4C3A9FBEBDB47C5B24EE7C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 53813607ACCC41388CF3FAB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				07394C281B21165F6C327D02 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -35,57 +35,57 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		008C313DA7654E9FBAECD283 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = E4CB4A5C1D164B579BBFCD1D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		026F44AE04744333B63264CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXBuildFile; fileRef = 03FEA2FD084D418BA719A720 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */; };
-		02ED6F44326942A79B9E539C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6E0A1ACC083341C0B6269112 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
-		067C0B0A876C4815816636C4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = 2457919C7A7B4957878BCBDE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
-		0A01B3B51D194BDF8BEC1CD4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXBuildFile; fileRef = 539A044FAE15488CA52F549B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */; };
-		0FFE3E98854A4E36BF83AFCC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXBuildFile; fileRef = AD0D27EBD2C241F4AB478452 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */; };
-		25648EB46A50455D9B355552 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXBuildFile; fileRef = D3F33169596949A8B63D946D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */; };
-		28FAB71D55504BA2B4561EE0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = BF2892E0D18B4C8DAC4220B8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
-		2FAB3AAD05BC47A19FE935CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 1FD3526B0E2249C2A522E508 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
-		37C6781BAB484C46AC4B026A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXBuildFile; fileRef = B16A554F34C743A7A3834E63 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */; };
-		41D375228E504ED7AD41DA99 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = D750B3336A4441BDB23C88AA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */; };
-		432C9AAE21EF4690AD60AD6B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7613FF60F8D64B358FBD78B3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		446D5E7BB08C4C76A0AD7AF9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXBuildFile; fileRef = 460D4F44156146CE83BFB24D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */; };
-		46DB8A943E1A470399023C5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXBuildFile; fileRef = EAD153328E8E45E0BADADF47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */; };
-		54753F15E67E41ABA61B50DC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 2B908643122C40E9ACE49F9E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */; };
-		6C9E92377A704953816438FF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = 19D25059D0C043FD88DEBEA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
-		6EEDEBEB26304864B5A009A8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = 79F169CD2D8D43C293BB7C2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
-		7858F2C5397F42AF85C0CBB7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXBuildFile; fileRef = 31ACC1DBC5EF4DCFAEBF132B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */; };
-		8267B0021558461189170A60 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXBuildFile; fileRef = 3BCA045D3D4244B5B058BA0F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */; };
-		87DB066005C84C158F6184DF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXBuildFile; fileRef = EFF8D589A2C14057946D6989 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */; };
-		8842C1768F324C3CA08286EF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = BE19FD440626459483BC0BA2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
-		885A63BC13E14263B55864A1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 98E2B862B56F465C82CB4060 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
-		88E1362F11784DFAA79DD461 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = CAA42FF763E44A47BFFFB097 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
-		8AEDDE4B976F4E00A4109080 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXBuildFile; fileRef = 93B41FBBF97D489693DAE450 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */; };
-		953C12336FA54476A2F45B8F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXBuildFile; fileRef = 9400F7F28B65400EABAFAA4A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */; };
-		9ACCD2152F4142DDA2E460A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = 1A2CDF987E024825A5D5087E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
-		B54CFE9A039A4A7199FBF8C2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = 0A69E6D6274F46E39569191E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
-		B69542C21FDD4C9CBE2648A1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = 0BFC899F2AB644FC8C1E3531 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */; };
-		B8EC38DF10524A82B389D9FF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = 714A36ABE5C549E8932330A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
-		C400A6E30EE94D1CAC815EB0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = 2349DBB8C1634A40ADA75753 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
-		C4117C0F02DC4EFF956A032B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 50421A8F734E41A180216400 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
-		DE5E1B044C0B487C95960497 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 2A99255244004C05AF27866A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
-		E449E3D7292D453385D23189 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 38189449A79F414791D183CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
-		EBF62AD6E1C44A72A94BB4BC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXBuildFile; fileRef = F08DF3934C4644408CF3AF2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */; };
-		ED6164351991434C8E1D609C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXBuildFile; fileRef = 176C832D557144A5950DE207 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */; };
-		EF1F6B7DE8C1486B95E6DA34 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 58E418FCDD4F442DB21EE9F5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
-		F126E2F8C1CD46EDB14ED127 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXBuildFile; fileRef = 66550E82E95A47FA8454B726 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */; };
-		F364C76B51364A1AB280FCFC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4D08650C38A94DADAE1CF0AB /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
-		FE865548ABA04CEAAA91210F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = F4D64B3F1E12466C8B170D47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
-		FF5F57A0EE794F75800FE89F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = 4E4B3A102B4042DA8EF5D544 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		09675A5B23604C858FE6C2F1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = 5ADF02EFA7BB4DFB8871481D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */; };
+		1740CA51E2DD4468AB132E86 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = C39A5A7787CA480ABFC2A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		1DDB92FC27B54E38B92F1BA4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = 32A41A85F08C42F18DA09600 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		2AB155EC2A2544E9B00BDE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 1E66E279BC444286AB066305 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+		30F1D4649BA443C594C3319E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXBuildFile; fileRef = B2FF7E59DFBB47808CA22579 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */; };
+		35FB199F80DD4CE6ACB8079B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXBuildFile; fileRef = 9C21D78CF19E41E483F24D61 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */; };
+		3899C2E63CF44B949504A117 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXBuildFile; fileRef = 3A5038C05FB241ACA1240889 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */; };
+		465C80F7531040DC9C432EB5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 97ADA1DBFCC5411AADC0CDF9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		5B39CB11434A49EBB8EC2407 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXBuildFile; fileRef = 3A556E8E62FD4C83A8811B16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */; };
+		5FC6DF23DDFB4D84AEB3C34B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = DC07391D06344540AB27A057 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		6577B2485F6C4EAFA7652705 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = B4889E206A4E499DB947E522 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		68C8EE2E2EE64858B35B1CB8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXBuildFile; fileRef = FDFEA391BF1540A4AC59283E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */; };
+		6FE6B8435ADF4ADB9F5CB400 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 932BE351F8C342DD93EFDAED /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		772CD5037E254EE09E73C2FD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = F6A5F19311714C75964AB202 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */; };
+		7DA1A56F4B9B45329141F4D1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = F991841079D54A6F918F258D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		7E0B9FA852BD49ED9BB42B8B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXBuildFile; fileRef = 7A20054CD32142DBBC321C9F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */; };
+		8543A43680C1483A88061C57 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = D08D84E6ABAD4E15A1236274 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		8D039CF41C4D40D995437BCE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = 6D8700250F5843E985A99E1B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		8ED01D2CF38843C491201FE5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 48FBEDCF6620471C9039F1AF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		93FDCDE5BFBB4117876C24D2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXBuildFile; fileRef = 3E761C4FF1A54EA783A0C91E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */; };
+		9653AD1F6BCF4FD2A5EFEFB8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXBuildFile; fileRef = B8E3433EF1F94C3EB0C81475 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */; };
+		9C0719F56C04421D8D7FA827 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 09B5F3D1BEE94A9D93EB3214 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		9CFAD55CC5DF40F38EE9F890 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = D111D00787E84AE09A77EF48 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+		A8737A85158B4839B45D3E9E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXBuildFile; fileRef = FA1F02F4A35A494F846595F8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */; };
+		AB2D64ADB8DF47439DE08000 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXBuildFile; fileRef = 366F3F42B5AC4B20B8C8AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */; };
+		AB49CAB792304129A0311C9D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = 6CFBE0DAB1F64262BCC65B95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		AD9BC0DF2023421DAEE67455 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = EA5E527DB4154D9DBD2440E5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		B192B40A2E1E4C12A6BB2B63 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXBuildFile; fileRef = 6FFE6EE486B3488782440005 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */; };
+		B1C7B20326F3465EA16F76A9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXBuildFile; fileRef = 0B82A0B7781B47869976CA8D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */; };
+		B7097D9436F8483083522763 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXBuildFile; fileRef = 0D411878FD00438EB5021CEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */; };
+		BB89D004054C474F8D628219 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXBuildFile; fileRef = 3F537F3C94B643DA9B45E3AC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */; };
+		C3EA965715564DBE8AAD7547 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = BC8EFBBE5547499FA7BB6F53 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		CE923B50B6864942A3E15BC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = E1BE8D32D70C42A2B19F773B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		D9D1253A9DBD468DAEB96627 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 3B7663E8C1424DE691244B8B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+		DE402D6B17244C0A9173A4B2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7F4896AA5AD44456862542A7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		E11CD443612F4BA89D72B41E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXBuildFile; fileRef = CA34A7A67DCD4E99AA257510 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */; };
+		E543FE5BED0C43FD941898E8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = BF73EFBC0B2240679BE7887F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		E73B655781FA4148A873E1AC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = 1359F98C2ECB455CAE4006D4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+		E9222D7E8B5840739CB6D64E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 9E51E789833E464FB895E6BA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		F1795F2DEE61480CBEDE988E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXBuildFile; fileRef = 01A65B9E3B8A4A3DB92AC431 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		6110EB608BB742F09DC0D84F /* Release */ = {
+		866964A93FDF44A5AD33F645 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		79A40221B90A4611B6E989DA /* Debug */ = {
+		CBF164AE82614F2F9E060E54 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -95,98 +95,98 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		19370541A80649DEBB9B91E9 /* PBXContainerItemProxy */ = {
+		1F1901C1E5434DD99837FB48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 25AD978AA4CC43F2AD368F3F /* Project object */;
+			containerPortal = FBB8DE510AC34045BE6E22FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
 			remoteInfo = ZERO_CHECK;
 		};
-		1B17F37833ED4333AE93455D /* PBXContainerItemProxy */ = {
+		268E5DBD058E4D24BF8534D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 25AD978AA4CC43F2AD368F3F /* Project object */;
+			containerPortal = FBB8DE510AC34045BE6E22FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5C58C1249134D359DAAB5F0;
-			remoteInfo = again;
-		};
-		1C31A8F1C53A46528919152A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25AD978AA4CC43F2AD368F3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
-		};
-		1EDC21E51A0D417FA26B3108 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25AD978AA4CC43F2AD368F3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2DE613827944210823B6F26;
+			remoteGlobalIDString = 5DF06B51E5404B7A8788FBDB;
 			remoteInfo = againsimple;
 		};
-		4C171DA9CA94436AABA107D0 /* PBXContainerItemProxy */ = {
+		330F28FF18CF445E90C7D4A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 25AD978AA4CC43F2AD368F3F /* Project object */;
+			containerPortal = FBB8DE510AC34045BE6E22FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteGlobalIDString = A86C83EA65364505BE7DBC89;
+			remoteInfo = again;
+		};
+		8B7213ED1B7649319038425D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB8DE510AC34045BE6E22FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
+		};
+		9ACD70350BAC4BCF8AB523DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB8DE510AC34045BE6E22FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FEA2FD084D418BA719A720 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcontroller.h; path = source/againcontroller.h; sourceTree = SOURCE_ROOT; };
-		045BB9DA3E2248199DDDD314 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		0A69E6D6274F46E39569191E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
-		0BFC899F2AB644FC8C1E3531 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
-		125DE2B9FCCC4996980EE2D8 /* againsimple */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = againsimple.bundle/Contents/MacOS/againsimple; sourceTree = BUILT_PRODUCTS_DIR; };
-		176C832D557144A5950DE207 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = again.cpp; path = source/again.cpp; sourceTree = SOURCE_ROOT; };
-		19D25059D0C043FD88DEBEA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
-		1A2CDF987E024825A5D5087E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		1FD3526B0E2249C2A522E508 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
-		2349DBB8C1634A40ADA75753 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
-		2457919C7A7B4957878BCBDE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
-		2A99255244004C05AF27866A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
-		2B908643122C40E9ACE49F9E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againcontroller.cpp; path = source/againcontroller.cpp; sourceTree = SOURCE_ROOT; };
-		31ACC1DBC5EF4DCFAEBF132B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstsinglecomponenteffect.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp; sourceTree = "<absolute>"; };
-		38189449A79F414791D183CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
-		3BCA045D3D4244B5B058BA0F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = again.h; path = source/again.h; sourceTree = SOURCE_ROOT; };
-		460D4F44156146CE83BFB24D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againuimessagecontroller.h; path = source/againuimessagecontroller.h; sourceTree = SOURCE_ROOT; };
-		4D08650C38A94DADAE1CF0AB /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4E4B3A102B4042DA8EF5D544 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
-		50421A8F734E41A180216400 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
-		539A044FAE15488CA52F549B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsidechain.h; path = source/againsidechain.h; sourceTree = SOURCE_ROOT; };
-		58E418FCDD4F442DB21EE9F5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
-		5D5383821EE44D86BE96410C /* again */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = again.bundle/Contents/MacOS/again; sourceTree = BUILT_PRODUCTS_DIR; };
-		66550E82E95A47FA8454B726 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png; sourceTree = SOURCE_ROOT; };
-		6E0A1ACC083341C0B6269112 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		714A36ABE5C549E8932330A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
-		7613FF60F8D64B358FBD78B3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		79F169CD2D8D43C293BB7C2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
-		93B41FBBF97D489693DAE450 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsimple.cpp; path = source/againsimple.cpp; sourceTree = SOURCE_ROOT; };
-		9400F7F28B65400EABAFAA4A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstsinglecomponenteffect.h; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h; sourceTree = "<absolute>"; };
-		98E2B862B56F465C82CB4060 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
-		AD0D27EBD2C241F4AB478452 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsimple.h; path = source/againsimple.h; sourceTree = SOURCE_ROOT; };
-		B16A554F34C743A7A3834E63 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againprocess.h; path = source/againprocess.h; sourceTree = SOURCE_ROOT; };
-		BE19FD440626459483BC0BA2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
-		BF2892E0D18B4C8DAC4220B8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
-		CAA42FF763E44A47BFFFB097 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		D3F33169596949A8B63D946D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; sourceTree = SOURCE_ROOT; };
-		D750B3336A4441BDB23C88AA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
-		E4CB4A5C1D164B579BBFCD1D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		EAD153328E8E45E0BADADF47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againentry.cpp; path = source/againentry.cpp; sourceTree = SOURCE_ROOT; };
-		EFF8D589A2C14057946D6989 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcids.h; path = source/againcids.h; sourceTree = SOURCE_ROOT; };
-		F08DF3934C4644408CF3AF2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsidechain.cpp; path = source/againsidechain.cpp; sourceTree = SOURCE_ROOT; };
-		F4D64B3F1E12466C8B170D47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		0126C781896D453CB5B30B9E /* again */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = again.bundle/Contents/MacOS/again; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A65B9E3B8A4A3DB92AC431 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againentry.cpp; path = source/againentry.cpp; sourceTree = SOURCE_ROOT; };
+		09B5F3D1BEE94A9D93EB3214 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0B82A0B7781B47869976CA8D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsimple.h; path = source/againsimple.h; sourceTree = SOURCE_ROOT; };
+		0D411878FD00438EB5021CEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againuimessagecontroller.h; path = source/againuimessagecontroller.h; sourceTree = SOURCE_ROOT; };
+		1359F98C2ECB455CAE4006D4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		1E66E279BC444286AB066305 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		32A41A85F08C42F18DA09600 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		366F3F42B5AC4B20B8C8AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againprocess.h; path = source/againprocess.h; sourceTree = SOURCE_ROOT; };
+		3A5038C05FB241ACA1240889 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png; sourceTree = SOURCE_ROOT; };
+		3A556E8E62FD4C83A8811B16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; sourceTree = SOURCE_ROOT; };
+		3B7663E8C1424DE691244B8B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		3E761C4FF1A54EA783A0C91E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsidechain.h; path = source/againsidechain.h; sourceTree = SOURCE_ROOT; };
+		3F537F3C94B643DA9B45E3AC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsimple.cpp; path = source/againsimple.cpp; sourceTree = SOURCE_ROOT; };
+		4326BBE56BCE490AA157916A /* againsimple */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = againsimple.bundle/Contents/MacOS/againsimple; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FBEDCF6620471C9039F1AF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		5ADF02EFA7BB4DFB8871481D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		6CFBE0DAB1F64262BCC65B95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		6D8700250F5843E985A99E1B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		6FFE6EE486B3488782440005 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsidechain.cpp; path = source/againsidechain.cpp; sourceTree = SOURCE_ROOT; };
+		7A20054CD32142DBBC321C9F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcids.h; path = source/againcids.h; sourceTree = SOURCE_ROOT; };
+		7F4896AA5AD44456862542A7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		932BE351F8C342DD93EFDAED /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		97ADA1DBFCC5411AADC0CDF9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		9C21D78CF19E41E483F24D61 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcontroller.h; path = source/againcontroller.h; sourceTree = SOURCE_ROOT; };
+		9E51E789833E464FB895E6BA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		B2FF7E59DFBB47808CA22579 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = again.cpp; path = source/again.cpp; sourceTree = SOURCE_ROOT; };
+		B4889E206A4E499DB947E522 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		B8E3433EF1F94C3EB0C81475 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againcontroller.cpp; path = source/againcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		BC8EFBBE5547499FA7BB6F53 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		BF73EFBC0B2240679BE7887F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		C39A5A7787CA480ABFC2A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		CA34A7A67DCD4E99AA257510 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = again.h; path = source/again.h; sourceTree = SOURCE_ROOT; };
+		D08D84E6ABAD4E15A1236274 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		D111D00787E84AE09A77EF48 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		DC07391D06344540AB27A057 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		E1BE8D32D70C42A2B19F773B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		EA5E527DB4154D9DBD2440E5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		EF30B9FFB3F4473C99593734 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F6A5F19311714C75964AB202 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		F991841079D54A6F918F258D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		FA1F02F4A35A494F846595F8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstsinglecomponenteffect.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp; sourceTree = "<absolute>"; };
+		FDFEA391BF1540A4AC59283E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstsinglecomponenteffect.h; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A23262481794882BC3BF259 /* Frameworks */ = {
+		2CCE9883F658448AB62179B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C9C8026D4B44E5A5F78D86 /* Frameworks */ = {
+		35D5963DAB0A4224A6F91FFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,163 +196,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AFFAF0139D94E52AD066530 /* Resources */ = {
+		01BAE597505F49DA9330C7AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		25EA2037B3FD48DCA7C13134 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D3F33169596949A8B63D946D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
-				D750B3336A4441BDB23C88AA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
-				66550E82E95A47FA8454B726 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
-				0BFC899F2AB644FC8C1E3531 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
-				1FD3526B0E2249C2A522E508 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
-				2457919C7A7B4957878BCBDE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
-				79F169CD2D8D43C293BB7C2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
-				BF2892E0D18B4C8DAC4220B8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
-				98E2B862B56F465C82CB4060 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
-				50421A8F734E41A180216400 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		32F0F21902044E699118CD13 /* PlugInExamples */ = {
-			isa = PBXGroup;
-			children = (
-				B06413CBCCED4FF4ABC33854 /* again */,
-				8C1E0B05E1C849158CD71206 /* againsimple */,
-			);
-			name = PlugInExamples;
-			sourceTree = "<group>";
-		};
-		6EAFED9DEEB94750B4B36965 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				93B41FBBF97D489693DAE450 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
-				7613FF60F8D64B358FBD78B3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-				31ACC1DBC5EF4DCFAEBF132B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		8C1E0B05E1C849158CD71206 /* againsimple */ = {
-			isa = PBXGroup;
-			children = (
-				6EAFED9DEEB94750B4B36965 /* Source Files */,
-				8CB25590632240B3A78B1B2D /* Header Files */,
-				96EB46D2D7ED4BA49C82671F /* Resources */,
-				4D08650C38A94DADAE1CF0AB /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
-				2349DBB8C1634A40ADA75753 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
-			);
-			name = againsimple;
-			sourceTree = "<group>";
-		};
-		8CB25590632240B3A78B1B2D /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A69E6D6274F46E39569191E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
-				AD0D27EBD2C241F4AB478452 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */,
-				CAA42FF763E44A47BFFFB097 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
-				9400F7F28B65400EABAFAA4A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		96EB46D2D7ED4BA49C82671F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				58E418FCDD4F442DB21EE9F5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
-				714A36ABE5C549E8932330A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
-				19D25059D0C043FD88DEBEA5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
-				F4D64B3F1E12466C8B170D47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
-				38189449A79F414791D183CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
-				2A99255244004C05AF27866A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A5A43EB240DD4C49A2247D28 = {
-			isa = PBXGroup;
-			children = (
-				32F0F21902044E699118CD13 /* PlugInExamples */,
-				BC52E70FD7444090A8CE0133 /* ALL_BUILD */,
-				B097687D6DD64AA782CCFA58 /* Products */,
-				B4E7B391541940389AA6A50C /* Frameworks */,
-				1AFFAF0139D94E52AD066530 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		B06413CBCCED4FF4ABC33854 /* again */ = {
-			isa = PBXGroup;
-			children = (
-				C7EDE597D1424B2F8E0983DF /* Source Files */,
-				D953F36AA1AA44B8850CC3D6 /* Header Files */,
-				25EA2037B3FD48DCA7C13134 /* Resources */,
-				6E0A1ACC083341C0B6269112 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
-				BE19FD440626459483BC0BA2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
-			);
-			name = again;
-			sourceTree = "<group>";
-		};
-		B097687D6DD64AA782CCFA58 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D5383821EE44D86BE96410C /* again */,
-				125DE2B9FCCC4996980EE2D8 /* againsimple */,
+				0126C781896D453CB5B30B9E /* again */,
+				4326BBE56BCE490AA157916A /* againsimple */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4E7B391541940389AA6A50C /* Frameworks */ = {
+		1949B2A70BC047F7B1F8F5B9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3A556E8E62FD4C83A8811B16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				F6A5F19311714C75964AB202 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				3A5038C05FB241ACA1240889 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				5ADF02EFA7BB4DFB8871481D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+				48FBEDCF6620471C9039F1AF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				C39A5A7787CA480ABFC2A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				6CFBE0DAB1F64262BCC65B95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				6D8700250F5843E985A99E1B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				1E66E279BC444286AB066305 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				9E51E789833E464FB895E6BA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		B5643F70A2C546D099DCE516 /* CMake Rules */ = {
+		1E689AA0A6044C6EB56E22E3 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				7F2583189FA645E89C1455B9 /* again */,
+				1F287B6790A24762AE778932 /* againsimple */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		1F287B6790A24762AE778932 /* againsimple */ = {
+			isa = PBXGroup;
+			children = (
+				6E3987FE56A94C91A28517CB /* Source Files */,
+				E4360035A3E348F985AA9C7C /* Header Files */,
+				2A1006D918104DF9A3E5F123 /* Resources */,
+				7F4896AA5AD44456862542A7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				D111D00787E84AE09A77EF48 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = againsimple;
+			sourceTree = "<group>";
+		};
+		2A1006D918104DF9A3E5F123 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97ADA1DBFCC5411AADC0CDF9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				F991841079D54A6F918F258D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				E1BE8D32D70C42A2B19F773B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				B4889E206A4E499DB947E522 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				3B7663E8C1424DE691244B8B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				BC8EFBBE5547499FA7BB6F53 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E5DDAB9C97640F5AE691CF3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				558A1E4E24B34ACC8F33AAC9 /* CMake Rules */,
+				EF30B9FFB3F4473C99593734 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		422856C0476D4C078BD30299 = {
+			isa = PBXGroup;
+			children = (
+				1E689AA0A6044C6EB56E22E3 /* PlugInExamples */,
+				3E5DDAB9C97640F5AE691CF3 /* ALL_BUILD */,
+				01BAE597505F49DA9330C7AB /* Products */,
+				A5BB0E91F6CD4FB69D9369B4 /* Frameworks */,
+				6D7EB9C3B17743DDA3BB763C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		45D3C20D43DA400EB1DC2189 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA34A7A67DCD4E99AA257510 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */,
+				7A20054CD32142DBBC321C9F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */,
+				9C21D78CF19E41E483F24D61 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */,
+				D08D84E6ABAD4E15A1236274 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				366F3F42B5AC4B20B8C8AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */,
+				3E761C4FF1A54EA783A0C91E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */,
+				0D411878FD00438EB5021CEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */,
+				32A41A85F08C42F18DA09600 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		52A8E584F6F24C409759B09F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF7E59DFBB47808CA22579 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				B8E3433EF1F94C3EB0C81475 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				01A65B9E3B8A4A3DB92AC431 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				6FFE6EE486B3488782440005 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				DC07391D06344540AB27A057 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		558A1E4E24B34ACC8F33AAC9 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		BC52E70FD7444090A8CE0133 /* ALL_BUILD */ = {
+		6D7EB9C3B17743DDA3BB763C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B5643F70A2C546D099DCE516 /* CMake Rules */,
-				045BB9DA3E2248199DDDD314 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		C7EDE597D1424B2F8E0983DF /* Source Files */ = {
+		6E3987FE56A94C91A28517CB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				176C832D557144A5950DE207 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
-				2B908643122C40E9ACE49F9E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
-				EAD153328E8E45E0BADADF47 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
-				F08DF3934C4644408CF3AF2D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
-				E4CB4A5C1D164B579BBFCD1D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				3F537F3C94B643DA9B45E3AC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				932BE351F8C342DD93EFDAED /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				FA1F02F4A35A494F846595F8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		D953F36AA1AA44B8850CC3D6 /* Header Files */ = {
+		7F2583189FA645E89C1455B9 /* again */ = {
 			isa = PBXGroup;
 			children = (
-				3BCA045D3D4244B5B058BA0F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.h */,
-				EFF8D589A2C14057946D6989 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */,
-				03FEA2FD084D418BA719A720 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */,
-				4E4B3A102B4042DA8EF5D544 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
-				B16A554F34C743A7A3834E63 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */,
-				539A044FAE15488CA52F549B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */,
-				460D4F44156146CE83BFB24D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */,
-				1A2CDF987E024825A5D5087E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+				52A8E584F6F24C409759B09F /* Source Files */,
+				45D3C20D43DA400EB1DC2189 /* Header Files */,
+				1949B2A70BC047F7B1F8F5B9 /* Resources */,
+				09B5F3D1BEE94A9D93EB3214 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				1359F98C2ECB455CAE4006D4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = again;
+			sourceTree = "<group>";
+		};
+		A5BB0E91F6CD4FB69D9369B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4360035A3E348F985AA9C7C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF73EFBC0B2240679BE7887F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				0B82A0B7781B47869976CA8D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */,
+				EA5E527DB4154D9DBD2440E5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+				FDFEA391BF1540A4AC59283E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -360,73 +360,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5C58C1249134D359DAAB5F0 /* again */ = {
+		5DF06B51E5404B7A8788FBDB /* againsimple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E4A09AB9F9B4A499DA1353A /* Build configuration list for PBXNativeTarget "again" */;
-			buildPhases = (
-				90D796569263D36E62657D41 /* CMake PreBuild Rules */,
-				7CC81A1DEDFE40C893F2F491 /* Resources */,
-				6255C7AE44604C49AC17649F /* Copy files */,
-				A7E0CA6D4DAD4657A23B208D /* Sources */,
-				C9C9C8026D4B44E5A5F78D86 /* Frameworks */,
-				8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4398C4AF01C64340AA3A3B48 /* PBXTargetDependency */,
-			);
-			name = again;
-			productName = again;
-			productReference = 5D5383821EE44D86BE96410C /* again */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F2DE613827944210823B6F26 /* againsimple */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A411E4AA4075469E96C3EE3F /* Build configuration list for PBXNativeTarget "againsimple" */;
+			buildConfigurationList = 85FD112D9A5C4DCEA669942A /* Build configuration list for PBXNativeTarget "againsimple" */;
 			buildPhases = (
 				B2E992606C094E349D2EA5DD /* CMake PreBuild Rules */,
-				BC7B5CE6CF2D4A84BA11AEEA /* Resources */,
-				091ECC7FB7E545848676317E /* Sources */,
-				4A23262481794882BC3BF259 /* Frameworks */,
+				C51C729930B342D490B0E611 /* Resources */,
+				231A2524D7CC478F94269C2A /* Sources */,
+				2CCE9883F658448AB62179B9 /* Frameworks */,
 				B28AA52707A4BD9B16E8BDCA /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE74014DE31D4B2FA92904AD /* PBXTargetDependency */,
+				4BCBB94C7A1C450897135EDF /* PBXTargetDependency */,
 			);
 			name = againsimple;
 			productName = againsimple;
-			productReference = 125DE2B9FCCC4996980EE2D8 /* againsimple */;
+			productReference = 4326BBE56BCE490AA157916A /* againsimple */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A86C83EA65364505BE7DBC89 /* again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19754041239D4E9A990A2A0E /* Build configuration list for PBXNativeTarget "again" */;
+			buildPhases = (
+				90D796569263D36E62657D41 /* CMake PreBuild Rules */,
+				A92F0ECC62174FDFAE33BB12 /* Resources */,
+				6D798D1A4E704397932E3D08 /* Copy files */,
+				B5AB79C0654843ACB7D0001F /* Sources */,
+				35D5963DAB0A4224A6F91FFD /* Frameworks */,
+				8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F856A051DE4D54903AB20A /* PBXTargetDependency */,
+			);
+			name = again;
+			productName = again;
+			productReference = 0126C781896D453CB5B30B9E /* again */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		25AD978AA4CC43F2AD368F3F /* Project object */ = {
+		FBB8DE510AC34045BE6E22FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 9E8BAFB2B14544D18C897331 /* Build configuration list for PBXProject "smtg-vst3-again" */;
+			buildConfigurationList = 4AE1315B7C924E1AA80C8233 /* Build configuration list for PBXProject "smtg-vst3-again" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				79A40221B90A4611B6E989DA /* Debug */,
-				6110EB608BB742F09DC0D84F /* Release */,
+				CBF164AE82614F2F9E060E54 /* Debug */,
+				866964A93FDF44A5AD33F645 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = A5A43EB240DD4C49A2247D28;
+			mainGroup = 422856C0476D4C078BD30299;
 			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again;
 			projectRoot = "";
 			targets = (
-				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
-				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
-				D5C58C1249134D359DAAB5F0 /* again */,
-				F2DE613827944210823B6F26 /* againsimple */,
+				0A5E7076A61147B787503A1D /* ALL_BUILD */,
+				29795D65426E4303BAC101BA /* ZERO_CHECK */,
+				A86C83EA65364505BE7DBC89 /* again */,
+				5DF06B51E5404B7A8788FBDB /* againsimple */,
 			);
 		};
 /* End PBXProject section */
@@ -643,223 +643,107 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CC81A1DEDFE40C893F2F491 /* Resources */ = {
+		A92F0ECC62174FDFAE33BB12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8842C1768F324C3CA08286EF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
-				2FAB3AAD05BC47A19FE935CE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
-				067C0B0A876C4815816636C4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
-				6EEDEBEB26304864B5A009A8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
-				28FAB71D55504BA2B4561EE0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
-				885A63BC13E14263B55864A1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
-				C4117C0F02DC4EFF956A032B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+				E73B655781FA4148A873E1AC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				8ED01D2CF38843C491201FE5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				1740CA51E2DD4468AB132E86 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				AB49CAB792304129A0311C9D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				8D039CF41C4D40D995437BCE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				2AB155EC2A2544E9B00BDE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				E9222D7E8B5840739CB6D64E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC7B5CE6CF2D4A84BA11AEEA /* Resources */ = {
+		C51C729930B342D490B0E611 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C400A6E30EE94D1CAC815EB0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
-				EF1F6B7DE8C1486B95E6DA34 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
-				B8EC38DF10524A82B389D9FF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
-				6C9E92377A704953816438FF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
-				FE865548ABA04CEAAA91210F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
-				E449E3D7292D453385D23189 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
-				DE5E1B044C0B487C95960497 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+				9CFAD55CC5DF40F38EE9F890 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				465C80F7531040DC9C432EB5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				7DA1A56F4B9B45329141F4D1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				CE923B50B6864942A3E15BC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				6577B2485F6C4EAFA7652705 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				D9D1253A9DBD468DAEB96627 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				C3EA965715564DBE8AAD7547 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		091ECC7FB7E545848676317E /* Sources */ = {
+		231A2524D7CC478F94269C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEDDE4B976F4E00A4109080 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
-				432C9AAE21EF4690AD60AD6B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-				7858F2C5397F42AF85C0CBB7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
+				BB89D004054C474F8D628219 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				6FE6B8435ADF4ADB9F5CB400 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				A8737A85158B4839B45D3E9E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7E0CA6D4DAD4657A23B208D /* Sources */ = {
+		B5AB79C0654843ACB7D0001F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6164351991434C8E1D609C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
-				54753F15E67E41ABA61B50DC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
-				46DB8A943E1A470399023C5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
-				EBF62AD6E1C44A72A94BB4BC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
-				008C313DA7654E9FBAECD283 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				30F1D4649BA443C594C3319E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				9653AD1F6BCF4FD2A5EFEFB8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				F1795F2DEE61480CBEDE988E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				B192B40A2E1E4C12A6BB2B63 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				5FC6DF23DDFB4D84AEB3C34B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6255C7AE44604C49AC17649F /* Copy files */ = {
+		6D798D1A4E704397932E3D08 /* Copy files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = Snapshots;
 			dstSubfolderSpec = 7;
 			files = (
-				25648EB46A50455D9B355552 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
-				41D375228E504ED7AD41DA99 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
-				F126E2F8C1CD46EDB14ED127 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
-				B69542C21FDD4C9CBE2648A1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+				5B39CB11434A49EBB8EC2407 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				772CD5037E254EE09E73C2FD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				3899C2E63CF44B949504A117 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				09675A5B23604C858FE6C2F1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4398C4AF01C64340AA3A3B48 /* PBXTargetDependency */ = {
+		08CA7004EF3F48AC80C6E66B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 19370541A80649DEBB9B91E9 /* PBXContainerItemProxy */;
+			target = A86C83EA65364505BE7DBC89 /* again */;
+			targetProxy = 330F28FF18CF445E90C7D4A0 /* PBXContainerItemProxy */;
 		};
-		47735035937C44BD91EAB34C /* PBXTargetDependency */ = {
+		28F856A051DE4D54903AB20A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 1C31A8F1C53A46528919152A /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 9ACD70350BAC4BCF8AB523DA /* PBXContainerItemProxy */;
 		};
-		AE74014DE31D4B2FA92904AD /* PBXTargetDependency */ = {
+		4BCBB94C7A1C450897135EDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 4C171DA9CA94436AABA107D0 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 1F1901C1E5434DD99837FB48 /* PBXContainerItemProxy */;
 		};
-		B1ACBA1741AD4CA290BC10BF /* PBXTargetDependency */ = {
+		5C740B7C178545CDA91AE26F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2DE613827944210823B6F26 /* againsimple */;
-			targetProxy = 1EDC21E51A0D417FA26B3108 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 8B7213ED1B7649319038425D /* PBXContainerItemProxy */;
 		};
-		FDF5A1D74B254857898FF725 /* PBXTargetDependency */ = {
+		C3C138D8C2FB46B1AE21B9EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5C58C1249134D359DAAB5F0 /* again */;
-			targetProxy = 1B17F37833ED4333AE93455D /* PBXContainerItemProxy */;
+			target = 5DF06B51E5404B7A8788FBDB /* againsimple */;
+			targetProxy = 268E5DBD058E4D24BF8534D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22830BC167FE42DAB045D64B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2F84A4AAB63D45F79D8FB2A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4457FEB3B1604A0C9C4FBAC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEPLOYMENT_POSTPROCESSING = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",againsimple_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/again,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
-				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/againsimple.dir/Info.plist;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = BUNDLE;
-				ONLY_ACTIVE_ARCH = NO;
-				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
-				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libpluginterfaces.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
-				PRODUCT_NAME = againsimple;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/againsimple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-				WRAPPER_EXTENSION = vst3;
-			};
-			name = Release;
-		};
-		514AA2561A3244329246A4E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Release;
-		};
-		8800E7C2152947DC90FDB8E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A3A8B000E3E6437CB1130C74 /* Release */ = {
+		1BB4CED7DE584EEBB3A01FC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -897,18 +781,7 @@ fi
 			};
 			name = Release;
 		};
-		A9A4B15675DE4F9A8FB9E887 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Debug;
-		};
-		B09D208F19AA44B7BC419ADC /* Release */ = {
+		46888E177A33430C9AEE0A1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,7 +803,7 @@ fi
 			};
 			name = Release;
 		};
-		CAEFE19C62C246F7B58292F5 /* Debug */ = {
+		5A52C4A522CB465F944278BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -968,7 +841,96 @@ fi
 			};
 			name = Debug;
 		};
-		EF9AB2DB1E6844DB928CA8ED /* Debug */ = {
+		6A2CB0F091EF4B84BA9CA695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Debug;
+		};
+		6CA93E074D8E4C07904BB034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9012A897C4F44D0A8DF0DF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B2928657103A4969B44B0AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BB3BB3820FE340CD86474FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
+		D29FD60D8F6F4DC6804FFF75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1006,55 +968,93 @@ fi
 			};
 			name = Debug;
 		};
+		D2AD1C2F22C443DDABF0C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",againsimple_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/again,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/again/CMakeFiles/againsimple.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libpluginterfaces.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
+				PRODUCT_NAME = againsimple;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/againsimple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E4A09AB9F9B4A499DA1353A /* Build configuration list for PBXNativeTarget "again" */ = {
+		19754041239D4E9A990A2A0E /* Build configuration list for PBXNativeTarget "again" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAEFE19C62C246F7B58292F5 /* Debug */,
-				A3A8B000E3E6437CB1130C74 /* Release */,
+				5A52C4A522CB465F944278BE /* Debug */,
+				1BB4CED7DE584EEBB3A01FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9B02DCFC68934CE99563E0EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		4AE1315B7C924E1AA80C8233 /* Build configuration list for PBXProject "smtg-vst3-again" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22830BC167FE42DAB045D64B /* Debug */,
-				B09D208F19AA44B7BC419ADC /* Release */,
+				6A2CB0F091EF4B84BA9CA695 /* Debug */,
+				BB3BB3820FE340CD86474FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9E8BAFB2B14544D18C897331 /* Build configuration list for PBXProject "smtg-vst3-again" */ = {
+		53813607ACCC41388CF3FAB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9A4B15675DE4F9A8FB9E887 /* Debug */,
-				514AA2561A3244329246A4E2 /* Release */,
+				9012A897C4F44D0A8DF0DF86 /* Debug */,
+				6CA93E074D8E4C07904BB034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A411E4AA4075469E96C3EE3F /* Build configuration list for PBXNativeTarget "againsimple" */ = {
+		85FD112D9A5C4DCEA669942A /* Build configuration list for PBXNativeTarget "againsimple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF9AB2DB1E6844DB928CA8ED /* Debug */,
-				4457FEB3B1604A0C9C4FBAC1 /* Release */,
+				D29FD60D8F6F4DC6804FFF75 /* Debug */,
+				D2AD1C2F22C443DDABF0C6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D4C3A9FBEBDB47C5B24EE7C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		B505A777A3D44B2C8087D585 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F84A4AAB63D45F79D8FB2A7 /* Debug */,
-				8800E7C2152947DC90FDB8E9 /* Release */,
+				B2928657103A4969B44B0AA3 /* Debug */,
+				46888E177A33430C9AEE0A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 25AD978AA4CC43F2AD368F3F /* Project object */;
+	rootObject = FBB8DE510AC34045BE6E22FD /* Project object */;
 }

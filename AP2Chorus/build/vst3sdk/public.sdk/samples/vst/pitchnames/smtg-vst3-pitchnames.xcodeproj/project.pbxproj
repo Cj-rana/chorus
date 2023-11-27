@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+		0A5E7076A61147B787503A1D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D0179BF8DC404E2B9AB8F3D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = A963102F79F64E7B8BFB8D4E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				F71FEA072CC4FA4C1D13B7B0 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				D71D8AF2FA8D4A1E9CB06C4B /* PBXTargetDependency */,
-				84C6630DC5A142A6A77FB20B /* PBXTargetDependency */,
+				B0F3466451F847BAAFA6A888 /* PBXTargetDependency */,
+				F3AA3B4AE5E9497FBA48BB42 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+		29795D65426E4303BAC101BA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D293F5F69D4F4C5AA8A4D2B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = EC2D37CF6300425398968E07 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				410144CBD2BEBE37AFC5D239 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,72 +34,72 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2126E8FEFD7244AFBD31830B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 71028B6BF6CA41FEA1156B97 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */; };
-		4C6B6C26EF244C7DB240CA95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 3E1ABD2E0C0540CAB0362E4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		557270CC7C9F46FE8D0A8D22 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7B8AD9479CFA469585B5C67C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */; };
-		61FADD3D678942F8A0226E95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = FA1B3A5F7CE94B428D12E1A6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */; };
-		752C50B45FF24246B30A8825 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXBuildFile; fileRef = 92F89F067EB44C4595B2CC03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */; };
-		E73924AE72864650823F1363 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXBuildFile; fileRef = 7301501A91264C3F889DE7C4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */; };
-		F5D94C95F8084F0687262ECB /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXBuildFile; fileRef = 8B9500F9BBC54036B54A982C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */; };
-		FD2DA3957E4E40448718D310 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = 7D928C7263F9499981687042 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */; };
+		44506E3B2671484990881DCD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 7213286849AB4083BEE17F2B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */; };
+		466E1A9441614E919C8D07B0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4684DC60F6E64C92BDFBE542 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */; };
+		4D090D32E30E484D8A7647AA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXBuildFile; fileRef = EBD8FFC205614D10AC74702F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */; };
+		4F62C2F6AB084D22B97102D7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = D8DD56B284C14AFBA1E97E3D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */; };
+		95BB03DAAB034BFB8D211603 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXBuildFile; fileRef = 7089E55A7B7E4669A2071D16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */; };
+		A1110065F2614C2B9BE64C74 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 0C3187ED4756410FB63C043C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		A4DA565C99E348F29BAAEC2C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXBuildFile; fileRef = 158CA98906864E259656EF20 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */; };
+		DF0694534E074A8394E91A35 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = FA7FC86C77114DD980BADF26 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1A9D49A2A4A648FDA7BB8C6F /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		3A4CADAD26C6441B9DA2B197 /* Release */ = {
+		47E934B15ABA439EA422A1CD /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		E9E74E6B8EDA4B059E131B5B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		AA08CBB1C47A4BEDA997C9E0 /* PBXContainerItemProxy */ = {
+		5FFF5AD00C5A476394C46752 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3DA3B53398DD456092A5DAF3 /* Project object */;
+			containerPortal = F2A87466F381430BA0BC2AAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
-		};
-		CDB9BFA00C824601A9026B82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DA3B53398DD456092A5DAF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
-		};
-		EC036318483E40AA8DC1E8A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DA3B53398DD456092A5DAF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D58B897CA10417499BDDD0F;
+			remoteGlobalIDString = FAADF1902499445CBBAE8D23;
 			remoteInfo = pitchnames;
+		};
+		9A75F65115D34DDC8BB96633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A87466F381430BA0BC2AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
+		};
+		DCB40F3EBAE94F4887F3E759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A87466F381430BA0BC2AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E1ABD2E0C0540CAB0362E4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		71028B6BF6CA41FEA1156B97 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnamesdatabrowsersource.cpp; path = source/pitchnamesdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
-		7301501A91264C3F889DE7C4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnames.cpp; path = source/pitchnames.cpp; sourceTree = SOURCE_ROOT; };
-		7B8AD9479CFA469585B5C67C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7D928C7263F9499981687042 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnamesdatabrowsersource.h; path = source/pitchnamesdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
-		8B9500F9BBC54036B54A982C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnames.h; path = source/pitchnames.h; sourceTree = SOURCE_ROOT; };
-		92F89F067EB44C4595B2CC03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		BE3CDF22C9AF49B889C4AEBB /* pitchnames */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = pitchnames.bundle/Contents/MacOS/pitchnames; sourceTree = BUILT_PRODUCTS_DIR; };
-		E49F904E5E364ED1BE844957 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FA1B3A5F7CE94B428D12E1A6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		08A9CB2FC3384911A8D248C1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0C3187ED4756410FB63C043C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		158CA98906864E259656EF20 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		21C419F3F86A4563AA74346C /* pitchnames */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = pitchnames.bundle/Contents/MacOS/pitchnames; sourceTree = BUILT_PRODUCTS_DIR; };
+		4684DC60F6E64C92BDFBE542 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7089E55A7B7E4669A2071D16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnames.cpp; path = source/pitchnames.cpp; sourceTree = SOURCE_ROOT; };
+		7213286849AB4083BEE17F2B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnamesdatabrowsersource.cpp; path = source/pitchnamesdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		D8DD56B284C14AFBA1E97E3D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnamesdatabrowsersource.h; path = source/pitchnamesdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		EBD8FFC205614D10AC74702F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnames.h; path = source/pitchnames.h; sourceTree = SOURCE_ROOT; };
+		FA7FC86C77114DD980BADF26 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA59C15DDD264D49BA218AF8 /* Frameworks */ = {
+		8D4EA2D4ADAD4E5B8E4AC5B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -109,141 +109,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06B8C88DF68E43C0AB0B8835 = {
+		26A877CAB01A4C919D363DE6 = {
 			isa = PBXGroup;
 			children = (
-				73ADE30E8A4040E785F28808 /* PlugInExamples */,
-				E7CFC2E8367F44E8A93D0B37 /* ALL_BUILD */,
-				2A936289A73D4E118CA7E462 /* Products */,
-				D976EB8A51D84A7995A20683 /* Frameworks */,
-				A435A6331C0545A795DC2944 /* Resources */,
+				3BAC510F77AB4864B0840BC3 /* PlugInExamples */,
+				39F983A8D1FA4E948609F678 /* ALL_BUILD */,
+				B389F6ACA1FE443E8B3B3798 /* Products */,
+				9CEA551F09D144638A86FA7B /* Frameworks */,
+				C05A309A171446B0B05B8DC2 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
-		2A936289A73D4E118CA7E462 /* Products */ = {
+		3657A1E2D7B945A899B86F2B /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE3CDF22C9AF49B889C4AEBB /* pitchnames */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		73ADE30E8A4040E785F28808 /* PlugInExamples */ = {
-			isa = PBXGroup;
-			children = (
-				D69008353EFC4B3991A4D49C /* pitchnames */,
-			);
-			name = PlugInExamples;
-			sourceTree = "<group>";
-		};
-		74E1BC55BB9B425182D56CED /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B9500F9BBC54036B54A982C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */,
-				7D928C7263F9499981687042 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */,
-				92F89F067EB44C4595B2CC03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */,
+				EBD8FFC205614D10AC74702F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */,
+				D8DD56B284C14AFBA1E97E3D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */,
+				158CA98906864E259656EF20 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		A435A6331C0545A795DC2944 /* Resources */ = {
+		39F983A8D1FA4E948609F678 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
+				90BEF3FBE7DA409599D28CFB /* CMake Rules */,
+				08A9CB2FC3384911A8D248C1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
 			);
-			name = Resources;
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		B415C50F83694467A970F647 /* CMake Rules */ = {
+		3BAC510F77AB4864B0840BC3 /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FEC8A308B4465856AD0CB /* pitchnames */,
+			);
+			name = PlugInExamples;
+			sourceTree = "<group>";
+		};
+		90BEF3FBE7DA409599D28CFB /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		B8C8D2E4EF5F4CF190F5DC7B /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA1B3A5F7CE94B428D12E1A6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
-				7301501A91264C3F889DE7C4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
-				71028B6BF6CA41FEA1156B97 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
-				3E1ABD2E0C0540CAB0362E4F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		D69008353EFC4B3991A4D49C /* pitchnames */ = {
-			isa = PBXGroup;
-			children = (
-				B8C8D2E4EF5F4CF190F5DC7B /* Source Files */,
-				74E1BC55BB9B425182D56CED /* Header Files */,
-				7B8AD9479CFA469585B5C67C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
-			);
-			name = pitchnames;
-			sourceTree = "<group>";
-		};
-		D976EB8A51D84A7995A20683 /* Frameworks */ = {
+		9CEA551F09D144638A86FA7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7CFC2E8367F44E8A93D0B37 /* ALL_BUILD */ = {
+		B389F6ACA1FE443E8B3B3798 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B415C50F83694467A970F647 /* CMake Rules */,
-				E49F904E5E364ED1BE844957 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
+				21C419F3F86A4563AA74346C /* pitchnames */,
 			);
-			name = ALL_BUILD;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDD7A0401B34E3AA31E2C0A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FC86C77114DD980BADF26 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
+				7089E55A7B7E4669A2071D16 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
+				7213286849AB4083BEE17F2B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
+				0C3187ED4756410FB63C043C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C05A309A171446B0B05B8DC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC1FEC8A308B4465856AD0CB /* pitchnames */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD7A0401B34E3AA31E2C0A /* Source Files */,
+				3657A1E2D7B945A899B86F2B /* Header Files */,
+				4684DC60F6E64C92BDFBE542 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
+			);
+			name = pitchnames;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D58B897CA10417499BDDD0F /* pitchnames */ = {
+		FAADF1902499445CBBAE8D23 /* pitchnames */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1559EA3CEFAE4010B4BECAA4 /* Build configuration list for PBXNativeTarget "pitchnames" */;
+			buildConfigurationList = F8E7C29D1EDC48039C78D0AD /* Build configuration list for PBXNativeTarget "pitchnames" */;
 			buildPhases = (
 				E35C9CD84555F2416E567FC4 /* CMake PreBuild Rules */,
-				E2F8E076AA0B47E99B04A123 /* Sources */,
-				EA59C15DDD264D49BA218AF8 /* Frameworks */,
+				12BF62BD88B647AD95E91602 /* Sources */,
+				8D4EA2D4ADAD4E5B8E4AC5B0 /* Frameworks */,
 				318742379DF52B4D4968104A /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6BDF7F25D68947DD87281674 /* PBXTargetDependency */,
+				C3F3F716D47D455A8DAFF4E3 /* PBXTargetDependency */,
 			);
 			name = pitchnames;
 			productName = pitchnames;
-			productReference = BE3CDF22C9AF49B889C4AEBB /* pitchnames */;
+			productReference = 21C419F3F86A4563AA74346C /* pitchnames */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3DA3B53398DD456092A5DAF3 /* Project object */ = {
+		F2A87466F381430BA0BC2AAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = F5BA4B05E7174359AECCA653 /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */;
+			buildConfigurationList = 93BE17E725184C298F13189B /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				1A9D49A2A4A648FDA7BB8C6F /* Debug */,
-				3A4CADAD26C6441B9DA2B197 /* Release */,
+				E9E74E6B8EDA4B059E131B5B /* Debug */,
+				47E934B15ABA439EA422A1CD /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 06B8C88DF68E43C0AB0B8835;
+			mainGroup = 26A877CAB01A4C919D363DE6;
 			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames;
 			projectRoot = "";
 			targets = (
-				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
-				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
-				5D58B897CA10417499BDDD0F /* pitchnames */,
+				0A5E7076A61147B787503A1D /* ALL_BUILD */,
+				29795D65426E4303BAC101BA /* ZERO_CHECK */,
+				FAADF1902499445CBBAE8D23 /* pitchnames */,
 			);
 		};
 /* End PBXProject section */
@@ -396,110 +396,39 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E2F8E076AA0B47E99B04A123 /* Sources */ = {
+		12BF62BD88B647AD95E91602 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FADD3D678942F8A0226E95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
-				E73924AE72864650823F1363 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
-				2126E8FEFD7244AFBD31830B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
-				4C6B6C26EF244C7DB240CA95 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				DF0694534E074A8394E91A35 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
+				95BB03DAAB034BFB8D211603 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
+				44506E3B2671484990881DCD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
+				A1110065F2614C2B9BE64C74 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6BDF7F25D68947DD87281674 /* PBXTargetDependency */ = {
+		B0F3466451F847BAAFA6A888 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = CDB9BFA00C824601A9026B82 /* PBXContainerItemProxy */;
+			target = FAADF1902499445CBBAE8D23 /* pitchnames */;
+			targetProxy = 5FFF5AD00C5A476394C46752 /* PBXContainerItemProxy */;
 		};
-		84C6630DC5A142A6A77FB20B /* PBXTargetDependency */ = {
+		C3F3F716D47D455A8DAFF4E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = AA08CBB1C47A4BEDA997C9E0 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = DCB40F3EBAE94F4887F3E759 /* PBXContainerItemProxy */;
 		};
-		D71D8AF2FA8D4A1E9CB06C4B /* PBXTargetDependency */ = {
+		F3AA3B4AE5E9497FBA48BB42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D58B897CA10417499BDDD0F /* pitchnames */;
-			targetProxy = EC036318483E40AA8DC1E8A0 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 9A75F65115D34DDC8BB96633 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		141B162187464D019AF7F629 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEPLOYMENT_POSTPROCESSING = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pitchnames_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/pitchnames,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
-				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeFiles/pitchnames.dir/Info.plist;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = BUNDLE;
-				ONLY_ACTIVE_ARCH = NO;
-				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
-				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libpluginterfaces.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.pitchnames;
-				PRODUCT_NAME = pitchnames;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/pitchnames.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-				WRAPPER_EXTENSION = vst3;
-			};
-			name = Release;
-		};
-		1EE899539868425EA86A03E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		227EFC1CF7164525A9C4853F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Debug;
-		};
-		528C33B01D2149E180B548A4 /* Debug */ = {
+		1D8C56EF792047DBB8EFCE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -537,7 +466,7 @@ fi
 			};
 			name = Debug;
 		};
-		BB47E8AF8D4F4EDAB0943509 /* Release */ = {
+		2C8DE149163C4A5EB2596B18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -559,7 +488,41 @@ fi
 			};
 			name = Release;
 		};
-		CB9B3E9569D54405A208194A /* Debug */ = {
+		34E67CEB78134683A1CF96F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
+		684C99C248504510AE6C28D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96B90133987C487BB8705C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,19 +544,7 @@ fi
 			};
 			name = Debug;
 		};
-		D20AC741710D464E9DA1B395 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Release;
-		};
-		EDC127C8B12141CCB61D6C3F /* Release */ = {
+		CCC1B26733C448EC9814443F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,53 +559,102 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Debug;
+		};
+		CD85068CB1634661800FF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pitchnames_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/cj/Documents/VST_SDK/vst3sdk,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/pitchnames,/Users/cj/Documents/VST_SDK/vst3sdk/vstgui4,/Users/cj/Documents/VST_SDK/vst3sdk/base/..,/Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/..,/Users/cj/Documents/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeFiles/pitchnames.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_support.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui_uidescription.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/lib/libexpat.tbd,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libsdk_common.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libbase.a,/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.pitchnames;
+				PRODUCT_NAME = pitchnames;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build/pitchnames.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
 			name = Release;
+		};
+		FC412E366388480BB3A08E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1559EA3CEFAE4010B4BECAA4 /* Build configuration list for PBXNativeTarget "pitchnames" */ = {
+		93BE17E725184C298F13189B /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				528C33B01D2149E180B548A4 /* Debug */,
-				141B162187464D019AF7F629 /* Release */,
+				FC412E366388480BB3A08E0E /* Debug */,
+				34E67CEB78134683A1CF96F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D0179BF8DC404E2B9AB8F3D1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		A963102F79F64E7B8BFB8D4E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE899539868425EA86A03E8 /* Debug */,
-				BB47E8AF8D4F4EDAB0943509 /* Release */,
+				CCC1B26733C448EC9814443F /* Debug */,
+				2C8DE149163C4A5EB2596B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D293F5F69D4F4C5AA8A4D2B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		EC2D37CF6300425398968E07 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB9B3E9569D54405A208194A /* Debug */,
-				EDC127C8B12141CCB61D6C3F /* Release */,
+				96B90133987C487BB8705C25 /* Debug */,
+				684C99C248504510AE6C28D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F5BA4B05E7174359AECCA653 /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */ = {
+		F8E7C29D1EDC48039C78D0AD /* Build configuration list for PBXNativeTarget "pitchnames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				227EFC1CF7164525A9C4853F /* Debug */,
-				D20AC741710D464E9DA1B395 /* Release */,
+				1D8C56EF792047DBB8EFCE53 /* Debug */,
+				CD85068CB1634661800FF11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3DA3B53398DD456092A5DAF3 /* Project object */;
+	rootObject = F2A87466F381430BA0BC2AAC /* Project object */;
 }

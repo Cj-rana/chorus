@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------
-// Copyright(c) 2023 .
+// Copyright(c) 2023 My Plug-in Company.
 //------------------------------------------------------------------------
 
 #pragma once
@@ -15,6 +15,6 @@
 #else
 #define stringFileDescription	"AP2Chorus VST3"
 #endif
-#define stringCompanyName		"\0"
-#define stringLegalCopyright	"Copyright(c) 2023 ."
+#define stringCompanyName		"My Plug-in Company\0"
+#define stringLegalCopyright	"Copyright(c) 2023 My Plug-in Company."
 #define stringLegalTrademarks	"VST is a trademark of Steinberg Media Technologies GmbH"

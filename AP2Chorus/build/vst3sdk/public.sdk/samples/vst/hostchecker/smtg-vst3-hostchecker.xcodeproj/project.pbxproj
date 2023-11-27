@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */ = {
+		0A5E7076A61147B787503A1D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C8FB4695EAEA424E8C3CF377 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 747707BBFC2D43DCAF07A624 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				B3E552C32F748F5F7B98F028 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				43997A8231C14093A99CD60B /* PBXTargetDependency */,
-				851F1CD1B0B04B45B732396E /* PBXTargetDependency */,
+				41289C7824C64E3DA5F4B0CD /* PBXTargetDependency */,
+				175E78903A0A494EAEB8FD06 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */ = {
+		29795D65426E4303BAC101BA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 45DD8595628045AEA4438807 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 71CD14D76ED940B68C2F3C74 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				ABED02CE0FA3CFD7F0AD0BAD /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,114 +34,114 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		17AAD4F241D44D8295CF3A77 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = 45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
-		276DF5DC47454AE882A1E8CD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
-		30498EA195F345F392260B7F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
-		4ABBA7C56FC54268B7ECB5EF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = 939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
-		4BA0802A8BA84E9CBC356820 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
-		5B0B79C482424F85A3EE8391 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = 9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
-		5FCB4B08B5B04B908E1ECE90 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
-		63B8C6B218AC4578BFD02CBC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
-		65FDB89D49DC4FF5BFEE9DFF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = 82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
-		74D8D5E2AD0442B296A1469C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = 66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
-		77175D8F52314DDBBA4CDAC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
-		7D3721C06306474FAFA54FC8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
-		9351486ED4EA4843BA1E37F6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
-		96912952E66040B692D2C53B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
-		A30F7C2D8749481E894A9B81 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = 8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
-		A625F251E0914BB18C7ABBD4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = 3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
-		A780FEE221F44A31A4EF16A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
-		AB51F9318B014CCA90FBB638 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = 36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
-		B1254EF97EF34CB5819D6A73 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
-		B2340AA6903F4F7AA309A4A3 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = 9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
-		B81366FE3EFD41229F264EBE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
-		BBC77DE2A2E8499CA8E9DDD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = 5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
-		C322494FE3204C8B925189BD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = 2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
-		C4B8B5BFA9BE41789AAF33A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
-		D819F493FF774623BEAB5147 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = 3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
-		D924AA331FC7439EADD19F50 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = 73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
-		E539755494A7463B94C1F06E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = 03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
-		EB6EFF2584DD4C2B8D965EE2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
-		F9F1AB2EE6674EBA9DCBB8A6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+		0302E03563F74C04B555DF28 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = 43311D9A272740339849413E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
+		06D749F544C84922BC41BC85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = B7FCA28020614C3181CAF6DC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
+		0A584D5F9CB34C6DA5E3971D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 66184CF549B842A580B0DC74 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		0C9C8DA53C8140A7AA70747D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F994029581AC4F71A930A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+		12C2B67E99944D6297A4820B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = 3519C0AAD42342139A03987C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
+		1C4F258A7CD34BC78AB5FBA8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = 7653F2FE2B44493DB45C0638 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
+		388DBBE783464FA88808A803 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = 415B3A29903743AA9268B328 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
+		4B635E07190B45D5B95FF01C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = 4D647353B6AD44BDBD529991 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
+		570D2472298C4E42BB1C71D8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = 3A9DB33E45D14BF48F9A5E82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
+		60EBCE7DF9A946CD9BA531F0 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = 24C867A12DE54073AD5ACCDC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
+		616390E214EC4817847DB9DD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = 44E35F468FF2416CB1D5A324 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
+		68286A911EED4C03A89BC996 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = B32E7C274F494BF79C61F37B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
+		75F2031917BF4370A609BF6F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 5459383FCBF045A498ACF9D9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
+		76EAB40D50D744E7B8358E10 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = B8159C64EC014CDDBE1F3B94 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
+		77261F336833476BA0E595A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = 9603CB19042D4E7482F2F599 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
+		7A74569B619B4FE1A22B37F1 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = 31FEA32A086349B0871D9657 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
+		7F8220AD8F1C458C90A42EF7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = DE821595D2164B96B910C051 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
+		8B441D8CB25B454EB46B78DD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = 42FA7188EADE4F3AA65EF969 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
+		98752C93498F488B953CB938 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = B12448185E204E62976753A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
+		99A0DAEC0BC84943B39E6A03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = 33372098C170469FA949C256 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
+		A43E3A053E854AE09E05493F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 88075D546CA5488799D9F775 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
+		A6124A411BDA46989BB2FD5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 5C175738D7234EAFA917DCB6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
+		C321F7135F574EB6857242F9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = 69CE857AA58F48B5BC21A593 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
+		CFA98AA277F04CA7A58E76CF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = 42F887C7824A49E58C7AF3A9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
+		D0D0A2DBD5FF4173924FF772 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = 890429D96EC64E178A2B1466 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
+		D975B634A2EB4544BD034A09 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 81D69D09FA3F4755B373196A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
+		D97B6D9281234636A972EFD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = D0055D8B4B4E4765917D676F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
+		D9EDBCF656C34857A4C83D03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = AD8CE1D58D2549FFAEA7DA83 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
+		DCEE3703278948F38B529E7E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = F0C13767C675462AB3A6AFEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		554F80BD421C44EDB8B122F9 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		FB8E1A23F03049B291B1A489 /* Release */ = {
+		7339310981AC40AE94F924A3 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		EF46C4A5419A460A86A136B3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		03B98FA6A25D4F23A659EB97 /* PBXContainerItemProxy */ = {
+		2505FD272F9D4F3595941F2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
+			containerPortal = D4A79CA554D549F98975C083 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
 			remoteInfo = ZERO_CHECK;
 		};
-		1C5EEF9DE92644F2B2E9DA50 /* PBXContainerItemProxy */ = {
+		7A1B69C231FD45B28F944E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
+			containerPortal = D4A79CA554D549F98975C083 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84B7C945C19446A88C32A7C4;
+			remoteGlobalIDString = 29795D65426E4303BAC101BA;
+			remoteInfo = ZERO_CHECK;
+		};
+		9CC88598708D4E2F8324608F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A79CA554D549F98975C083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E180591A414BDD9E816ECC;
 			remoteInfo = hostchecker;
-		};
-		305C7A5DDE834A17BD4A4792 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87D6F311797F49CD94CE9A9F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5BF522805FB459DA7C1FB18;
-			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
-		0EF51956538B477387F7BF3C /* hostchecker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = hostchecker.bundle/Contents/MacOS/hostchecker; sourceTree = BUILT_PRODUCTS_DIR; };
-		2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
-		27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
-		2C71C67B305942C89FC9C456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
-		3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
-		3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
-		45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
-		5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
-		5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
-		66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
-		6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
-		73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
-		7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
-		82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
-		89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
-		8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
-		939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
-		9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
-		9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
-		A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
-		B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
-		B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
-		BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
-		BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
-		CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
-		DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
-		DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
-		E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+		1051337BC1704D7083F80EF4 /* hostchecker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = hostchecker.bundle/Contents/MacOS/hostchecker; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C867A12DE54073AD5ACCDC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
+		31FEA32A086349B0871D9657 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		33372098C170469FA949C256 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
+		3519C0AAD42342139A03987C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
+		3A9DB33E45D14BF48F9A5E82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
+		415B3A29903743AA9268B328 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
+		42F887C7824A49E58C7AF3A9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
+		42FA7188EADE4F3AA65EF969 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
+		43311D9A272740339849413E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
+		44E35F468FF2416CB1D5A324 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
+		4D647353B6AD44BDBD529991 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
+		5459383FCBF045A498ACF9D9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		5C175738D7234EAFA917DCB6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		66184CF549B842A580B0DC74 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		69CE857AA58F48B5BC21A593 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
+		7653F2FE2B44493DB45C0638 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
+		81D69D09FA3F4755B373196A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		88075D546CA5488799D9F775 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
+		890429D96EC64E178A2B1466 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
+		9603CB19042D4E7482F2F599 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
+		AD8CE1D58D2549FFAEA7DA83 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
+		B12448185E204E62976753A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
+		B32E7C274F494BF79C61F37B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
+		B7FCA28020614C3181CAF6DC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
+		B8159C64EC014CDDBE1F3B94 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
+		C5B0A6EA99574624B42E8058 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D0055D8B4B4E4765917D676F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		DE821595D2164B96B910C051 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		F0C13767C675462AB3A6AFEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+		F994029581AC4F71A930A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39BF22B68C594E7F95E4ECE9 /* Frameworks */ = {
+		746BA0C22A614E20A8A89582 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,119 +151,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E8246E63B0349EBB23C6F51 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				B89059AF43D144B1A6A2FDFE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
-				B7FC7FB038094C3DAB7C641B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
-				27A32742DF594D4099ADF1BF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
-				03B90F43F00A41548D943D49 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
-				89DCEBFC875249B6A40599CA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
-				9D7EF65B378C45668D6CDACA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
-				45C56A35A0CE4D05BFE29EF4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
-				5155538A0ECD4AE585C823B7 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
-				82B9A88D061A426A89A61AC6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
-				8FDAB69890D64433A431ED0E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
-				CCAB590206EE4BD5B64C1598 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
-				7A7C06543E8E4372999904B4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		1EF50E4B2DBE4FAF86757E34 = {
-			isa = PBXGroup;
-			children = (
-				F79F1C7121914D0B946E436E /* PlugInExamples */,
-				5BC5C37244C24A6BA8CE70D4 /* ALL_BUILD */,
-				773D61E972854CB7B71CA7F3 /* Products */,
-				8C3F0CEFB8334BEAAD3A49F0 /* Frameworks */,
-				4609AB5F9C63405FA785BF32 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		3250139DFBB6427784DADB49 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				73EEE0D46D944BF2B3468F4C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
-				2644EF273603497CB211FF85 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
-				A6D5AE120CC34779B100AE30 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
-				BF50CE1A94954180AE0F6148 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
-				6A7B39BE358C4815B3AF12A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
-				DB68F9780D29496CACCB8681 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
-				939ACB2144BE4C9AAF39B783 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
-				BE27F995AA544364931C92FE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
-				E248DD213ED748F2B45E62AE /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
-				36980C44C4714FAF90A1BC80 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
-				DA8C3790A078480091954EEA /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
-				9D343552D5D14A228D5664A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
-				3AAA883783FF4729A769BE3B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		4609AB5F9C63405FA785BF32 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4F6869EE04A647898369B7CA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5C7F7223A8FA4277AA14F698 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
-				3F0EA65CB61E4657B3CD8D79 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5BC5C37244C24A6BA8CE70D4 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				A6C48060A27B4754863BD9F1 /* CMake Rules */,
-				2C71C67B305942C89FC9C456 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		773D61E972854CB7B71CA7F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0EF51956538B477387F7BF3C /* hostchecker */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8C3F0CEFB8334BEAAD3A49F0 /* Frameworks */ = {
+		2AAC1D8DE6294A5491170F83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8CE4D763F59C4E64855D1958 /* hostchecker */ = {
-			isa = PBXGroup;
-			children = (
-				3250139DFBB6427784DADB49 /* Header Files */,
-				0E8246E63B0349EBB23C6F51 /* Source Files */,
-				4F6869EE04A647898369B7CA /* Resources */,
-				8EDC46335AFD41B091F287B9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
-				66262C4FBCD945ACAE19418D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
-			);
-			name = hostchecker;
-			sourceTree = "<group>";
-		};
-		A6C48060A27B4754863BD9F1 /* CMake Rules */ = {
+		3142AFED2E9A4DDDBE995E47 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		F79F1C7121914D0B946E436E /* PlugInExamples */ = {
+		604F52E177B24B5E9FF25247 = {
 			isa = PBXGroup;
 			children = (
-				8CE4D763F59C4E64855D1958 /* hostchecker */,
+				CF6E8D0F49F04CEB9724C96E /* PlugInExamples */,
+				A3993877196745BF970217AF /* ALL_BUILD */,
+				9583435CB18A4157B808BE04 /* Products */,
+				2AAC1D8DE6294A5491170F83 /* Frameworks */,
+				8B2AD7DD55A544B7B5B905B3 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		6C55276BE21D4F40AAADBC7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7653F2FE2B44493DB45C0638 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				42F887C7824A49E58C7AF3A9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		731AEC76DA6749318550AC06 /* hostchecker */ = {
+			isa = PBXGroup;
+			children = (
+				AFB804D923534D93A5A558B3 /* Header Files */,
+				A06F1C1AE1724EEB8A6F8474 /* Source Files */,
+				6C55276BE21D4F40AAADBC7D /* Resources */,
+				F994029581AC4F71A930A521 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+				3519C0AAD42342139A03987C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+			);
+			name = hostchecker;
+			sourceTree = "<group>";
+		};
+		8B2AD7DD55A544B7B5B905B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9583435CB18A4157B808BE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1051337BC1704D7083F80EF4 /* hostchecker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06F1C1AE1724EEB8A6F8474 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0055D8B4B4E4765917D676F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				3A9DB33E45D14BF48F9A5E82 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				81D69D09FA3F4755B373196A /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				AD8CE1D58D2549FFAEA7DA83 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				5C175738D7234EAFA917DCB6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				B32E7C274F494BF79C61F37B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				43311D9A272740339849413E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				5459383FCBF045A498ACF9D9 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				42FA7188EADE4F3AA65EF969 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				44E35F468FF2416CB1D5A324 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				B12448185E204E62976753A5 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				66184CF549B842A580B0DC74 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A3993877196745BF970217AF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3142AFED2E9A4DDDBE995E47 /* CMake Rules */,
+				C5B0A6EA99574624B42E8058 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AFB804D923534D93A5A558B3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				890429D96EC64E178A2B1466 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
+				B8159C64EC014CDDBE1F3B94 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
+				9603CB19042D4E7482F2F599 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
+				31FEA32A086349B0871D9657 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
+				88075D546CA5488799D9F775 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
+				69CE857AA58F48B5BC21A593 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
+				B7FCA28020614C3181CAF6DC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
+				33372098C170469FA949C256 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
+				F0C13767C675462AB3A6AFEC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
+				24C867A12DE54073AD5ACCDC /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
+				415B3A29903743AA9268B328 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
+				4D647353B6AD44BDBD529991 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
+				DE821595D2164B96B910C051 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CF6E8D0F49F04CEB9724C96E /* PlugInExamples */ = {
+			isa = PBXGroup;
+			children = (
+				731AEC76DA6749318550AC06 /* hostchecker */,
 			);
 			name = PlugInExamples;
 			sourceTree = "<group>";
@@ -271,51 +271,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84B7C945C19446A88C32A7C4 /* hostchecker */ = {
+		33E180591A414BDD9E816ECC /* hostchecker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB96BE291BFB43A49BC1D619 /* Build configuration list for PBXNativeTarget "hostchecker" */;
+			buildConfigurationList = A69294B3085C4B57BADAC624 /* Build configuration list for PBXNativeTarget "hostchecker" */;
 			buildPhases = (
 				0B69E1469EB8733A56DAF5F7 /* CMake PreBuild Rules */,
-				A2A514B048BA4E01A585490E /* Resources */,
-				9BF27F204F084D45BE4C319A /* Sources */,
-				39BF22B68C594E7F95E4ECE9 /* Frameworks */,
+				DF59C3882546443DB614F069 /* Resources */,
+				CE7FBED10C9D4280A4D9B3B9 /* Sources */,
+				746BA0C22A614E20A8A89582 /* Frameworks */,
 				D8CD230E88CE76550C37CBAC /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				591F5380DAFC4DAF87EBB32B /* PBXTargetDependency */,
+				AE7BE6E70B5B4916BFDEEE23 /* PBXTargetDependency */,
 			);
 			name = hostchecker;
 			productName = hostchecker;
-			productReference = 0EF51956538B477387F7BF3C /* hostchecker */;
+			productReference = 1051337BC1704D7083F80EF4 /* hostchecker */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		87D6F311797F49CD94CE9A9F /* Project object */ = {
+		D4A79CA554D549F98975C083 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 40FED7455AD9425D9438343E /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
+			buildConfigurationList = 4E69024BDC5643489D88440C /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				554F80BD421C44EDB8B122F9 /* Debug */,
-				FB8E1A23F03049B291B1A489 /* Release */,
+				EF46C4A5419A460A86A136B3 /* Debug */,
+				7339310981AC40AE94F924A3 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 1EF50E4B2DBE4FAF86757E34;
+			mainGroup = 604F52E177B24B5E9FF25247;
 			projectDirPath = /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker;
 			projectRoot = "";
 			targets = (
-				BE121B5D10DE4F0F85A37FFD /* ALL_BUILD */,
-				E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */,
-				84B7C945C19446A88C32A7C4 /* hostchecker */,
+				0A5E7076A61147B787503A1D /* ALL_BUILD */,
+				29795D65426E4303BAC101BA /* ZERO_CHECK */,
+				33E180591A414BDD9E816ECC /* hostchecker */,
 			);
 		};
 /* End PBXProject section */
@@ -468,94 +468,60 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A2A514B048BA4E01A585490E /* Resources */ = {
+		DF59C3882546443DB614F069 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC77DE2A2E8499CA8E9DDD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
-				74D8D5E2AD0442B296A1469C /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
-				A625F251E0914BB18C7ABBD4 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+				1C4F258A7CD34BC78AB5FBA8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				12C2B67E99944D6297A4820B /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+				CFA98AA277F04CA7A58E76CF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BF27F204F084D45BE4C319A /* Sources */ = {
+		CE7FBED10C9D4280A4D9B3B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6EFF2584DD4C2B8D965EE2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
-				9351486ED4EA4843BA1E37F6 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
-				4BA0802A8BA84E9CBC356820 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
-				E539755494A7463B94C1F06E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
-				276DF5DC47454AE882A1E8CD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
-				5B0B79C482424F85A3EE8391 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
-				17AAD4F241D44D8295CF3A77 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
-				A780FEE221F44A31A4EF16A2 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
-				65FDB89D49DC4FF5BFEE9DFF /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
-				A30F7C2D8749481E894A9B81 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
-				30498EA195F345F392260B7F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
-				5FCB4B08B5B04B908E1ECE90 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				D97B6D9281234636A972EFD8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				570D2472298C4E42BB1C71D8 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				D975B634A2EB4544BD034A09 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				D9EDBCF656C34857A4C83D03 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				A6124A411BDA46989BB2FD5E /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				68286A911EED4C03A89BC996 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				0302E03563F74C04B555DF28 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				75F2031917BF4370A609BF6F /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				8B441D8CB25B454EB46B78DD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				616390E214EC4817847DB9DD /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				98752C93498F488B953CB938 /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				0A584D5F9CB34C6DA5E3971D /* /Users/cj/Documents/VST_SDK/vst3sdk/public.sdk/source/main/macmain.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43997A8231C14093A99CD60B /* PBXTargetDependency */ = {
+		175E78903A0A494EAEB8FD06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84B7C945C19446A88C32A7C4 /* hostchecker */;
-			targetProxy = 1C5EEF9DE92644F2B2E9DA50 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 7A1B69C231FD45B28F944E70 /* PBXContainerItemProxy */;
 		};
-		591F5380DAFC4DAF87EBB32B /* PBXTargetDependency */ = {
+		41289C7824C64E3DA5F4B0CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 03B98FA6A25D4F23A659EB97 /* PBXContainerItemProxy */;
+			target = 33E180591A414BDD9E816ECC /* hostchecker */;
+			targetProxy = 9CC88598708D4E2F8324608F /* PBXContainerItemProxy */;
 		};
-		851F1CD1B0B04B45B732396E /* PBXTargetDependency */ = {
+		AE7BE6E70B5B4916BFDEEE23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BF522805FB459DA7C1FB18 /* ZERO_CHECK */;
-			targetProxy = 305C7A5DDE834A17BD4A4792 /* PBXContainerItemProxy */;
+			target = 29795D65426E4303BAC101BA /* ZERO_CHECK */;
+			targetProxy = 2505FD272F9D4F3595941F2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05B67BCA57724E91BA6C5AA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Release;
-		};
-		11EC555B95D44E7A947EF753 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3654BAA58C2746BF89FDDE76 /* Debug */ = {
+		152ABC9508AB418CAC78DECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -593,7 +559,52 @@ fi
 			};
 			name = Debug;
 		};
-		8C079F4F9B3945809FA67E07 /* Debug */ = {
+		51CCC10F3A9142B1926484B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Debug;
+		};
+		5A23F13C7E704094B5F2E03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		60AB4B2B8F8F49CBA380B0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
+			};
+			name = Release;
+		};
+		8D470EB7F8C142F1B8374C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,7 +626,29 @@ fi
 			};
 			name = Debug;
 		};
-		A37AEDEC90434480A07A8C8C /* Release */ = {
+		BD21105725344442B0C33C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F45E9D0ED74F49CE894E935F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -653,18 +686,7 @@ fi
 			};
 			name = Release;
 		};
-		DDB9497B797B4797B93EE80F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				CLANG_CXX_LIBRARY = "libc++";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
-				SYMROOT = /Users/cj/Documents/GitHub/chorus/AP2Chorus/build/build;
-			};
-			name = Debug;
-		};
-		EF8A3015C3094A759DAB79FC /* Release */ = {
+		FC254EF87C1F41E89E2812D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -679,75 +701,53 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		FBAA882A714145A0A242F944 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40FED7455AD9425D9438343E /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
+		4E69024BDC5643489D88440C /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDB9497B797B4797B93EE80F /* Debug */,
-				05B67BCA57724E91BA6C5AA1 /* Release */,
+				51CCC10F3A9142B1926484B7 /* Debug */,
+				60AB4B2B8F8F49CBA380B0AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		45DD8595628045AEA4438807 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		71CD14D76ED940B68C2F3C74 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C079F4F9B3945809FA67E07 /* Debug */,
-				11EC555B95D44E7A947EF753 /* Release */,
+				8D470EB7F8C142F1B8374C6C /* Debug */,
+				FC254EF87C1F41E89E2812D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C8FB4695EAEA424E8C3CF377 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		747707BBFC2D43DCAF07A624 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBAA882A714145A0A242F944 /* Debug */,
-				EF8A3015C3094A759DAB79FC /* Release */,
+				5A23F13C7E704094B5F2E03F /* Debug */,
+				BD21105725344442B0C33C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FB96BE291BFB43A49BC1D619 /* Build configuration list for PBXNativeTarget "hostchecker" */ = {
+		A69294B3085C4B57BADAC624 /* Build configuration list for PBXNativeTarget "hostchecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3654BAA58C2746BF89FDDE76 /* Debug */,
-				A37AEDEC90434480A07A8C8C /* Release */,
+				152ABC9508AB418CAC78DECC /* Debug */,
+				F45E9D0ED74F49CE894E935F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 87D6F311797F49CD94CE9A9F /* Project object */;
+	rootObject = D4A79CA554D549F98975C083 /* Project object */;
 }
