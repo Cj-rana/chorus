@@ -14,6 +14,15 @@ namespace ap2 {
             mBuffer = std::vector<float>(size, 0.0f);//stores elements of vector, initialises all elements of vector to 0
             mPos = size-1;//current position, also write pos
         }
+        RingBuffer() {
+
+
+
+
+
+
+        }
+
         float read(float delay) {
             delay = std::min(delay,(float)(mBuffer.size()-1));//ensure delay not greater than buffer size
             int index = mPos - delay;

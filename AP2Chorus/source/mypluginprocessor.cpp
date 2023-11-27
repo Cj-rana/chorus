@@ -22,7 +22,7 @@ namespace MyCompanyName {
 //------------------------------------------------------------------------
 // AP2ChorusProcessor
 //------------------------------------------------------------------------
-AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0)),Osc(44100)
+AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(), Osc()
 {
 	//--- set the wanted controller for our processor
 	setControllerClass (kAP2ChorusControllerUID);
@@ -60,7 +60,7 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 tresult PLUGIN_API AP2ChorusProcessor::terminate ()
 {
 	// Here the Plug-in will be de-instantiated, last possibility to remove some memory!
-	mBuffer.clear();
+	//mBuffer.clear();
 	//---do not forget to call parent ------
 	return AudioEffect::terminate ();
 }
@@ -143,9 +143,9 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		{
 			// apply modulation
 			tmp = (*ptrIn++);
-			mBuffer.write(tmp);
-			float delaySamples = (Osc.process(mRate, mDepth) / 1000.0f) * processSetup.sampleRate;
-			Vst::Sample32 delayed = mBuffer.read(delaySamples);
+			mBuffer[i].write(tmp);
+			float delaySamples = (Osc[i].process(mRate, mDepth) / 1000.0f) * processSetup.sampleRate;
+			Vst::Sample32 delayed = mBuffer[i].read(delaySamples);
 
 			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
 			//(*ptrOut++) = delayed;
@@ -181,7 +181,11 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 {
 	//--- called before any processing ----
 
-	mBuffer = ap2::RingBuffer(newSetup.sampleRate * (50.0/1000.0));
+	mBuffer[0] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
+	mBuffer[1] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
+
+	Osc[0]=ap2::SineOsc(newSetup.sampleRate);
+	Osc[1] = ap2::SineOsc(newSetup.sampleRate);
 
 	return AudioEffect::setupProcessing (newSetup);
 }

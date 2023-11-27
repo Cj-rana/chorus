@@ -15,6 +15,10 @@ namespace ap2 {
 			mTs = 1 / sampleRate;
 			
 		}
+
+		SineOsc() {
+		}
+
 		float process(float rate,float depth) {
 			float mAmp = depth;
 			double newPhase = (mPhase + rate * 2 * M_PI * mTs);
