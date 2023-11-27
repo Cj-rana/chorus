@@ -184,8 +184,8 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 	mBuffer[0] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
 	mBuffer[1] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
 
-	Osc[0]=ap2::SineOsc(newSetup.sampleRate);
-	Osc[1] = ap2::SineOsc(newSetup.sampleRate);
+	Osc[0]=ap2::TriangularOsc(newSetup.sampleRate);
+	Osc[1] = ap2::TriangularOsc(newSetup.sampleRate);
 
 	return AudioEffect::setupProcessing (newSetup);
 }
