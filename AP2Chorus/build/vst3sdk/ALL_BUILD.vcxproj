@@ -17,7 +17,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CCDFBE88-AA2C-3A73-A1BF-603F7D887DFD}</ProjectGuid>
+    <ProjectGuid>{7B8A5984-528E-3AD6-A0AC-7B3D18860E5D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -59,7 +59,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -68,11 +68,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -80,12 +80,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -93,105 +93,173 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
-      <Project>{61F349B0-7833-3372-8C66-513FC5A77F68}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
+      <Project>{C9FF948B-C79E-3E3A-ABF3-0213CE631EB5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
-      <Project>{BE60AC26-54C3-3857-994A-0FB5D67A6C62}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\inspectorapp\VST3Inspector.vcxproj">
+      <Project>{0E12B7F8-D80B-398F-BBC3-F2D4ABCE9594}</Project>
+      <Name>VST3Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{3BA04B78-D1F6-3B57-99F6-D269D6BC719D}</Project>
       <Name>adelay</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
-      <Project>{3E29DFD6-4483-3BEC-8A2A-48BD07CE4DBD}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{1ACC78E5-4B23-3C04-9DB4-8B85F12C7E93}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
+      <Project>{91ACCA94-DBD7-36EB-883B-39A97D1CFE6E}</Project>
       <Name>again-sampleaccurate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
-      <Project>{489E8B90-3664-3132-A81E-890704A8C079}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{0BD24B99-FF44-3B4C-B49C-AFA40057897E}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
+      <Project>{7A620E9C-6CFB-3C0C-A3A9-8AE621E2AFD4}</Project>
       <Name>base</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
-      <Project>{5C9553C0-DD16-32A9-9EF2-C13A957086A7}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{3DFBD7B2-7D1C-3E35-ABF9-A559834ECD62}</Project>
       <Name>channelcontext</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
-      <Project>{0E52E985-24EF-3323-A92C-12533DC17E16}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\dataexchange\dataexchange.vcxproj">
+      <Project>{9926827B-08C3-3099-80A0-6D57CF7EB761}</Project>
+      <Name>dataexchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{FCB02B63-733C-30FD-8B3D-299E293DF15B}</Project>
       <Name>editorhost</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
-      <Project>{6652A33F-4E33-3C4C-ADD9-D14B49E616CC}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{332FB3AB-6BF5-320C-AA97-A2E3E4C7F820}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{857710DA-407D-30ED-929B-01426EF51198}</Project>
       <Name>legacymidiccout</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
-      <Project>{22FDF491-A284-34BD-A30B-47DD293FC5CF}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{3E71B51C-D576-30BE-9CC5-915AFC52A1B5}</Project>
       <Name>mda-vst3</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
-      <Project>{D8F92C83-2AF8-3C03-9BAC-06E1D6026398}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{3E1D4C39-53F0-34DA-9EBA-A855AC73B03A}</Project>
       <Name>moduleinfotool</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
-      <Project>{B75BC81B-E42E-3D07-AF8E-BA218F0EE14F}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
+      <Project>{E3A9B2A4-ACCA-394E-B053-3B4DDA34C251}</Project>
       <Name>multiple-program-changes</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
-      <Project>{AFA64AA6-0033-3BEA-AD4F-1E104F9DBB20}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{B0F9D9EB-64B2-30B3-B0F1-A5926A5A0C1D}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{054C3945-398B-32B1-ACEC-F192927F0530}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{B8B54DF2-ADC3-3395-A4CD-D85F3EF35C02}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{A222C518-94C7-30A7-998D-946A9EC5B843}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{97E274D0-B668-348B-BB4D-14E8716A3DF0}</Project>
       <Name>pluginterfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
-      <Project>{9738D72F-45ED-30DB-83A0-45E19890D743}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
+      <Project>{8B8F8D8F-4B7B-3932-BB19-F5B07127A908}</Project>
       <Name>prefetchable</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
-      <Project>{23A36EB3-5FD7-388E-87B7-735E5B3B5CC7}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{103D4643-E500-3763-BD25-EA1CC822C985}</Project>
       <Name>programchange</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk.vcxproj">
-      <Project>{A7E2B14D-F281-3345-9EF1-4DDC85283932}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{EE94C584-ECA9-37A3-B020-EE39D440AC16}</Project>
       <Name>sdk</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
-      <Project>{13F2F114-D357-305F-857A-306F6135C6D7}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{7E48BB6F-EED2-3AD6-80CA-44FC4A6AEC8C}</Project>
       <Name>sdk_common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
-      <Project>{DA665641-3663-3032-B8C3-5D192B7A3E81}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{9656B8F0-DB57-34CA-8812-89746E5A7BFC}</Project>
       <Name>sdk_hosting</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
-      <Project>{4BA6738C-C21C-37D8-B587-71090B7A3789}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{3013B8B3-072B-3086-BBD9-BA1A311EDC25}</Project>
       <Name>syncdelay</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
-      <Project>{A1C17EF2-82CC-3154-888D-93F6170CEB2C}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{70458156-6521-356A-872C-A952BE653CF5}</Project>
       <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{3B18B2A2-DD62-38FC-9318-5B417D4D2E8B}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{8C6393E2-6522-3B35-BBB0-A13125CCFDC9}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{733D89C8-8860-3A04-A6CE-1EA3FA99BE77}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{CD66108A-04B3-3201-809A-F7782C850416}</Project>
+      <Name>vstgui_uidescription</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,2 +1,3 @@
 # CMake generation dependency list for this directory.
-C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt
+C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/cmake/templates/projectversion.h.in
+C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt

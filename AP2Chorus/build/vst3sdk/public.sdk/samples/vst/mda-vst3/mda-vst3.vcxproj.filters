@@ -1,467 +1,467 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Controller.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Processor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Processor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdafactory.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdafactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Controller.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Processor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Processor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaParameter.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaParameter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerController.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerProcessor.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\helpers.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\helpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaAmbienceProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBandistoProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBaseProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaBeatBoxProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaComboProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDeEsserProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDegradeProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDelayProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDetuneProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDitherProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDubDelayProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Controller.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Processor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDX10Processor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaDynamicsProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoData.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaEPianoProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaImageProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Controller.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Processor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaJX10Processor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLeslieProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLimiterProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaLoudnessProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaMultiBandProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaOverdriveProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaParameter.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaParameter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoData.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaPianoProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRePsychoProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRezFilterProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRingModProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaRoundPanProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaShepardProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSpecMeterProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSplitterProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaStereoProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaSubSynthProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTalkBoxProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTestToneProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaThruZeroProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerController.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerProcessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\mdaTrackerProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\version.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\source\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\resource\info.rc">
+    <ResourceCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\mda-vst3\resource\info.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{3312B1A5-401C-3600-BD88-B3EA68F05B30}</UniqueIdentifier>
+      <UniqueIdentifier>{217E58E5-068F-3371-A9A5-593060B2785B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3E58420D-1F90-3632-B0DE-9E68B22B4043}</UniqueIdentifier>
+      <UniqueIdentifier>{05A5FCCD-B1B3-37F5-AB40-4DAED34435B4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

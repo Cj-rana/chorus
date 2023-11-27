@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AFA64AA6-0033-3BEA-AD4F-1E104F9DBB20}</ProjectGuid>
+    <ProjectGuid>{97E274D0-B668-348B-BB4D-14E8716A3DF0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pluginterfaces.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pluginterfaces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pluginterfaces.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pluginterfaces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -72,10 +72,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -88,7 +88,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -112,10 +112,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -127,11 +127,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/pluginterfaces/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/pluginterfaces/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,11 +140,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/pluginterfaces/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/pluginterfaces/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -153,73 +153,73 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\conststringtable.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\conststringtable.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\coreiids.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\falignpop.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\falignpush.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\fplatform.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\fstrdefs.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ftypes.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\funknown.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\funknown.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\funknownimpl.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\futils.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\fvariant.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\geoconstants.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ibstream.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\icloneable.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ierrorcontext.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ipersistent.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ipluginbase.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\istringresult.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\iupdatehandler.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\keycodes.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\pluginbasefwd.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\smartpointer.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\typesizecheck.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ucolorspec.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ustring.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\base\ustring.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\gui\iplugview.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\gui\iplugviewcontentscalesupport.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstattributes.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstaudioprocessor.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstautomationstate.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstchannelcontextinfo.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstcomponent.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstcontextmenu.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivsteditcontroller.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstevents.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstdataexchange.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivsthostapplication.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstinterappaudio.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmessage.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmidicontrollers.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmidilearn.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstnoteexpression.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstparameterchanges.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstparameterfunctionname.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstphysicalui.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstpluginterfacesupport.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstplugview.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstprefetchablesupport.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstprocesscontext.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstrepresentation.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\ivstunits.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\vstpresetkeys.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\vstpshpack4.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\vstspeaker.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\vst\vsttypes.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\conststringtable.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\conststringtable.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\coreiids.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\falignpop.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\falignpush.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\fplatform.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\fstrdefs.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ftypes.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\funknown.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\funknown.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\funknownimpl.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\futils.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\fvariant.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\geoconstants.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ibstream.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\icloneable.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ierrorcontext.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ipersistent.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ipluginbase.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\istringresult.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\iupdatehandler.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\keycodes.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\pluginbasefwd.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\smartpointer.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\typesizecheck.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ucolorspec.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ustring.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\base\ustring.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\gui\iplugview.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\gui\iplugviewcontentscalesupport.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstattributes.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstaudioprocessor.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstautomationstate.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstchannelcontextinfo.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstcomponent.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstcontextmenu.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivsteditcontroller.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstevents.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstdataexchange.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivsthostapplication.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstinterappaudio.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmessage.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmidicontrollers.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstmidilearn.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstnoteexpression.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstparameterchanges.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstparameterfunctionname.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstphysicalui.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstpluginterfacesupport.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstplugview.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstprefetchablesupport.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstprocesscontext.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstrepresentation.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\ivstunits.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\vstpresetkeys.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\vstpshpack4.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\vstspeaker.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\vst\vsttypes.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
-      <Project>{61F349B0-7833-3372-8C66-513FC5A77F68}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
+      <Project>{C9FF948B-C79E-3E3A-ABF3-0213CE631EB5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

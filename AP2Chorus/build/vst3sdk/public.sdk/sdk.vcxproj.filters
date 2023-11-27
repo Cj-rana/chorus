@@ -1,150 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory_constexpr.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory_constexpr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\alignedalloc.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\alignedalloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\audiobuffers.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\audiobuffers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\processcontextrequirements.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\processcontextrequirements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\processdataslicer.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\processdataslicer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\ringbuffer.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\ringbuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\rttransfer.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\rttransfer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\sampleaccurate.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\sampleaccurate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstbypassprocessor.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstbypassprocessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vsteventshelper.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vsteventshelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vsthelpers.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vsthelpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{3312B1A5-401C-3600-BD88-B3EA68F05B30}</UniqueIdentifier>
+      <UniqueIdentifier>{217E58E5-068F-3371-A9A5-593060B2785B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3E58420D-1F90-3632-B0DE-9E68B22B4043}</UniqueIdentifier>
+      <UniqueIdentifier>{05A5FCCD-B1B3-37F5-AB40-4DAED34435B4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

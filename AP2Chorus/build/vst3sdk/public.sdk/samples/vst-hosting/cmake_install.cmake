@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting
+# Install script for directory: C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/audiohost/cmake_install.cmake")
+  include("C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/audiohost/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/cmake_install.cmake")
+  include("C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/cmake_install.cmake")
+  include("C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/validator/cmake_install.cmake")
+  include("C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/validator/cmake_install.cmake")
 endif()
 

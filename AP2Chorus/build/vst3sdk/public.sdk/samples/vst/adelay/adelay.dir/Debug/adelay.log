@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt
+﻿  Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt
   adelaycontroller.cpp
   adelayprocessor.cpp
   exampletest.cpp
@@ -6,13 +6,13 @@
   ringbuffertest.cpp
   versionparsertest.cpp
   dllmain.cpp
-     Creating library C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/adelay.lib and object C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/adelay.exp
-  adelay.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\adelay.vst3\Contents\x86_64-win\adelay.vst3
+     Creating library C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/adelay.lib and object C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/adelay.exp
+  adelay.vcxproj -> C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\VST3\Debug\adelay.vst3\Contents\x86_64-win\adelay.vst3
   [SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		
   [SMTG] Validator started...
   * Loading module...
   
-  	C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/adelay.vst3/Contents/x86_64-win/adelay.vst3
+  	C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/adelay.vst3/Contents/x86_64-win/adelay.vst3
   
   * Scanning classes...
   

@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E52E985-24EF-3323-A92C-12533DC17E16}</ProjectGuid>
+    <ProjectGuid>{FCB02B63-733C-30FD-8B3D-299E293DF15B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">editorhost.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">editorhost</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">editorhost.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">editorhost</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -76,10 +76,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,8 +93,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/editorhost.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/bin/Debug/editorhost.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/editorhost.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/bin/Debug/editorhost.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -103,7 +103,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -127,10 +127,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,8 +143,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /SUBSYSTEM:windows</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Release/editorhost.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/bin/Release/editorhost.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/editorhost.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/bin/Release/editorhost.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -152,11 +152,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -165,11 +165,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -178,46 +178,46 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\appinit.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iapplication.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iplatform.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iwindow.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\usediids.cpp" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\platform.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.cpp" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\editorhost.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\appinit.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iapplication.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iplatform.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\iwindow.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\usediids.cpp" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\platform.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\editorhost\source\platform\win32\window.cpp" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
-      <Project>{61F349B0-7833-3372-8C66-513FC5A77F68}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
+      <Project>{C9FF948B-C79E-3E3A-ABF3-0213CE631EB5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
-      <Project>{489E8B90-3664-3132-A81E-890704A8C079}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
+      <Project>{7A620E9C-6CFB-3C0C-A3A9-8AE621E2AFD4}</Project>
       <Name>base</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
-      <Project>{AFA64AA6-0033-3BEA-AD4F-1E104F9DBB20}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{97E274D0-B668-348B-BB4D-14E8716A3DF0}</Project>
       <Name>pluginterfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
-      <Project>{13F2F114-D357-305F-857A-306F6135C6D7}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{7E48BB6F-EED2-3AD6-80CA-44FC4A6AEC8C}</Project>
       <Name>sdk_common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
-      <Project>{DA665641-3663-3032-B8C3-5D192B7A3E81}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{9656B8F0-DB57-34CA-8812-89746E5A7BFC}</Project>
       <Name>sdk_hosting</Name>
     </ProjectReference>
   </ItemGroup>

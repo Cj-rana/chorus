@@ -1,294 +1,294 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\common\memorystream.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\common\memorystream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\connectionproxytest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\connectionproxytest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\eventlisttest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\eventlisttest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\hostclassestest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\hostclassestest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\parameterchangestest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\parameterchangestest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\pluginterfacesupporttest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\pluginterfacesupporttest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\processdatatest.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\test\processdatatest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busactivation.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busactivation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busconsistency.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busconsistency.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\businvalidindex.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\businvalidindex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\checkaudiobusarrangement.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\checkaudiobusarrangement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\scanbusses.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\scanbusses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\sidechainarrangement.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\sidechainarrangement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\editorclasses.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\editorclasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midilearn.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midilearn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midimapping.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midimapping.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\plugcompat.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\plugcompat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\scanparameters.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\scanparameters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\suspendresume.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\suspendresume.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\terminit.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\terminit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\keyswitch.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\keyswitch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\noteexpression.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\noteexpression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\automation.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\automation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\process.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processcontextrequirements.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processcontextrequirements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processformat.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processformat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processinputoverwriting.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processinputoverwriting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processtail.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processtail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processthreaded.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processthreaded.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceflags.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceflags.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceprocessing.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceprocessing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\speakerarrangement.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\speakerarrangement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\variableblocksize.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\variableblocksize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\bypasspersistence.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\bypasspersistence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\invalidstatetransition.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\invalidstatetransition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\repeatidenticalstatetransition.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\repeatidenticalstatetransition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\validstatetransition.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\validstatetransition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\testbase.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\testbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\checkunitstructure.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\checkunitstructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanprograms.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanprograms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanunits.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanunits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vsttestsuite.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vsttestsuite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\main.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\usediids.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\usediids.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\validator.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\validator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp">
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busactivation.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busactivation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busconsistency.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\busconsistency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\businvalidindex.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\businvalidindex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\checkaudiobusarrangement.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\checkaudiobusarrangement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\scanbusses.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\scanbusses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\sidechainarrangement.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\bus\sidechainarrangement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\editorclasses.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\editorclasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midilearn.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midilearn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midimapping.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\midimapping.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\plugcompat.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\plugcompat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\scanparameters.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\scanparameters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\suspendresume.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\suspendresume.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\terminit.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\general\terminit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\keyswitch.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\keyswitch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\noteexpression.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\noteexpression\noteexpression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\automation.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\automation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\process.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\process.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processcontextrequirements.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processcontextrequirements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processformat.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processformat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processinputoverwriting.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processinputoverwriting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processtail.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processtail.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processthreaded.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\processthreaded.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceflags.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceflags.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceprocessing.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\silenceprocessing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\speakerarrangement.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\speakerarrangement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\variableblocksize.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\processing\variableblocksize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\bypasspersistence.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\bypasspersistence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\invalidstatetransition.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\invalidstatetransition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\repeatidenticalstatetransition.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\repeatidenticalstatetransition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\validstatetransition.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\state\validstatetransition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\testbase.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\testbase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\checkunitstructure.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\checkunitstructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanprograms.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanprograms.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanunits.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\unit\scanunits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vststructsizecheck.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vststructsizecheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vsttestsuite.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\testsuite\vsttestsuite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\validator.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\validator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\testsuite.h">
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\source\testsuite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst-hosting\validator\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{3312B1A5-401C-3600-BD88-B3EA68F05B30}</UniqueIdentifier>
+      <UniqueIdentifier>{217E58E5-068F-3371-A9A5-593060B2785B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3E58420D-1F90-3632-B0DE-9E68B22B4043}</UniqueIdentifier>
+      <UniqueIdentifier>{05A5FCCD-B1B3-37F5-AB40-4DAED34435B4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

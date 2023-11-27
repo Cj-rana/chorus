@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5C9553C0-DD16-32A9-9EF2-C13A957086A7}</ProjectGuid>
+    <ProjectGuid>{3DFBD7B2-7D1C-3E35-ABF9-A559834ECD62}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\channelcontext.vst3\Contents\x86_64-win\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\VST3\Debug\channelcontext.vst3\Contents\x86_64-win\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">channelcontext.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">channelcontext</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.vst3</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Release\channelcontext.vst3\Contents\x86_64-win\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\VST3\Release\channelcontext.vst3\Contents\x86_64-win\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">channelcontext.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">channelcontext</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.vst3</TargetExt>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -77,10 +77,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;CMAKE_INTDIR=\"Debug\";channelcontext_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -90,7 +90,7 @@
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/Resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/Resources
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -102,15 +102,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/PlugIn.ico"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/PlugIn.ico
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/desktop.ini"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/desktop.ini
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/desktop.ini"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/desktop.ini
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/PlugIn.ico"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/PlugIn.ico
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,11 +119,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-cd "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin"
+cd C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\moduleinfotool.exe" -create -version 3.7.9.0 -path "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3" -output "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/Resources/moduleinfo.json"
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Debug\moduleinfotool.exe -create -version 3.7.9.0 -path C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3 -output C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/Resources/moduleinfo.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -132,13 +132,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-cd "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin"
+cd C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator started...
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Debug\validator.exe" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/x86_64-win/channelcontext.vst3"
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Debug\validator.exe C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Debug/channelcontext.vst3/Contents/x86_64-win/channelcontext.vst3
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator finished.
 if %errorlevel% neq 0 goto :cmEnd
@@ -156,8 +156,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/channelcontext.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/WIN_PDB64/Debug/channelcontext.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/channelcontext.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/WIN_PDB64/Debug/channelcontext.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -166,7 +166,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251;4221</DisableSpecificWarnings>
@@ -190,10 +190,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;CMAKE_INTDIR=\"Release\";channelcontext_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk;C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\base\..;C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk;C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\base\..;C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,7 +203,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/Resources"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/Resources
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,15 +215,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>[SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/PlugIn.ico"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/PlugIn.ico
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/desktop.ini"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/desktop.ini
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/desktop.ini"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/desktop.ini
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/PlugIn.ico"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/PlugIn.ico
 if %errorlevel% neq 0 goto :cmEnd
-attrib +s "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3"
+attrib +s C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,11 +232,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-cd "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin"
+cd C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Release\moduleinfotool.exe" -create -version 3.7.9.0 -path "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3" -output "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/Resources/moduleinfo.json"
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Release\moduleinfotool.exe -create -version 3.7.9.0 -path C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3 -output C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/Resources/moduleinfo.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,13 +245,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-cd "C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin"
+cd C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator started...
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\bin\Release\validator.exe" "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/x86_64-win/channelcontext.vst3"
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\bin\Release\validator.exe C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/VST3/Release/channelcontext.vst3/Contents/x86_64-win/channelcontext.vst3
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator finished.
 if %errorlevel% neq 0 goto :cmEnd
@@ -268,8 +268,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Release/channelcontext.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/WIN_PDB64/Release/channelcontext.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Release/channelcontext.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/WIN_PDB64/Release/channelcontext.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -277,11 +277,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +289,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\templates\projectversion.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\templates\projectversion.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Etienne Quartey-Papa/Downloads/vst-sdk_3.7.9_build-61_2023-10-09/VST_SDK/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aravi/OneDrive/Documents/vst-sdk/VST_SDK/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus" "-BC:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build" --check-stamp-file "C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus -BC:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build --check-stamp-file C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,52 +302,52 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\cmake\templates\projectversion.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\cmake\templates\projectversion.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst\channelcontext\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plug.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plug.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcids.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcontroller.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcontroller.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugentry.cpp" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugparamids.h" />
-    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\version.h" />
-    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp" />
-    <ResourceCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\resource\info.rc" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plug.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plug.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcids.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcontroller.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugcontroller.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugentry.cpp" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\plugparamids.h" />
+    <ClInclude Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\source\version.h" />
+    <ClCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp" />
+    <ResourceCompile Include="C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\samples\vst\channelcontext\resource\info.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
-      <Project>{61F349B0-7833-3372-8C66-513FC5A77F68}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\ZERO_CHECK.vcxproj">
+      <Project>{C9FF948B-C79E-3E3A-ABF3-0213CE631EB5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
-      <Project>{489E8B90-3664-3132-A81E-890704A8C079}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\base\base.vcxproj">
+      <Project>{7A620E9C-6CFB-3C0C-A3A9-8AE621E2AFD4}</Project>
       <Name>base</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
-      <Project>{D8F92C83-2AF8-3C03-9BAC-06E1D6026398}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{3E1D4C39-53F0-34DA-9EBA-A855AC73B03A}</Project>
       <Name>moduleinfotool</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
-      <Project>{AFA64AA6-0033-3BEA-AD4F-1E104F9DBB20}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{97E274D0-B668-348B-BB4D-14E8716A3DF0}</Project>
       <Name>pluginterfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk.vcxproj">
-      <Project>{A7E2B14D-F281-3345-9EF1-4DDC85283932}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{EE94C584-ECA9-37A3-B020-EE39D440AC16}</Project>
       <Name>sdk</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
-      <Project>{13F2F114-D357-305F-857A-306F6135C6D7}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{7E48BB6F-EED2-3AD6-80CA-44FC4A6AEC8C}</Project>
       <Name>sdk_common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
-      <Project>{A1C17EF2-82CC-3154-888D-93F6170CEB2C}</Project>
+    <ProjectReference Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{70458156-6521-356A-872C-A952BE653CF5}</Project>
       <Name>validator</Name>
     </ProjectReference>
   </ItemGroup>
