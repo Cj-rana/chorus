@@ -15,15 +15,14 @@ namespace ap2 {
 			mTs = 1 / sampleRate;
 			
 		}
-		double process(float rate,float depth) {
-			double newPhase = mPhase + rate * 2 * M_PI * mTs;
+		float process(float rate,float depth) {
+			double newPhase = (mPhase + rate * 2 * M_PI * mTs) + 28.16;
 			mPhase = fmod(newPhase, 2 * M_PI);
-			mAmp = depth;
+			float mAmp = depth;
 			return mAmp * cos(mPhase);
 		}
 	private:
 		double mTs;
-		double mAmp=0;
 		double mPhase = 0;
 	};
 
