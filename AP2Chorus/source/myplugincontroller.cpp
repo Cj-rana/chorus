@@ -40,10 +40,6 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 	);//Amplitude of LFO
 	parameters.addParameter(depthParam);
 
-	Vst::Parameter* delayParam = new Vst::RangeParameter(
-		STR16("Delay"), ChorusParams::kParamDelayId, STR16("Time"), 5.0, 50.0, 25.0 //min,max,default
-	);
-	parameters.addParameter(delayParam);
 
 	//VST3 Parameters are always floating values between 0.0 and 1.0
 

@@ -10,7 +10,7 @@
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
 
 #include "Buffer.h"
-
+#include "Osc.h"
 
 
 
@@ -22,7 +22,7 @@ namespace MyCompanyName {
 //------------------------------------------------------------------------
 // AP2ChorusProcessor
 //------------------------------------------------------------------------
-AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0),0)
+AP2ChorusProcessor::AP2ChorusProcessor ():mBuffer(44100*(50.0/1000.0),0),Osc(44100)
 {
 	//--- set the wanted controller for our processor
 	setControllerClass (kAP2ChorusControllerUID);
@@ -60,7 +60,7 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 tresult PLUGIN_API AP2ChorusProcessor::terminate ()
 {
 	// Here the Plug-in will be de-instantiated, last possibility to remove some memory!
-	
+	mBuffer.clear();
 	//---do not forget to call parent ------
 	return AudioEffect::terminate ();
 }
@@ -126,6 +126,8 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 	float rate = mRate;
 	float depth = mDepth;
 
+	
+
 
 	// for each channel (left and right)
 	for (int32 i = 0; i < numChannels; i++)
@@ -135,7 +137,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 tmp;
 		// for each sample in this channel
-		float delaySamples =(mDelay/1000.0f) * processSetup.sampleRate;
+		float delaySamples =(Osc.process(mRate, mDepth)/1000.0f) * processSetup.sampleRate;
 
 		while (--samples >= 0)
 		{
@@ -143,7 +145,6 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 			tmp = (*ptrIn++);
 			mBuffer.write(tmp);
 			Vst::Sample32 delayed = mBuffer.read(delaySamples);
-
 
 			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
 			//(*ptrOut++) = delayed;

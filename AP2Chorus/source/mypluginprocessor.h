@@ -6,7 +6,7 @@
 
 #include "public.sdk/source/vst/vstaudioeffect.h"
 #include "Buffer.h"
-
+#include "Osc.h"
 
 namespace MyCompanyName {
 
@@ -54,8 +54,8 @@ public:
 protected:
 	Steinberg::Vst::ParamValue mRate = 0.357;
 	Steinberg::Vst::ParamValue mDepth = 1.04;
-	Steinberg::Vst::ParamValue mDelay = 25.0;
 	ap2::RingBuffer mBuffer;
+	ap2::SineOsc Osc;
 
 };
 

@@ -386,6 +386,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\source\Buffer.h" />
+    <ClInclude Include="..\source\Osc.h" />
     <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\version.h" />
     <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\myplugincids.h" />
     <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.h" />
