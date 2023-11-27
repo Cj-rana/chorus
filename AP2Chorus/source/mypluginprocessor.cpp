@@ -100,6 +100,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 						mDepth = value;
 					break;
 				}
+
 			}
 		}
 	}
@@ -134,14 +135,15 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 tmp;
 		// for each sample in this channel
-		float delaySamples =(5000/1000) * processSetup.sampleRate;
+		float delaySamples =(mDelay/1000.0f) * processSetup.sampleRate;
 
 		while (--samples >= 0)
 		{
 			// apply modulation
 			tmp = (*ptrIn++);
 			mBuffer.write(tmp);
-			float delayed = mBuffer.read(delaySamples);
+			Vst::Sample32 delayed = mBuffer.read(delaySamples);
+
 
 			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
 			//(*ptrOut++) = delayed;
