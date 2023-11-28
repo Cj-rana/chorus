@@ -27,9 +27,10 @@ class TriangularOsc {
             float sawtooth = static_cast<float>((2.0 / M_PI) * asin(sin(mPhase)));
 
             // Apply folding to convert the sawtooth to a triangular waveform
-            float triangular = 2.0 * (sawtooth - floor(0.5 + sawtooth));
+            float triangular = 2.0 * (abs(sawtooth) - 0.5);
+           // float triangular = 2.0 * (abs(sawtooth) - floor(0.5 + sawtooth));
 
-            return mAmp * triangular + 28.16;
+            return mAmp * triangular +100;//+ 28.16;
         }
 
     private:
@@ -39,7 +40,7 @@ class TriangularOsc {
 
 }
 
-	/*/class SineOsc {
+	/*class SineOsc {
 	public:
 		SineOsc(double sampleRate)
 		{

@@ -52,8 +52,8 @@ public:
 
 //------------------------------------------------------------------------
 protected:
-	Steinberg::Vst::ParamValue mRate = 0.357;
-	Steinberg::Vst::ParamValue mDepth = 1.04;
+    Steinberg::Vst::ParamValue mRate = 0;//0.357;
+    Steinberg::Vst::ParamValue mDepth = 0;//1.04;
 	ap2::RingBuffer mBuffer[2];
 	ap2::TriangularOsc Osc[2];
 	
