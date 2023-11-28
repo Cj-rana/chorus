@@ -10,9 +10,10 @@ namespace ap2 {
 
 	class SawOsc {
 	public:
-		SawOsc(double sampleRate)
+		SawOsc(double sampleRate,int phase)
 		{
 			mTs = 1 / sampleRate;
+			mPhase = phase;
 			
 		}
 
@@ -33,7 +34,7 @@ namespace ap2 {
 		}
 	private:
 		double mTs;
-		double mPhase = 0;
+		double mPhase;
 	};
 
 }

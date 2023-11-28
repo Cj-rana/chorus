@@ -55,6 +55,7 @@ protected:
 	Steinberg::Vst::ParamValue mRate = 4.0;
 	Steinberg::Vst::ParamValue mDepth = 22.5;
 	Steinberg::Vst::ParamValue mMix = 0.5;
+	Steinberg::Vst::ParamValue mFeedback = 0;
 
 	ap2::RingBuffer mBuffer[2];
 	ap2::SawOsc Osc[2];

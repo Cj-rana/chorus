@@ -45,6 +45,11 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 	);//Balance of wet dry
 	parameters.addParameter(mixParam);
 
+	Vst::Parameter* feedbackParam = new Vst::RangeParameter(
+		STR16("Feedback"), ChorusParams::kParamFeedbackId, STR16("High"), 0.0, 1.0, 0 //min,max,default
+	);//Balance of feedback
+	parameters.addParameter(feedbackParam);
+
 	//VST3 Parameters are always floating values between 0.0 and 1.0
 
 	return kResultTrue;
@@ -77,23 +82,23 @@ tresult PLUGIN_API AP2ChorusController::setState (IBStream* state)
 	if (!state)
 		return kResultFalse;
 
-	IBStreamer streamer(state, kLittleEndian);
-	float savedParam1 = 0.f;
-	if (streamer.readFloat(savedParam1) == false)
-		return kResultFalse;
+	//IBStreamer streamer(state, kLittleEndian);
+	//float savedParam1 = 0.f;
+	//if (streamer.readFloat(savedParam1) == false)
+		//return kResultFalse;
 
-	float savedParam2 = 0.f;
-	if (streamer.readFloat(savedParam2) == false)
-		return kResultFalse;
+//	float savedParam2 = 0.f;
+	//if (streamer.readFloat(savedParam2) == false)
+		//return kResultFalse;
 
 	// sync with our parameter
-	if (auto param = parameters.getParameter(ChorusParams::kParamRateId))
-		param->setNormalized(savedParam1);
+//	if (auto param = parameters.getParameter(ChorusParams::kParamRateId))
+	//	param->setNormalized(savedParam1);
 
-	if (auto param = parameters.getParameter(ChorusParams::kParamDepthId))
-		param->setNormalized(savedParam2);
+	//if (auto param = parameters.getParameter(ChorusParams::kParamDepthId))
+		//param->setNormalized(savedParam2);
 
-	return kResultOk;
+	//return kResultOk;
 
 	
 

@@ -22,5 +22,6 @@ enum ChorusParams : Steinberg::Vst::ParamID
     kParamRateId = 102, // should be a unique id...
     kParamDepthId = 103,
     kParamMixId = 104,
+    kParamFeedbackId = 105,
 
 };

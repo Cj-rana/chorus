@@ -2,10 +2,14 @@
   [SMTG] Copied C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/resource/67823860B68B59EF867DD6958141E70A_snapshot.png to C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot.png
   Generating VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png
   [SMTG] Copied C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/resource/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png to C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/VST3/Debug/AP2Chorus.vst3/Contents/Resources/Snapshots/67823860B68B59EF867DD6958141E70A_snapshot_2.0x.png
+  mypluginentry.cpp
   mypluginprocessor.cpp
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\Buffer.h(29,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(132,8): warning C4189: 'depth': local variable is initialized but not referenced
-C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(131,8): warning C4189: 'rate': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\Buffer.h(29,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginentry.cpp)
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\Buffer.h(29,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp)
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(135,8): warning C4189: 'depth': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(134,8): warning C4189: 'rate': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(151,9): warning C4189: 'feedback': local variable is initialized but not referenced
+C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\source\mypluginprocessor.cpp(247): warning C4715: 'MyCompanyName::AP2ChorusProcessor::setState': not all control paths return a value
   LINK : C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\AP2Chorus.vst3\Contents\x86_64-win\AP2Chorus.vst3 not found or not built by the last incremental link; performing full link
      Creating library C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/AP2Chorus.lib and object C:/Users/Etienne Quartey-Papa/Desktop/Lectures/AP2/chorus/AP2Chorus/build/lib/Debug/AP2Chorus.exp
   AP2Chorus.vcxproj -> C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\chorus\AP2Chorus\build\VST3\Debug\AP2Chorus.vst3\Contents\x86_64-win\AP2Chorus.vst3

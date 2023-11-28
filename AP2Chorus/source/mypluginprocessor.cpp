@@ -60,7 +60,10 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 tresult PLUGIN_API AP2ChorusProcessor::terminate ()
 {
 	// Here the Plug-in will be de-instantiated, last possibility to remove some memory!
-	//mBuffer.clear();
+
+	
+
+	
 	//---do not forget to call parent ------
 	return AudioEffect::terminate ();
 }
@@ -142,24 +145,29 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 tmp;
+		Vst::Sample32 out;
 		// for each sample in this channel
 		float wet = mMix;
-		float dry = 1 - mMix;
+		float feedback = mFeedback;
+		
 
 		while (--samples >= 0)
 		{
 			// apply modulation
 			tmp = (*ptrIn++);
-			mBuffer[i].write(tmp);
+			
+
+			//mBuffer[i].write(tmp);
 			float delaySeconds= (Osc[i].process(mRate, mDepth) / 1000.0f)+centre;
 
 			float delaySamples = delaySeconds * processSetup.sampleRate;
-			Vst::Sample32 delayed = mBuffer[i].read(delaySamples);
+			Vst::Sample32 delayed = mBuffer[i].readInterp(delaySamples);
 
-			
+			out = ((1-wet)*tmp)+(wet*delayed);
 
-			(*ptrOut++) = (dry*tmp)+(wet*delayed);
+			(*ptrOut++) = out;
 			
+			mBuffer[i].write((1 - mFeedback) * tmp + mFeedback * out);
 		}
 	}
 
@@ -195,8 +203,8 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 	mBuffer[0] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
 	mBuffer[1] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
 
-	Osc[0]=ap2::SawOsc(newSetup.sampleRate);
-	Osc[1] = ap2::SawOsc(newSetup.sampleRate);
+	Osc[0]=ap2::SawOsc(newSetup.sampleRate,0);
+	Osc[1] = ap2::SawOsc(newSetup.sampleRate,180);
 
 	return AudioEffect::setupProcessing (newSetup);
 }
@@ -223,30 +231,30 @@ tresult PLUGIN_API AP2ChorusProcessor::setState (IBStream* state)
 		return kResultFalse;
 
 	// called when we load a preset or project, the model has to be reloaded
-	IBStreamer streamer(state, kLittleEndian);
-	float savedParam1 = 0.f;
-	float savedParam2 = 0.f;
+	//IBStreamer streamer(state, kLittleEndian);
+	//float savedParam1 = 0.f;
+	//float savedParam2 = 0.f;
 
-	if (streamer.readFloat(savedParam1) == false)
-		return kResultFalse;
-	mRate = savedParam1;
+	//if (streamer.readFloat(savedParam1) == false)
+		//return kResultFalse;
+//	mRate = savedParam1;
 
-	if (streamer.readFloat(savedParam2) == false)
-		return kResultFalse;
-	mDepth = savedParam2;
+	//if (streamer.readFloat(savedParam2) == false)
+		//return kResultFalse;
+	//mDepth = savedParam2;
 	
-	return kResultOk;
+	//return kResultOk;
 }
 
 //------------------------------------------------------------------------
 tresult PLUGIN_API AP2ChorusProcessor::getState (IBStream* state)
 {
 	// here we need to save the model
-	float toSaveParam1 = mRate;
-	float toSaveParam2 = mDepth;
-	IBStreamer streamer (state, kLittleEndian);
-	streamer.writeFloat(toSaveParam1);
-	streamer.writeFloat(toSaveParam2);
+	//float toSaveParam1 = mRate;
+	//float toSaveParam2 = mDepth;
+	//IBStreamer streamer (state, kLittleEndian);
+	//streamer.writeFloat(toSaveParam1);
+	//streamer.writeFloat(toSaveParam2);
 
 	return kResultOk;
 }

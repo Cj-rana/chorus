@@ -29,6 +29,14 @@ namespace ap2 {
             if (index < 0) { index += mBuffer.size();}
             return mBuffer[index];
         }
+
+        float readInterp(float delay) {
+            float samples = float(delay);
+            float v1 = read(samples);
+            float v2 = read(samples + 1);
+            float frac = delay - samples;
+            return v1 + frac * (v2 - v1);
+        }
         void write(float val) {
             mBuffer[mPos] = val;
             mPos = (mPos + 1) % mBuffer.size();
