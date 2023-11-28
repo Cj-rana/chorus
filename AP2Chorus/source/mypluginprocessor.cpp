@@ -99,7 +99,12 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
 						mDepth = value;
 					break;
+				case ChorusParams::kParamMixId:
+					if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+						mMix = value;
+					break;
 				}
+
 
 			}
 		}
@@ -125,7 +130,8 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 
 	float rate = mRate;
 	float depth = mDepth;
-	const float centre= 28.16/1000.0f;
+	
+	const float centre= 27.5/1000.0f;
 	
 
 
@@ -137,7 +143,8 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 tmp;
 		// for each sample in this channel
-		
+		float wet = mMix;
+		float dry = 1 - mMix;
 
 		while (--samples >= 0)
 		{
@@ -149,8 +156,10 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 			float delaySamples = delaySeconds * processSetup.sampleRate;
 			Vst::Sample32 delayed = mBuffer[i].read(delaySamples);
 
-			(*ptrOut++) = (0.5*tmp)+(0.5*delayed);
-			//(*ptrOut++) = delayed;
+			
+
+			(*ptrOut++) = (dry*tmp)+(wet*delayed);
+			
 		}
 	}
 

@@ -31,15 +31,19 @@ tresult PLUGIN_API AP2ChorusController::initialize (FUnknown* context)
 
 
 	Vst::Parameter* rateParam = new Vst::RangeParameter(
-		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.357, 3.57, 0.357 //Freq of LFO
+		STR16("Rate"), ChorusParams::kParamRateId, STR16("Hz"), 0.1, 4.0, 2.0 //Freq of LFO
 	);
 	parameters.addParameter(rateParam);
 
 	Vst::Parameter* depthParam = new Vst::RangeParameter(
-		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Amplitude"), 1.04, 23.04, 1.04 //min,max,default
+		STR16("Depth"), ChorusParams::kParamDepthId, STR16("Ms"), 1.0, 22.5, 10.0 //min,max,default
 	);//Amplitude of LFO
 	parameters.addParameter(depthParam);
 
+	Vst::Parameter* mixParam = new Vst::RangeParameter(
+		STR16("Dry"), ChorusParams::kParamMixId, STR16("Wet"), 0.0, 1.0, 0.5 //min,max,default
+	);//Balance of wet dry
+	parameters.addParameter(mixParam);
 
 	//VST3 Parameters are always floating values between 0.0 and 1.0
 
