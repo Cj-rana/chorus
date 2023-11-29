@@ -12,6 +12,8 @@
 #include "Buffer.h"
 #include "Osc.h"
 
+#include <iostream>
+
 
 
 
@@ -44,16 +46,12 @@ tresult PLUGIN_API AP2ChorusProcessor::initialize (FUnknown* context)
 	{
 		return result;
 	}
-
-	// if everything Ok, continue
 	
-		addAudioInput(STR16("Audio In"), Steinberg::Vst::SpeakerArr::kStereo);
-		addAudioOutput(STR16("Audio Out"), Steinberg::Vst::SpeakerArr::kStereo);
-		
-		return kResultOk;
-		
 	
+	addAudioInput(STR16("Audio In"), Steinberg::Vst::SpeakerArr::kStereo);
+	addAudioOutput(STR16("Audio Out"), Steinberg::Vst::SpeakerArr::kStereo);
 
+	return kResultOk;
 }
 
 //------------------------------------------------------------------------
@@ -120,6 +118,7 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 	//--- Here, you have to implement your processing
 	int32 numChannels = data.inputs[0].numChannels;
 
+
 	//---get audio buffers using helper-functions(vstaudioprocessoralgo.h)-------------
 	uint32 sampleFramesSize = getSampleFramesSizeInBytes(processSetup, data.numSamples);
 	void** in = getChannelBuffersPointer(processSetup, data.inputs[0]);
@@ -135,41 +134,40 @@ tresult PLUGIN_API AP2ChorusProcessor::process (Vst::ProcessData& data)
 	float depth = mDepth;
 	
 	const float centre= 27.5/1000.0f;
-	
-
-
-	// for each channel (left and right)
-	for (int32 i = 0; i < numChannels; i++)
-	{
-		int32 samples = data.numSamples;
-		Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
-		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
-		Vst::Sample32 tmp;
-		Vst::Sample32 out;
-		// for each sample in this channel
-		float wet = mMix;
-		float feedback = mFeedback;
 		
-
-		while (--samples >= 0)
+		// for each channel (left and right)
+		for (int32 i = 0; i < numChannels; i++)
 		{
-			// apply modulation
-			tmp = (*ptrIn++);
-			
+			int32 samples = data.numSamples;
+			Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
+			Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
+			Vst::Sample32 tmp;
+			Vst::Sample32 out;
+			// for each sample in this channel
+			float wet = mMix;
+			float feedback = mFeedback;
 
-			//mBuffer[i].write(tmp);
-			float delaySeconds= (Osc[i].process(mRate, mDepth) / 1000.0f)+centre;
 
-			float delaySamples = delaySeconds * processSetup.sampleRate;
-			Vst::Sample32 delayed = mBuffer[i].readInterp(delaySamples);
+			while (--samples >= 0)
+			{
+				// apply modulation
+				tmp = (*ptrIn++);
 
-			out = ((1-wet)*tmp)+(wet*delayed);
 
-			(*ptrOut++) = out;
-			
-			mBuffer[i].write((1 - mFeedback) * tmp + mFeedback * out);
+				//mBuffer[i].write(tmp);
+				float delaySeconds = (Osc[i].process(mRate, mDepth) / 1000.0f) + centre;
+
+				float delaySamples = delaySeconds * processSetup.sampleRate;
+				Vst::Sample32 delayed = mBuffer[i].readInterp(delaySamples);
+
+				out = ((1 - wet) * tmp) + (wet * delayed);
+
+				(*ptrOut++) = out;
+
+				mBuffer[i].write((1 - mFeedback) * tmp + mFeedback * out);
+			}
 		}
-	}
+	
 
 	// 
 	// // normally we have to check each channel (simplification)
@@ -204,7 +202,7 @@ tresult PLUGIN_API AP2ChorusProcessor::setupProcessing (Vst::ProcessSetup& newSe
 	mBuffer[1] = ap2::RingBuffer(newSetup.sampleRate * (50.0 / 1000.0));
 
 	Osc[0]=ap2::SawOsc(newSetup.sampleRate,0);
-	Osc[1] = ap2::SawOsc(newSetup.sampleRate,180);
+	Osc[1] = ap2::SawOsc(newSetup.sampleRate,90);
 
 	return AudioEffect::setupProcessing (newSetup);
 }
