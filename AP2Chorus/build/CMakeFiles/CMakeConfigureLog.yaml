@@ -24,7 +24,11 @@ events:
       The output was:
       0
       MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+<<<<<<< Updated upstream
       Build started 27-11-2023 13:34:48.
+=======
+      Build started 29-11-2023 13:44:44.
+>>>>>>> Stashed changes
       Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
@@ -52,7 +56,11 @@ events:
           0 Warning(s)
           0 Error(s)
       
+<<<<<<< Updated upstream
       Time Elapsed 00:00:00.53
+=======
+      Time Elapsed 00:00:00.61
+>>>>>>> Stashed changes
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +86,11 @@ events:
       The output was:
       0
       MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+<<<<<<< Updated upstream
       Build started 27-11-2023 13:34:49.
+=======
+      Build started 29-11-2023 13:44:45.
+>>>>>>> Stashed changes
       Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
@@ -106,7 +118,11 @@ events:
           0 Warning(s)
           0 Error(s)
       
+<<<<<<< Updated upstream
       Time Elapsed 00:00:00.41
+=======
+      Time Elapsed 00:00:00.50
+>>>>>>> Stashed changes
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +141,13 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< Updated upstream
       source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-mcsivt"
       binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-mcsivt"
+=======
+      source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-anqbta"
+      binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-anqbta"
+>>>>>>> Stashed changes
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -136,6 +157,7 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< Updated upstream
         Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-mcsivt'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d48a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
@@ -163,12 +185,45 @@ events:
           Deleting file "cmTC_d48a4.dir\\Debug\\cmTC_d48a4.tlog\\unsuccessfulbuild".
           Touching "cmTC_d48a4.dir\\Debug\\cmTC_d48a4.tlog\\cmTC_d48a4.lastbuildstate".
         Done Building Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcsivt\\cmTC_d48a4.vcxproj" (default targets).
+=======
+        Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-anqbta'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2b70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Build started 29-11-2023 13:44:46.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anqbta\\cmTC_b2b70.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b2b70.dir\\Debug\\".
+          Creating directory "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anqbta\\Debug\\".
+          Creating directory "cmTC_b2b70.dir\\Debug\\cmTC_b2b70.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b2b70.dir\\Debug\\cmTC_b2b70.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2b70.dir\\Debug\\\\" /Fd"cmTC_b2b70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2b70.dir\\Debug\\\\" /Fd"cmTC_b2b70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anqbta\\Debug\\cmTC_b2b70.exe" /INCREMENTAL /ILK:"cmTC_b2b70.dir\\Debug\\cmTC_b2b70.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-anqbta/Debug/cmTC_b2b70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-anqbta/Debug/cmTC_b2b70.lib" /MACHINE:X64  /machine:x64 cmTC_b2b70.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b2b70.vcxproj -> C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anqbta\\Debug\\cmTC_b2b70.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b2b70.dir\\Debug\\cmTC_b2b70.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b2b70.dir\\Debug\\cmTC_b2b70.tlog\\cmTC_b2b70.lastbuildstate".
+        Done Building Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anqbta\\cmTC_b2b70.vcxproj" (default targets).
+>>>>>>> Stashed changes
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
+<<<<<<< Updated upstream
         Time Elapsed 00:00:00.39
+=======
+        Time Elapsed 00:00:00.47
+>>>>>>> Stashed changes
         
       exitCode: 0
   -
@@ -180,8 +235,13 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
+<<<<<<< Updated upstream
       source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-23rqwl"
       binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-23rqwl"
+=======
+      source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-7t9smx"
+      binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-7t9smx"
+>>>>>>> Stashed changes
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -191,6 +251,7 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< Updated upstream
         Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-23rqwl'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_288b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
@@ -218,12 +279,45 @@ events:
           Deleting file "cmTC_288b3.dir\\Debug\\cmTC_288b3.tlog\\unsuccessfulbuild".
           Touching "cmTC_288b3.dir\\Debug\\cmTC_288b3.tlog\\cmTC_288b3.lastbuildstate".
         Done Building Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23rqwl\\cmTC_288b3.vcxproj" (default targets).
+=======
+        Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-7t9smx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_854a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Build started 29-11-2023 13:44:46.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t9smx\\cmTC_854a6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_854a6.dir\\Debug\\".
+          Creating directory "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t9smx\\Debug\\".
+          Creating directory "cmTC_854a6.dir\\Debug\\cmTC_854a6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_854a6.dir\\Debug\\cmTC_854a6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_854a6.dir\\Debug\\\\" /Fd"cmTC_854a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_854a6.dir\\Debug\\\\" /Fd"cmTC_854a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t9smx\\Debug\\cmTC_854a6.exe" /INCREMENTAL /ILK:"cmTC_854a6.dir\\Debug\\cmTC_854a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-7t9smx/Debug/cmTC_854a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-7t9smx/Debug/cmTC_854a6.lib" /MACHINE:X64  /machine:x64 cmTC_854a6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_854a6.vcxproj -> C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t9smx\\Debug\\cmTC_854a6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_854a6.dir\\Debug\\cmTC_854a6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_854a6.dir\\Debug\\cmTC_854a6.tlog\\cmTC_854a6.lastbuildstate".
+        Done Building Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7t9smx\\cmTC_854a6.vcxproj" (default targets).
+>>>>>>> Stashed changes
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
+<<<<<<< Updated upstream
         Time Elapsed 00:00:00.40
+=======
+        Time Elapsed 00:00:00.46
+>>>>>>> Stashed changes
         
       exitCode: 0
   -
@@ -235,8 +329,13 @@ events:
     checks:
       - "Performing Test SMTG_USE_STDATOMIC_H"
     directories:
+<<<<<<< Updated upstream
       source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-ivnc5l"
       binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-ivnc5l"
+=======
+      source: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-5jtojp"
+      binary: "C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-5jtojp"
+>>>>>>> Stashed changes
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -247,6 +346,7 @@ events:
       variable: "SMTG_USE_STDATOMIC_H"
       cached: true
       stdout: |
+<<<<<<< Updated upstream
         Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-ivnc5l'
         
         Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ecf9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
@@ -289,11 +389,59 @@ events:
           C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\cmTC_0ecf9.vcxproj]
           C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\cmTC_0ecf9.vcxproj]
           C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivnc5l\\cmTC_0ecf9.vcxproj]
+=======
+        Change Dir: 'C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/CMakeFiles/CMakeScratch/TryCompile-5jtojp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_362fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Build started 29-11-2023 13:44:47.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_362fd.dir\\Debug\\".
+          Creating directory "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\Debug\\".
+          Creating directory "cmTC_362fd.dir\\Debug\\cmTC_362fd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_362fd.dir\\Debug\\cmTC_362fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_362fd.dir\\Debug\\\\" /Fd"cmTC_362fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+          src.cxx
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_362fd.dir\\Debug\\\\" /Fd"cmTC_362fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx"
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\__msvc_cxx_stdatomic.hpp(25): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        Done Building Project "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\__msvc_cxx_stdatomic.hpp(25): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+        
+        
+        "C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+          C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+          C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+          C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+          C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\aravi\\OneDrive\\Documents\\GitHub\\chorus\\AP2Chorus\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtojp\\cmTC_362fd.vcxproj]
+>>>>>>> Stashed changes
         
             1 Warning(s)
             5 Error(s)
         
+<<<<<<< Updated upstream
         Time Elapsed 00:00:00.25
+=======
+        Time Elapsed 00:00:00.28
+>>>>>>> Stashed changes
         
       exitCode: 1
 ...

@@ -37,6 +37,7 @@ C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\
   speakerarrangement.cpp
   variableblocksize.cpp
   bypasspersistence.cpp
+C:\Users\aravi\OneDrive\Documents\vst-sdk\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\plugprovider.cpp(232,7): warning C4189: 'res': local variable is initialized but not referenced
   invalidstatetransition.cpp
   repeatidenticalstatetransition.cpp
   validstatetransition.cpp

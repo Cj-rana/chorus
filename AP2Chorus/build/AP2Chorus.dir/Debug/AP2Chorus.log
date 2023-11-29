@@ -9,10 +9,20 @@
   myplugincontroller.cpp
   mypluginentry.cpp
   dllmain.cpp
+<<<<<<< Updated upstream
 C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\Buffer.h(29,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp)
 C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\Buffer.h(29,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginentry.cpp)
 C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(127,8): warning C4189: 'depth': local variable is initialized but not referenced
 C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(126,8): warning C4189: 'rate': local variable is initialized but not referenced
+=======
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\Buffer.h(24,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginentry.cpp)
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\Buffer.h(24,51): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp)
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\myplugincontroller.cpp(105): warning C4715: 'MyCompanyName::AP2ChorusController::setState': not all control paths return a value
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(134,8): warning C4189: 'depth': local variable is initialized but not referenced
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(133,8): warning C4189: 'rate': local variable is initialized but not referenced
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(148,10): warning C4189: 'feedback': local variable is initialized but not referenced
+C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocessor.cpp(245): warning C4715: 'MyCompanyName::AP2ChorusProcessor::setState': not all control paths return a value
+>>>>>>> Stashed changes
      Creating library C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/AP2Chorus.lib and object C:/Users/aravi/OneDrive/Documents/GitHub/chorus/AP2Chorus/build/lib/Debug/AP2Chorus.exp
   AP2Chorus.vcxproj -> C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\build\VST3\Debug\AP2Chorus.vst3\Contents\x86_64-win\AP2Chorus.vst3
   [SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.		
@@ -78,9 +88,17 @@ C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\mypluginprocess
   
   [Scan Parameters]
   Info:  ===Scan Parameters ====================================
+<<<<<<< Updated upstream
   Info:  This component exports 2 parameter(s)
   Info:     Parameter 000 (id=102): [title="Rate"] [unit="Hz"] [type = F, default = 0.000000, unit = 0]
   Info:     Parameter 001 (id=103): [title="Depth"] [unit="Amplitude"] [type = F, default = 0.000000, unit = 0]
+=======
+  Info:  This component exports 4 parameter(s)
+  Info:     Parameter 000 (id=102): [title="Rate"] [unit="Hz"] [type = F, default = 0.487179, unit = 0]
+  Info:     Parameter 001 (id=103): [title="Depth"] [unit="Ms"] [type = F, default = 0.418605, unit = 0]
+  Info:     Parameter 002 (id=104): [title="Dry"] [unit="Wet"] [type = F, default = 0.500000, unit = 0]
+  Info:     Parameter 003 (id=105): [title="Feedback"] [unit="High"] [type = F, default = 0.000000, unit = 0]
+>>>>>>> Stashed changes
 Info : warning : No bypass parameter found. Is this intended ?
   [Succeeded]
   

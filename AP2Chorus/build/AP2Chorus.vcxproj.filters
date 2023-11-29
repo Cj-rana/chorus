@@ -25,9 +25,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\aravi\OneDrive\Documents\GitHub\chorus\AP2Chorus\source\myplugincontroller.h">
+<<<<<<< Updated upstream
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\source\Osc.h">
+=======
+>>>>>>> Stashed changes
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\source\Buffer.h">
