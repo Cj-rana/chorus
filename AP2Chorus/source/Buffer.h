@@ -16,11 +16,6 @@ namespace ap2 {
         }
         RingBuffer() {
 
-
-
-
-
-
         }
 
         float read(float delay) {
